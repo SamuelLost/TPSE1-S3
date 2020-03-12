@@ -12,6 +12,6 @@ int main (){
         scanf("%d",&k);
         lAux = lst_insere(lAux, k);
     }
-    printf("%d\n",lst_somatorio(lAux));
+    printf("%d\n",lst_somatorio(lAux)); //Somatório
     lst_libera(lAux);
 }
