@@ -83,8 +83,8 @@ int lst_somatorio(Lista *l){
     Lista *aux = l;
     int soma=0;
     while(aux!=NULL){
-        soma = soma + aux->info; 
-        aux = aux->prox;
+      soma = soma + aux->info; 
+      aux = aux->prox;
     }
     return soma;
 }

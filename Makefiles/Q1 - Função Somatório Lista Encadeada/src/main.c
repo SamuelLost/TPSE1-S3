@@ -14,4 +14,5 @@ int main (){
     }
     printf("%d\n",lst_somatorio(lAux)); //Somatório
     lst_libera(lAux);
+    return 0;
 }
