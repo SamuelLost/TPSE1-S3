@@ -1,3 +1,5 @@
+#include<stdio.h>
+#include<stdlib.h>
 typedef struct lista Lista;
 
 /* Cria uma lista vazia.*/
