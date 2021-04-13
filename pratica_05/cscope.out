@@ -1,0 +1,16154 @@
+cscope 15 $HOME/UFC/disciplina_QXD0149/lab/pratica_05               0000135098
+	@inc/clock_module.h
+
+1 #i‚de‡
+__CLOCK_MODULE_H
+
+
+2 
+	#__CLOCK_MODULE_H
+
+
+	)
+
+21 
+	~<soc_AM335x.h
+>
+
+26 
+	e_CKM_MODULE_REG
+{
+
+28 
+	mCKM_PER_L4LS_CLKSTCTRL
+ = 0x000,
+
+29 
+	mCKM_PER_L3S_CLKSTCTRL
+ = 0x004,
+
+30 
+	mCKM_PER_L4FW_CLKSTCTRL
+ = 0x008,
+
+31 
+	mCKM_PER_L3_CLKSTCTRL
+ = 0x00C,
+
+32 
+	mCKM_PER_CPGMAC0_CLKCTRL
+ = 0x014,
+
+33 
+	mCKM_PER_LCDC_CLKCTRL
+ = 0x018,
+
+34 
+	mCKM_PER_USB0_CLKCTRL
+ = 0x01C,
+
+35 
+	mCKM_PER_TPTC0_CLKCTRL
+ = 0x024,
+
+36 
+	mCKM_PER_EMIF_CLKCTRL
+ = 0x028,
+
+37 
+	mCKM_PER_OCMCRAM_CLKCTRL
+ = 0x02C,
+
+38 
+	mCKM_PER_GPMC_CLKCTRL
+ = 0x030,
+
+39 
+	mCKM_PER_MCASP0_CLKCTRL
+ = 0x034,
+
+40 
+	mCKM_PER_UART5_CLKCTRL
+ = 0x038,
+
+41 
+	mCKM_PER_MMC0_CLKCTRL
+ = 0x03C,
+
+42 
+	mCKM_PER_ELM_CLKCTRL
+ = 0x040,
+
+43 
+	mCKM_PER_I2C2_CLKCTRL
+ = 0x044,
+
+44 
+	mCKM_PER_I2C1_CLKCTRL
+ = 0x048,
+
+45 
+	mCKM_PER_SPI0_CLKCTRL
+ = 0x04C,
+
+46 
+	mCKM_PER_SPI1_CLKCTRL
+ = 0x050,
+
+47 
+	mCKM_PER_L4LS_CLKCTRL
+ = 0x060,
+
+48 
+	mCKM_PER_L4FW_CLKCTRL
+ = 0x064,
+
+49 
+	mCKM_PER_MCASP1_CLKCTRL
+ = 0x068,
+
+50 
+	mCKM_PER_UART1_CLKCTRL
+ = 0x06C,
+
+51 
+	mCKM_PER_UART2_CLKCTRL
+ = 0x070,
+
+52 
+	mCKM_PER_UART3_CLKCTRL
+ = 0x074,
+
+53 
+	mCKM_PER_UART4_CLKCTRL
+ = 0x078,
+
+54 
+	mCKM_PER_TIMER7_CLKCTRL
+ = 0x07C,
+
+55 
+	mCKM_PER_TIMER2_CLKCTRL
+ = 0x080,
+
+56 
+	mCKM_PER_TIMER3_CLKCTRL
+ = 0x084,
+
+57 
+	mCKM_PER_TIMER4_CLKCTRL
+ = 0x088,
+
+58 
+	mCKM_PER_GPIO1_CLKCTRL
+ = 0x0AC,
+
+59 
+	mCKM_PER_GPIO2_CLKCTRL
+ = 0x0B0,
+
+60 
+	mCKM_PER_GPIO3_CLKCTRL
+ = 0x0B4,
+
+61 
+	mCKM_PER_TPCC_CLKCTRL
+ = 0x0BC,
+
+62 
+	mCKM_PER_DCAN0_CLKCTRL
+ = 0x0C0,
+
+63 
+	mCKM_PER_DCAN1_CLKCTRL
+ = 0x0C4,
+
+64 
+	mCKM_PER_EPWMSS1_CLKCTRL
+ = 0x0CC,
+
+65 
+	mCKM_PER_EMIF_FW_CLKCTRL
+ = 0x0D0,
+
+66 
+	mCKM_PER_EPWMSS0_CLKCTRL
+ = 0x0D4,
+
+67 
+	mCKM_PER_EPWMSS2_CLKCTRL
+ = 0x0D8,
+
+68 
+	mCKM_PER_L3_INSTR_CLKCTRL
+ = 0x0DC,
+
+69 
+	mCKM_PER_L3_CLKCTRL
+ = 0x0E0,
+
+70 
+	mCKM_PER_IEEE5000_CLKCTRL
+ = 0x0E4,
+
+71 
+	mCKM_PER_PRU_ICSS_CLKCTRL
+ = 0x0E8,
+
+72 
+	mCKM_PER_TIMER5_CLKCTRL
+ = 0x0EC,
+
+73 
+	mCKM_PER_TIMER6_CLKCTRL
+ = 0x0F0,
+
+74 
+	mCKM_PER_MMC1_CLKCTRL
+ = 0x0F4,
+
+75 
+	mCKM_PER_MMC2_CLKCTRL
+ = 0x0F8,
+
+76 
+	mCKM_PER_TPTC1_CLKCTRL
+ = 0x0FC,
+
+77 
+	mCKM_PER_TPTC2_CLKCTRL
+ = 0x100,
+
+78 
+	mCKM_PER_SPINLOCK_CLKCTRL
+ = 0x10C,
+
+79 
+	mCKM_PER_MAILBOX0_CLKCTRL
+ = 0x110,
+
+80 
+	mCKM_PER_L4HS_CLKSTCTRL
+ = 0x11C,
+
+81 
+	mCKM_PER_L4HS_CLKCTRL
+ = 0x120,
+
+82 
+	mCKM_PER_OCPWP_L3_CLKSTCTRL
+ = 0x12C,
+
+83 
+	mCKM_PER_OCPWP_CLKCTRL
+ = 0x130,
+
+84 
+	mCKM_PER_PRU_ICSS_CLKSTCTRL
+ = 0x140,
+
+85 
+	mCKM_PER_CPSW_CLKSTCTRL
+ = 0x144,
+
+86 
+	mCKM_PER_LCDC_CLKSTCTRL
+ = 0x148,
+
+87 
+	mCKM_PER_CLKDIV32K_CLKCTRL
+ = 0x14C,
+
+88 
+	mCKM_PER_CLK_24MHZ_CLKSTCTRL
+ = 0x150,
+
+90 
+	mCKM_WKUP_CLKSTCTRL
+ = 0x00,
+
+91 
+	mCKM_WKUP_CONTROL_CLKCTRL
+ = 0x04,
+
+92 
+	mCKM_WKUP_GPIO0_CLKCTRL
+ = 0x08,
+
+93 
+	mCKM_WKUP_L4WKUP_CLKCTRL
+ = 0x0C,
+
+94 
+	mCKM_WKUP_TIMER0_CLKCTRL
+ = 0x10,
+
+95 
+	mCKM_WKUP_DEBUGSS_CLKCTRL
+ = 0x14,
+
+96 
+	mCKM_L3_AON_CLKSTCTRL
+ = 0x18,
+
+97 
+	mCKM_AUTOIDLE_DPLL_MPU
+ = 0x1C,
+
+98 
+	mCKM_IDLEST_DPLL_MPU
+ = 0x20,
+
+99 
+	mCKM_SSC_DELTAMSTEP_DPLL_MPU
+ = 0x24,
+
+100 
+	mCKM_SSC_MODFREQDIV_DPLL_MPU
+ = 0x28,
+
+101 
+	mCKM_CLKSEL_DPLL_MPU
+ = 0x2C,
+
+102 
+	mCKM_AUTOIDLE_DPLL_DDR
+ = 0x30,
+
+103 
+	mCKM_IDLEST_DPLL_DDR
+ = 0x34,
+
+104 
+	mCKM_SSC_DELTAMSTEP_DPLL_DDR
+ = 0x38,
+
+105 
+	mCKM_SSC_MODFREQDIV_DPLL_DDR
+ = 0x3C,
+
+106 
+	mCKM_CLKSEL_DPLL_DDR
+ = 0x40,
+
+107 
+	mCKM_AUTOIDLE_DPLL_DISP
+ = 0x44,
+
+108 
+	mCKM_IDLEST_DPLL_DISP
+ = 0x48,
+
+109 
+	mCKM_SSC_DELTAMSTEP_DPLL_DISP
+ = 0x4C,
+
+110 
+	mCKM_SSC_MODFREQDIV_DPLL_DISP
+ = 0x50,
+
+111 
+	mCKM_CLKSEL_DPLL_DISP
+ = 0x54,
+
+112 
+	mCKM_AUTOIDLE_DPLL_CORE
+ = 0x58,
+
+113 
+	mCKM_IDLEST_DPLL_CORE
+ = 0x5C,
+
+114 
+	mCKM_SSC_DELTAMSTEP_DPLL_CORE
+ = 0x60,
+
+115 
+	mCKM_SSC_MODFREQDIV_DPLL_CORE
+ = 0x64,
+
+116 
+	mCKM_CLKSEL_DPLL_CORE
+ = 0x68,
+
+117 
+	mCKM_AUTOIDLE_DPLL_PER
+ = 0x6C,
+
+118 
+	mCKM_IDLEST_DPLL_PER
+ = 0x70,
+
+119 
+	mCKM_SSC_DELTAMSTEP_DPLL_PER
+ = 0x74,
+
+120 
+	mCKM_SSC_MODFREQDIV_DPLL_PER
+ = 0x78,
+
+121 
+	mCKM_CLKDCOLDO_DPLL_PER
+ = 0x7C,
+
+122 
+	mCKM_DIV_M4_DPLL_CORE
+ = 0x80,
+
+123 
+	mCKM_DIV_M5_DPLL_CORE
+ = 0x84,
+
+124 
+	mCKM_CLKMODE_DPLL_MPU
+ = 0x88,
+
+125 
+	mCKM_CLKMODE_DPLL_PER
+ = 0x8C,
+
+126 
+	mCKM_CLKMODE_DPLL_CORE
+ = 0x90,
+
+127 
+	mCKM_CLKMODE_DPLL_DDR
+ = 0x94,
+
+128 
+	mCKM_CLKMODE_DPLL_DISP
+ = 0x98,
+
+129 
+	mCKM_CLKSEL_DPLL_PERIPH
+ = 0x9C,
+
+130 
+	mCKM_DIV_M2_DPLL_DDR
+ = 0xA0,
+
+131 
+	mCKM_DIV_M2_DPLL_DISP
+ = 0xA4,
+
+132 
+	mCKM_DIV_M2_DPLL_MPU
+ = 0xA8,
+
+133 
+	mCKM_DIV_M2_DPLL_PER
+ = 0xAC,
+
+134 
+	mCKM_WKUP_WKUP_M3_CLKCTRL
+ = 0xB0,
+
+135 
+	mCKM_WKUP_UART0_CLKCTRL
+ = 0xB4,
+
+136 
+	mCKM_WKUP_I2C0_CLKCTRL
+ = 0xB8,
+
+137 
+	mCKM_WKUP_ADC_TSC_CLKCTRL
+ = 0xBC,
+
+138 
+	mCKM_WKUP_SMARTREFLEX0_CLKCTRL
+ = 0xC0,
+
+139 
+	mCKM_WKUP_TIMER1_CLKCTRL
+ = 0xC4,
+
+140 
+	mCKM_WKUP_SMARTREFLEX1_CLKCTRL
+ = 0xC8,
+
+141 
+	mCKM_L4_WKUP_AON_CLKSTCTRL
+ = 0xCC,
+
+142 
+	mCKM_WKUP_WDT1_CLKCTRL
+ = 0xD4,
+
+143 
+	mCKM_DIV_M6_DPLL_CORE
+ = 0xD8
+
+144 }
+	tCKM_MODULE_REG
+;
+
+149 
+	e_CKM_MODULE
+{
+
+150 
+	mCKM_PER
+ = 
+SOC_CM_PER_REGS
+,
+
+151 
+	mCKM_WKUP
+ = 
+SOC_CM_WKUP_REGS
+,
+
+152 
+	mCKM_DPLL
+ = 
+SOC_CM_DPLL_REGS
+,
+
+153 
+	mCKM_MPU
+ = 
+SOC_CM_MPU_REGS
+,
+
+154 
+	mCKM_DEVICE
+ = 
+SOC_CM_DEVICE_REGS
+,
+
+155 
+	mCKM_RTC
+ = 
+SOC_CM_RTC_REGS
+,
+
+156 
+	mCKM_GFX
+ = 
+SOC_CM_GFX_REGS
+,
+
+157 
+	mCKM_CEFUSE
+ = 
+SOC_CM_CEFUSE_REGS
+
+
+158 }
+	tCKM_MODULE
+;
+
+165 
+ckmSëCLKModuÀRegi°î
+(
+CKM_MODULE
+ 
+ba£
+, 
+CKM_MODULE_REG
+ 
+off£t
+, 
+vÆue
+);
+
+166 
+ckmGëCLKModuÀRegi°î
+(
+CKM_MODULE
+ 
+ba£
+, 
+CKM_MODULE_REG
+ 
+off£t
+);
+
+	@inc/control_module.h
+
+1 #i‚de‡
+__CONTROL_MODULE_H
+
+
+2 
+	#__CONTROL_MODULE_H
+
+
+	)
+
+25 
+	mCM_c⁄åﬁ_ªvisi⁄
+ = 0x0000,
+
+26 
+	mCM_c⁄åﬁ_hwöfo
+ = 0x0004,
+
+27 
+	mCM_c⁄åﬁ_sysc⁄fig
+ = 0x0010,
+
+28 
+	mCM_c⁄åﬁ_°©us
+ = 0x0040,
+
+29 
+	mCM_c⁄åﬁ_emif_sdøm_c⁄fig
+ = 0x0110,
+
+30 
+	mCM_c‹ãx_vbbldo_˘æ
+ = 0x041C,
+
+31 
+	mCM_c‹e_¶do_˘æ
+ = 0x0428,
+
+32 
+	mCM_mpu_¶do_˘æ
+ = 0x042C,
+
+33 
+	mCM_˛k32kdivøtio_˘æ
+ = 0x0444,
+
+34 
+	mCM_b™dg≠_˘æ
+ = 0x0448,
+
+35 
+	mCM_b™dg≠_åim
+ = 0x044C,
+
+36 
+	mCM_∂l_˛köpulow_˘æ
+ = 0x0458,
+
+37 
+	mCM_mosc_˘æ
+ = 0x0468,
+
+38 
+	mCM_dìp¶ìp_˘æ
+ = 0x0470,
+
+39 
+	mCM_d∂l_pwr_sw_°©us
+ = 0x050C,
+
+40 
+	mCM_devi˚_id
+ = 0x0600,
+
+41 
+	mCM_dev_„©uª
+ = 0x0604,
+
+42 
+	mCM_öô_¥i‹ôy_0
+ = 0x0608,
+
+43 
+	mCM_öô_¥i‹ôy_1
+ = 0x060C,
+
+44 
+	mCM_mmu_cfg
+ = 0x0610,
+
+45 
+	mCM_çtc_cfg
+ = 0x0614,
+
+46 
+	mCM_usb_˘æ0
+ = 0x0620,
+
+47 
+	mCM_usb_°s0
+ = 0x0624,
+
+48 
+	mCM_usb_˘æ1
+ = 0x0628,
+
+49 
+	mCM_usb_°s1
+ = 0x062C,
+
+50 
+	mCM_mac_id0_lo
+ = 0x0630,
+
+51 
+	mCM_mac_id0_hi
+ = 0x0634,
+
+52 
+	mCM_mac_id1_lo
+ = 0x0638,
+
+53 
+	mCM_mac_id1_hi
+ = 0x063C,
+
+54 
+	mCM_dˇn_ømöô
+ = 0x0644,
+
+55 
+	mCM_usb_wkup_˘æ
+ = 0x0648,
+
+56 
+	mCM_gmii_£l
+ = 0x0650,
+
+57 
+	mCM_pwmss_˘æ
+ = 0x0664,
+
+58 
+	mCM_mªq¥io_0
+ = 0x0670,
+
+59 
+	mCM_mªq¥io_1
+ = 0x0674,
+
+60 
+	mCM_hw_evít_£l_gΩ1
+ = 0x0690,
+
+61 
+	mCM_hw_evít_£l_gΩ2
+ = 0x0694,
+
+62 
+	mCM_hw_evít_£l_gΩ3
+ = 0x0698,
+
+63 
+	mCM_hw_evít_£l_gΩ4
+ = 0x069C,
+
+64 
+	mCM_smπ_˘æ
+ = 0x06A0,
+
+65 
+	mCM_mpuss_hw_debug_£l
+ = 0x06A4,
+
+66 
+	mCM_mpuss_hw_dbg_öfo
+ = 0x06A8,
+
+67 
+	mCM_vdd_mpu_›p_050
+ = 0x0770,
+
+68 
+	mCM_vdd_mpu_›p_100
+ = 0x0774,
+
+69 
+	mCM_vdd_mpu_›p_120
+ = 0x0778,
+
+70 
+	mCM_vdd_mpu_›p_turbo
+ = 0x077C,
+
+71 
+	mCM_vdd_c‹e_›p_050
+ = 0x07B8,
+
+72 
+	mCM_vdd_c‹e_›p_100
+ = 0x07BC,
+
+73 
+	mCM_bb_sˇÀ
+ = 0x07D0,
+
+74 
+	mCM_usb_vid_pid
+ = 0x07F4,
+
+75 
+	mCM_efu£_sma
+ = 0x07FC,
+
+76 
+	mCM_c⁄f_gpmc_ad0
+ = 0x0800,
+
+77 
+	mCM_c⁄f_gpmc_ad1
+ = 0x0804,
+
+78 
+	mCM_c⁄f_gpmc_ad2
+ = 0x0808,
+
+79 
+	mCM_c⁄f_gpmc_ad3
+ = 0x080C,
+
+80 
+	mCM_c⁄f_gpmc_ad4
+ = 0x0810,
+
+81 
+	mCM_c⁄f_gpmc_ad5
+ = 0x0814,
+
+82 
+	mCM_c⁄f_gpmc_ad6
+ = 0x0818,
+
+83 
+	mCM_c⁄f_gpmc_ad7
+ = 0x081C,
+
+84 
+	mCM_c⁄f_gpmc_ad8
+ = 0x0820,
+
+85 
+	mCM_c⁄f_gpmc_ad9
+ = 0x0824,
+
+86 
+	mCM_c⁄f_gpmc_ad10
+ = 0x0828,
+
+87 
+	mCM_c⁄f_gpmc_ad11
+ = 0x082C,
+
+88 
+	mCM_c⁄f_gpmc_ad12
+ = 0x0830,
+
+89 
+	mCM_c⁄f_gpmc_ad13
+ = 0x0834,
+
+90 
+	mCM_c⁄f_gpmc_ad14
+ = 0x0838,
+
+91 
+	mCM_c⁄f_gpmc_ad15
+ = 0x083C,
+
+92 
+	mCM_c⁄f_gpmc_a0
+ = 0x0840,
+
+93 
+	mCM_c⁄f_gpmc_a1
+ = 0x0844,
+
+94 
+	mCM_c⁄f_gpmc_a2
+ = 0x0848,
+
+95 
+	mCM_c⁄f_gpmc_a3
+ = 0x084C,
+
+96 
+	mCM_c⁄f_gpmc_a4
+ = 0x0850,
+
+97 
+	mCM_c⁄f_gpmc_a5
+ = 0x0854,
+
+98 
+	mCM_c⁄f_gpmc_a6
+ = 0x0858,
+
+99 
+	mCM_c⁄f_gpmc_a7
+ = 0x085C,
+
+100 
+	mCM_c⁄f_gpmc_a8
+ = 0x0860,
+
+101 
+	mCM_c⁄f_gpmc_a9
+ = 0x0864,
+
+102 
+	mCM_c⁄f_gpmc_a10
+ = 0x0868,
+
+103 
+	mCM_c⁄f_gpmc_a11
+ = 0x086C,
+
+104 
+	mCM_c⁄f_gpmc_waô0
+ = 0x0870,
+
+105 
+	mCM_c⁄f_gpmc_w≤
+ = 0x0874,
+
+106 
+	mCM_c⁄f_gpmc_bí1
+ = 0x0878,
+
+107 
+	mCM_c⁄f_gpmc_c¢0
+ = 0x087C,
+
+108 
+	mCM_c⁄f_gpmc_c¢1
+ = 0x0880,
+
+109 
+	mCM_c⁄f_gpmc_c¢2
+ = 0x0884,
+
+110 
+	mCM_c⁄f_gpmc_c¢3
+ = 0x0888,
+
+111 
+	mCM_c⁄f_gpmc_˛k
+ = 0x088C,
+
+112 
+	mCM_c⁄f_gpmc_advn_Æe
+ = 0x0890,
+
+113 
+	mCM_c⁄f_gpmc_€n_ªn
+ = 0x0894,
+
+114 
+	mCM_c⁄f_gpmc_wí
+ = 0x0898,
+
+115 
+	mCM_c⁄f_gpmc_bí0_˛e
+ = 0x089C,
+
+116 
+	mCM_c⁄f_lcd_d©a0
+ = 0x08A0,
+
+117 
+	mCM_c⁄f_lcd_d©a1
+ = 0x08A4,
+
+118 
+	mCM_c⁄f_lcd_d©a2
+ = 0x08A8,
+
+119 
+	mCM_c⁄f_lcd_d©a3
+ = 0x08AC,
+
+120 
+	mCM_c⁄f_lcd_d©a4
+ = 0x08B0,
+
+121 
+	mCM_c⁄f_lcd_d©a5
+ = 0x08B4,
+
+122 
+	mCM_c⁄f_lcd_d©a6
+ = 0x08B8,
+
+123 
+	mCM_c⁄f_lcd_d©a7
+ = 0x08BC,
+
+124 
+	mCM_c⁄f_lcd_d©a8
+ = 0x08C0,
+
+125 
+	mCM_c⁄f_lcd_d©a9
+ = 0x08C4,
+
+126 
+	mCM_c⁄f_lcd_d©a10
+ = 0x08C8,
+
+127 
+	mCM_c⁄f_lcd_d©a11
+ = 0x08CC,
+
+128 
+	mCM_c⁄f_lcd_d©a12
+ = 0x08D0,
+
+129 
+	mCM_c⁄f_lcd_d©a13
+ = 0x08D4,
+
+130 
+	mCM_c⁄f_lcd_d©a14
+ = 0x08D8,
+
+131 
+	mCM_c⁄f_lcd_d©a15
+ = 0x08DC,
+
+132 
+	mCM_c⁄f_lcd_vsync
+ = 0x08E0,
+
+133 
+	mCM_c⁄f_lcd_hsync
+ = 0x08E4,
+
+134 
+	mCM_c⁄f_lcd_p˛k
+ = 0x08E8,
+
+135 
+	mCM_c⁄f_lcd_ac_büs_í
+ = 0x08EC,
+
+136 
+	mCM_c⁄f_mmc0_d©3
+ = 0x08F0,
+
+137 
+	mCM_c⁄f_mmc0_d©2
+ = 0x08F4,
+
+138 
+	mCM_c⁄f_mmc0_d©1
+ = 0x08F8,
+
+139 
+	mCM_c⁄f_mmc0_d©0
+ = 0x08FC,
+
+140 
+	mCM_c⁄f_mmc0_˛k
+ = 0x0900,
+
+141 
+	mCM_c⁄f_mmc0_cmd
+ = 0x0904,
+
+142 
+	mCM_c⁄f_mii1_cﬁ
+ = 0x0908,
+
+143 
+	mCM_c⁄f_mii1_¸s
+ = 0x090C,
+
+144 
+	mCM_c⁄f_mii1_rx_î
+ = 0x0910,
+
+145 
+	mCM_c⁄f_mii1_tx_í
+ = 0x0914,
+
+146 
+	mCM_c⁄f_mii1_rx_dv
+ = 0x0918,
+
+147 
+	mCM_c⁄f_mii1_txd3
+ = 0x091C,
+
+148 
+	mCM_c⁄f_mii1_txd2
+ = 0x0920,
+
+149 
+	mCM_c⁄f_mii1_txd1
+ = 0x0924,
+
+150 
+	mCM_c⁄f_mii1_txd0
+ = 0x0928,
+
+151 
+	mCM_c⁄f_mii1_tx_˛k
+ = 0x092C,
+
+152 
+	mCM_c⁄f_mii1_rx_˛k
+ = 0x0930,
+
+153 
+	mCM_c⁄f_mii1_rxd3
+ = 0x0934,
+
+154 
+	mCM_c⁄f_mii1_rxd2
+ = 0x0938,
+
+155 
+	mCM_c⁄f_mii1_rxd1
+ = 0x093C,
+
+156 
+	mCM_c⁄f_mii1_rxd0
+ = 0x0940,
+
+157 
+	mCM_c⁄f_rmii1_ªf_˛k
+ = 0x0944,
+
+158 
+	mCM_c⁄f_mdio
+ = 0x0948,
+
+159 
+	mCM_c⁄f_mdc
+ = 0x094C,
+
+160 
+	mCM_c⁄f_•i0_s˛k
+ = 0x0950,
+
+161 
+	mCM_c⁄f_•i0_d0
+ = 0x0954,
+
+162 
+	mCM_c⁄f_•i0_d1
+ = 0x0958,
+
+163 
+	mCM_c⁄f_•i0_cs0
+ = 0x095C,
+
+164 
+	mCM_c⁄f_•i0_cs1
+ = 0x0960,
+
+165 
+	mCM_c⁄f_eˇp0_ö_pwm0_out
+ = 0x0964,
+
+166 
+	mCM_c⁄f_u¨t0_˘¢
+ = 0x0968,
+
+167 
+	mCM_c⁄f_u¨t0_π¢
+ = 0x096C,
+
+168 
+	mCM_c⁄f_u¨t0_rxd
+ = 0x0970,
+
+169 
+	mCM_c⁄f_u¨t0_txd
+ = 0x0974,
+
+170 
+	mCM_c⁄f_u¨t1_˘¢
+ = 0x0978,
+
+171 
+	mCM_c⁄f_u¨t1_π¢
+ = 0x097C,
+
+172 
+	mCM_c⁄f_u¨t1_rxd
+ = 0x0980,
+
+173 
+	mCM_c⁄f_u¨t1_txd
+ = 0x0984,
+
+174 
+	mCM_c⁄f_i2c0_sda
+ = 0x0988,
+
+175 
+	mCM_c⁄f_i2c0_s˛
+ = 0x098C,
+
+176 
+	mCM_c⁄f_mˇ•0_a˛kx
+ = 0x0990,
+
+177 
+	mCM_c⁄f_mˇ•0_fsx
+ = 0x0994,
+
+178 
+	mCM_c⁄f_mˇ•0_axr0
+ = 0x0998,
+
+179 
+	mCM_c⁄f_mˇ•0_ah˛kr
+ = 0x099C,
+
+180 
+	mCM_c⁄f_mˇ•0_a˛kr
+ = 0x09A0,
+
+181 
+	mCM_c⁄f_mˇ•0_f§
+ = 0x09A4,
+
+182 
+	mCM_c⁄f_mˇ•0_axr1
+ = 0x09A8,
+
+183 
+	mCM_c⁄f_mˇ•0_ah˛kx
+ = 0x09AC,
+
+184 
+	mCM_c⁄f_xdma_evít_öå0
+ = 0x09B0,
+
+185 
+	mCM_c⁄f_xdma_evít_öå1
+ = 0x09B4,
+
+186 
+	mCM_c⁄f_w¨mr°n
+ = 0x09B8,
+
+187 
+	mCM_c⁄f_¬mi
+ = 0x09C0,
+
+188 
+	mCM_c⁄f_tms
+ = 0x09D0,
+
+189 
+	mCM_c⁄f_tdi
+ = 0x09D4,
+
+190 
+	mCM_c⁄f_tdo
+ = 0x09D8,
+
+191 
+	mCM_c⁄f_tck
+ = 0x09DC,
+
+192 
+	mCM_c⁄f_å°n
+ = 0x09E0,
+
+193 
+	mCM_c⁄f_emu0
+ = 0x09E4,
+
+194 
+	mCM_c⁄f_emu1
+ = 0x09E8,
+
+195 
+	mCM_c⁄f_πc_pwr⁄r°n
+ = 0x09F8,
+
+196 
+	mCM_c⁄f_pmic_powî_í
+ = 0x09FC,
+
+197 
+	mCM_c⁄f_ext_wakeup
+ = 0x0A00,
+
+198 
+	mCM_c⁄f_πc_kÆdo_ín
+ = 0x0A04,
+
+199 
+	mCM_c⁄f_usb0_drvvbus
+ = 0x0A1C,
+
+200 
+	mCM_c⁄f_usb1_drvvbus
+ = 0x0A34,
+
+201 
+	mCM_cqdëe˘_°©us
+ = 0x0E00,
+
+202 
+	mCM_ddr_io_˘æ
+ = 0x0E04,
+
+203 
+	mCM_vç_˘æ
+ = 0x0E0C,
+
+204 
+	mCM_vªf_˘æ
+ = 0x0E14,
+
+205 
+	mCM_çcc_evt_mux_0_3
+ = 0x0F90,
+
+206 
+	mCM_çcc_evt_mux_4_7
+ = 0x0F94,
+
+207 
+	mCM_çcc_evt_mux_8_11
+ = 0x0F98,
+
+208 
+	mCM_çcc_evt_mux_12_15
+ = 0x0F9C,
+
+209 
+	mCM_çcc_evt_mux_16_19
+ = 0x0FA0,
+
+210 
+	mCM_çcc_evt_mux_20_23
+ = 0x0FA4,
+
+211 
+	mCM_çcc_evt_mux_24_27
+ = 0x0FA8,
+
+212 
+	mCM_çcc_evt_mux_28_31
+ = 0x0FAC,
+
+213 
+	mCM_çcc_evt_mux_32_35
+ = 0x0FB0,
+
+214 
+	mCM_çcc_evt_mux_36_39
+ = 0x0FB4,
+
+215 
+	mCM_çcc_evt_mux_40_43
+ = 0x0FB8,
+
+216 
+	mCM_çcc_evt_mux_44_47
+ = 0x0FBC,
+
+217 
+	mCM_çcc_evt_mux_48_51
+ = 0x0FC0,
+
+218 
+	mCM_çcc_evt_mux_52_55
+ = 0x0FC4,
+
+219 
+	mCM_çcc_evt_mux_56_59
+ = 0x0FC8,
+
+220 
+	mCM_çcc_evt_mux_60_63
+ = 0x0FCC,
+
+221 
+	mCM_timî_evt_ˇ±
+ = 0x0FD0,
+
+222 
+	mCM_eˇp_evt_ˇ±
+ = 0x0FD4,
+
+223 
+	mCM_adc_evt_ˇ±
+ = 0x0FD8,
+
+224 
+	mCM_ª£t_iso
+ = 0x1000,
+
+225 
+	mCM_d∂l_pwr_sw_˘æ
+ = 0x1318,
+
+226 
+	mCM_ddr_cke_˘æ
+ = 0x131C,
+
+227 
+	mCM_sma2
+ = 0x1320,
+
+228 
+	mCM_m3_txev_eoi
+ = 0x1324,
+
+229 
+	mCM_ùc_msg_ªg0
+ = 0x1328,
+
+230 
+	mCM_ùc_msg_ªg1
+ = 0x132C,
+
+231 
+	mCM_ùc_msg_ªg2
+ = 0x1330,
+
+232 
+	mCM_ùc_msg_ªg3
+ = 0x1334,
+
+233 
+	mCM_ùc_msg_ªg4
+ = 0x1338,
+
+234 
+	mCM_ùc_msg_ªg5
+ = 0x133C,
+
+235 
+	mCM_ùc_msg_ªg6
+ = 0x1340,
+
+236 
+	mCM_ùc_msg_ªg7
+ = 0x1344,
+
+237 
+	mCM_ddr_cmd0_io˘æ
+ = 0x1404,
+
+238 
+	mCM_ddr_cmd1_io˘æ
+ = 0x1408,
+
+239 
+	mCM_ddr_cmd2_io˘æ
+ = 0x140C,
+
+240 
+	mCM_ddr_d©a0_io˘æ
+ = 0x1440,
+
+241 
+	mCM_ddr_d©a1_io˘æ
+ = 0x1444
+
+242 }
+	tCONTROL_MODULE
+;
+
+247 
+cmSëCålModuÀ
+(
+CONTROL_MODULE
+ 
+off£t
+, 
+vÆue
+);
+
+248 
+cmGëCålModuÀ
+(
+CONTROL_MODULE
+ 
+off£t
+);
+
+	@inc/cpu.h
+
+1 #i‚def 
+CPU_H_
+
+
+2 
+	#CPU_H_
+
+
+	)
+
+22 #ifde‡
+__˝lu•lus
+
+
+28 
+CPUSwôchToU£rMode
+();
+
+29 
+CPUSwôchToPrivûegedMode
+();
+
+35 
+CPUAb‹tH™dÀr
+();
+
+36 
+CPUúqd
+();
+
+37 
+CPUúqe
+();
+
+38 
+CPUfiqd
+();
+
+39 
+CPUfiqe
+();
+
+40 
+CPUI¡Sètus
+();
+
+42 #ifde‡
+__˝lu•lus
+
+
+	@inc/gpio.h
+
+1 #i‚de‡
+GPIO_H_
+
+
+2 
+	#GPIO_H_
+
+
+	)
+
+22 
+	~"˛ock_moduÀ.h
+"
+
+23 
+	~"c⁄åﬁ_moduÀ.h
+"
+
+24 
+	~"∑d.h
+"
+
+25 
+	~"soc_AM335x.h
+"
+
+26 
+	~"hw_ty≥s.h
+"
+
+28 
+	#GPIO_REVISION
+ 0x000
+
+	)
+
+29 
+	#GPIO_SYSCONFIG
+ 0x010
+
+	)
+
+30 
+	#GPIO_EOI
+ 0x020
+
+	)
+
+31 
+	#GPIO_IRQSTATUS_RAW_0
+ 0x024
+
+	)
+
+32 
+	#GPIO_IRQSTATUS_RAW_1
+ 0x028
+
+	)
+
+33 
+	#GPIO_IRQSTATUS_0
+ 0x02C
+
+	)
+
+34 
+	#GPIO_IRQSTATUS_1
+ 0x030
+
+	)
+
+35 
+	#GPIO_IRQSTATUS_SET_0
+ 0x034
+
+	)
+
+36 
+	#GPIO_IRQSTATUS_SET_1
+ 0x038
+
+	)
+
+37 
+	#GPIO_IRQSTATUS_CLR_0
+ 0x03C
+
+	)
+
+38 
+	#GPIO_IRQSTATUS_CLR_1
+ 0x040
+
+	)
+
+39 
+	#GPIO_IRQWAKEN_0
+ 0x044
+
+	)
+
+40 
+	#GPIO_IRQWAKEN_1
+ 0x048
+
+	)
+
+41 
+	#GPIO_SYSSTATUS
+ 0x114
+
+	)
+
+42 
+	#GPIO_CTRL
+ 0x130
+
+	)
+
+43 
+	#GPIO_OE
+ 0x134
+
+	)
+
+44 
+	#GPIO_DATAIN
+ 0x138
+
+	)
+
+45 
+	#GPIO_DATAOUT
+ 0x13C
+
+	)
+
+46 
+	#GPIO_LEVELDETECT0
+ 0x140
+
+	)
+
+47 
+	#GPIO_LEVELDETECT1
+ 0x144
+
+	)
+
+48 
+	#GPIO_RISINGDETECT
+ 0x148
+
+	)
+
+49 
+	#GPIO_FALLINGDETECT
+ 0x14C
+
+	)
+
+50 
+	#GPIO_DEBOUNCENABLE
+ 0x150
+
+	)
+
+51 
+	#GPIO_DEBOUNCINGTIME
+ 0x154
+
+	)
+
+52 
+	#GPIO_CLEARDATAOUT
+ 0x190
+
+	)
+
+53 
+	#GPIO_SETDATAOUT
+ 0x194
+
+	)
+
+60 
+	tucPöNumbî
+;
+
+65 
+	e_pöLevñ
+{
+
+66 
+	mLOW
+,
+
+67 
+	mHIGH
+
+
+68 }
+	tpöLevñ
+;
+
+70 
+	e_gpioP‹t
+{
+
+71 
+	mGPIO0
+,
+
+72 
+	mGPIO1
+,
+
+73 
+	mGPIO2
+,
+
+74 
+	mGPIO3
+
+
+75 }
+	tgpioP‹t
+;
+
+77 
+	e_pöDúe˘i⁄
+{
+
+78 
+	mOUTPUT
+,
+
+79 
+	mINPUT
+
+
+80 }
+	tpöDúe˘i⁄
+;
+
+87 
+gpioInôModuÀ
+(
+gpioP‹t
+ );
+
+88 
+gpioInôPö
+(
+gpioP‹t
+ ,
+ucPöNumbî
+ );
+
+89 
+gpioSëDúe˘i⁄
+(
+gpioP‹t
+ ,
+ucPöNumbî
+ ,
+pöDúe˘i⁄
+ );
+
+90 
+gpioGëDúe˘i⁄
+(
+ucPöNumbî
+ ,ucPinNumber );
+
+91 
+gpioSëPöVÆue
+(
+gpioP‹t
+ ,
+ucPöNumbî
+ ,
+pöLevñ
+ );
+
+92 
+gpioGëPöVÆue
+(
+gpioP‹t
+ ,
+ucPöNumbî
+ );
+
+	@inc/hw_cm_dpll.h
+
+45 #i‚de‡
+_HW_CM_DPLL_H_
+
+
+46 
+	#_HW_CM_DPLL_H_
+
+
+	)
+
+69 
+	#CM_DPLL_CLKSEL_TIMER7_CLK
+ (0x4)
+
+	)
+
+70 
+	#CM_DPLL_CLKSEL_TIMER2_CLK
+ (0x8)
+
+	)
+
+71 
+	#CM_DPLL_CLKSEL_TIMER3_CLK
+ (0xc)
+
+	)
+
+72 
+	#CM_DPLL_CLKSEL_TIMER4_CLK
+ (0x10)
+
+	)
+
+73 
+	#CM_DPLL_CM_MAC_CLKSEL
+ (0x14)
+
+	)
+
+74 
+	#CM_DPLL_CLKSEL_TIMER5_CLK
+ (0x18)
+
+	)
+
+75 
+	#CM_DPLL_CLKSEL_TIMER6_CLK
+ (0x1c)
+
+	)
+
+76 
+	#CM_DPLL_CM_CPTS_RFT_CLKSEL
+ (0x20)
+
+	)
+
+77 
+	#CM_DPLL_CLKSEL_TIMER1MS_CLK
+ (0x28)
+
+	)
+
+78 
+	#CM_DPLL_CLKSEL_GFX_FCLK
+ (0x2c)
+
+	)
+
+79 
+	#CM_DPLL_CLKSEL_ICSS_OCP_CLK
+ (0x30)
+
+	)
+
+80 
+	#CM_DPLL_CLKSEL_LCDC_PIXEL_CLK
+ (0x34)
+
+	)
+
+81 
+	#CM_DPLL_CLKSEL_WDT1_CLK
+ (0x38)
+
+	)
+
+82 
+	#CM_DPLL_CLKSEL_GPIO0_DBCLK
+ (0x3c)
+
+	)
+
+89 
+	#CM_DPLL_CLKSEL_TIMER7_CLK_CLKSEL
+ (0x00000003u)
+
+	)
+
+90 
+	#CM_DPLL_CLKSEL_TIMER7_CLK_CLKSEL_SHIFT
+ (0x00000000u)
+
+	)
+
+91 
+	#CM_DPLL_CLKSEL_TIMER7_CLK_CLKSEL_SEL1
+ (0x0u)
+
+	)
+
+92 
+	#CM_DPLL_CLKSEL_TIMER7_CLK_CLKSEL_CLK_M_OSC
+ (0x1u)
+
+	)
+
+93 
+	#CM_DPLL_CLKSEL_TIMER7_CLK_CLKSEL_SEL3
+ (0x2u)
+
+	)
+
+94 
+	#CM_DPLL_CLKSEL_TIMER7_CLK_CLKSEL_SEL4
+ (0x3u)
+
+	)
+
+98 
+	#CM_DPLL_CLKSEL_TIMER2_CLK_CLKSEL
+ (0x00000003u)
+
+	)
+
+99 
+	#CM_DPLL_CLKSEL_TIMER2_CLK_CLKSEL_SHIFT
+ (0x00000000u)
+
+	)
+
+100 
+	#CM_DPLL_CLKSEL_TIMER2_CLK_CLKSEL_SEL1
+ (0x0u)
+
+	)
+
+101 
+	#CM_DPLL_CLKSEL_TIMER2_CLK_CLKSEL_CLK_M_OSC
+ (0x1u)
+
+	)
+
+102 
+	#CM_DPLL_CLKSEL_TIMER2_CLK_CLKSEL_SEL3
+ (0x2u)
+
+	)
+
+103 
+	#CM_DPLL_CLKSEL_TIMER2_CLK_CLKSEL_SEL4
+ (0x3u)
+
+	)
+
+107 
+	#CM_DPLL_CLKSEL_TIMER3_CLK_CLKSEL
+ (0x00000003u)
+
+	)
+
+108 
+	#CM_DPLL_CLKSEL_TIMER3_CLK_CLKSEL_SHIFT
+ (0x00000000u)
+
+	)
+
+109 
+	#CM_DPLL_CLKSEL_TIMER3_CLK_CLKSEL_SEL1
+ (0x0u)
+
+	)
+
+110 
+	#CM_DPLL_CLKSEL_TIMER3_CLK_CLKSEL_CLK_M_OSC
+ (0x1u)
+
+	)
+
+111 
+	#CM_DPLL_CLKSEL_TIMER3_CLK_CLKSEL_SEL3
+ (0x2u)
+
+	)
+
+112 
+	#CM_DPLL_CLKSEL_TIMER3_CLK_CLKSEL_SEL4
+ (0x3u)
+
+	)
+
+116 
+	#CM_DPLL_CLKSEL_TIMER4_CLK_CLKSEL
+ (0x00000003u)
+
+	)
+
+117 
+	#CM_DPLL_CLKSEL_TIMER4_CLK_CLKSEL_SHIFT
+ (0x00000000u)
+
+	)
+
+118 
+	#CM_DPLL_CLKSEL_TIMER4_CLK_CLKSEL_SEL1
+ (0x0u)
+
+	)
+
+119 
+	#CM_DPLL_CLKSEL_TIMER4_CLK_CLKSEL_CLK_M_OSC
+ (0x1u)
+
+	)
+
+120 
+	#CM_DPLL_CLKSEL_TIMER4_CLK_CLKSEL_SEL3
+ (0x2u)
+
+	)
+
+121 
+	#CM_DPLL_CLKSEL_TIMER4_CLK_CLKSEL_SEL4
+ (0x3u)
+
+	)
+
+125 
+	#CM_DPLL_CM_MAC_CLKSEL_MII_CLK_SEL
+ (0x00000004u)
+
+	)
+
+126 
+	#CM_DPLL_CM_MAC_CLKSEL_MII_CLK_SEL_SHIFT
+ (0x00000002u)
+
+	)
+
+127 
+	#CM_DPLL_CM_MAC_CLKSEL_MII_CLK_SEL_SEL0
+ (0x0u)
+
+	)
+
+128 
+	#CM_DPLL_CM_MAC_CLKSEL_MII_CLK_SEL_SEL1
+ (0x1u)
+
+	)
+
+132 
+	#CM_DPLL_CLKSEL_TIMER5_CLK_CLKSEL
+ (0x00000003u)
+
+	)
+
+133 
+	#CM_DPLL_CLKSEL_TIMER5_CLK_CLKSEL_SHIFT
+ (0x00000000u)
+
+	)
+
+134 
+	#CM_DPLL_CLKSEL_TIMER5_CLK_CLKSEL_SEL1
+ (0x0u)
+
+	)
+
+135 
+	#CM_DPLL_CLKSEL_TIMER5_CLK_CLKSEL_SEL2
+ (0x1u)
+
+	)
+
+136 
+	#CM_DPLL_CLKSEL_TIMER5_CLK_CLKSEL_SEL3
+ (0x2u)
+
+	)
+
+137 
+	#CM_DPLL_CLKSEL_TIMER5_CLK_CLKSEL_SEL4
+ (0x3u)
+
+	)
+
+141 
+	#CM_DPLL_CLKSEL_TIMER6_CLK_CLKSEL
+ (0x00000003u)
+
+	)
+
+142 
+	#CM_DPLL_CLKSEL_TIMER6_CLK_CLKSEL_SHIFT
+ (0x00000000u)
+
+	)
+
+143 
+	#CM_DPLL_CLKSEL_TIMER6_CLK_CLKSEL_SEL1
+ (0x0u)
+
+	)
+
+144 
+	#CM_DPLL_CLKSEL_TIMER6_CLK_CLKSEL_SEL2
+ (0x1u)
+
+	)
+
+145 
+	#CM_DPLL_CLKSEL_TIMER6_CLK_CLKSEL_SEL3
+ (0x2u)
+
+	)
+
+146 
+	#CM_DPLL_CLKSEL_TIMER6_CLK_CLKSEL_SEL4
+ (0x3u)
+
+	)
+
+150 
+	#CM_DPLL_CM_CPTS_RFT_CLKSEL_CLKSEL
+ (0x00000001u)
+
+	)
+
+151 
+	#CM_DPLL_CM_CPTS_RFT_CLKSEL_CLKSEL_SHIFT
+ (0x00000000u)
+
+	)
+
+152 
+	#CM_DPLL_CM_CPTS_RFT_CLKSEL_CLKSEL_SEL1
+ (0x0u)
+
+	)
+
+153 
+	#CM_DPLL_CM_CPTS_RFT_CLKSEL_CLKSEL_SEL2
+ (0x1u)
+
+	)
+
+157 
+	#CM_DPLL_CLKSEL_TIMER1MS_CLK_CLKSEL
+ (0x00000007u)
+
+	)
+
+158 
+	#CM_DPLL_CLKSEL_TIMER1MS_CLK_CLKSEL_SHIFT
+ (0x00000000u)
+
+	)
+
+159 
+	#CM_DPLL_CLKSEL_TIMER1MS_CLK_CLKSEL_SEL1
+ (0x0u)
+
+	)
+
+160 
+	#CM_DPLL_CLKSEL_TIMER1MS_CLK_CLKSEL_SEL2
+ (0x1u)
+
+	)
+
+161 
+	#CM_DPLL_CLKSEL_TIMER1MS_CLK_CLKSEL_SEL3
+ (0x2u)
+
+	)
+
+162 
+	#CM_DPLL_CLKSEL_TIMER1MS_CLK_CLKSEL_SEL4
+ (0x3u)
+
+	)
+
+163 
+	#CM_DPLL_CLKSEL_TIMER1MS_CLK_CLKSEL_SEL5
+ (0x4u)
+
+	)
+
+167 
+	#CM_DPLL_CLKSEL_GFX_FCLK_CLKDIV_SEL_GFX_FCLK
+ (0x00000001u)
+
+	)
+
+168 
+	#CM_DPLL_CLKSEL_GFX_FCLK_CLKDIV_SEL_GFX_FCLK_SHIFT
+ (0x00000000u)
+
+	)
+
+169 
+	#CM_DPLL_CLKSEL_GFX_FCLK_CLKDIV_SEL_GFX_FCLK_DIV1
+ (0x0u)
+
+	)
+
+170 
+	#CM_DPLL_CLKSEL_GFX_FCLK_CLKDIV_SEL_GFX_FCLK_DIV2
+ (0x1u)
+
+	)
+
+172 
+	#CM_DPLL_CLKSEL_GFX_FCLK_CLKSEL_GFX_FCLK
+ (0x00000002u)
+
+	)
+
+173 
+	#CM_DPLL_CLKSEL_GFX_FCLK_CLKSEL_GFX_FCLK_SHIFT
+ (0x00000001u)
+
+	)
+
+174 
+	#CM_DPLL_CLKSEL_GFX_FCLK_CLKSEL_GFX_FCLK_SEL0
+ (0x0u)
+
+	)
+
+175 
+	#CM_DPLL_CLKSEL_GFX_FCLK_CLKSEL_GFX_FCLK_SEL1
+ (0x1u)
+
+	)
+
+179 
+	#CM_DPLL_CLKSEL_ICSS_OCP_CLK_CLKSEL
+ (0x00000001u)
+
+	)
+
+180 
+	#CM_DPLL_CLKSEL_ICSS_OCP_CLK_CLKSEL_SHIFT
+ (0x00000000u)
+
+	)
+
+181 
+	#CM_DPLL_CLKSEL_ICSS_OCP_CLK_CLKSEL_SEL1
+ (0x0u)
+
+	)
+
+182 
+	#CM_DPLL_CLKSEL_ICSS_OCP_CLK_CLKSEL_SEL2
+ (0x1u)
+
+	)
+
+186 
+	#CM_DPLL_CLKSEL_LCDC_PIXEL_CLK_CLKSEL
+ (0x00000003u)
+
+	)
+
+187 
+	#CM_DPLL_CLKSEL_LCDC_PIXEL_CLK_CLKSEL_SHIFT
+ (0x00000000u)
+
+	)
+
+188 
+	#CM_DPLL_CLKSEL_LCDC_PIXEL_CLK_CLKSEL_SEL1
+ (0x0u)
+
+	)
+
+189 
+	#CM_DPLL_CLKSEL_LCDC_PIXEL_CLK_CLKSEL_SEL2
+ (0x1u)
+
+	)
+
+190 
+	#CM_DPLL_CLKSEL_LCDC_PIXEL_CLK_CLKSEL_SEL3
+ (0x2u)
+
+	)
+
+191 
+	#CM_DPLL_CLKSEL_LCDC_PIXEL_CLK_CLKSEL_SEL4
+ (0x3u)
+
+	)
+
+195 
+	#CM_DPLL_CLKSEL_WDT1_CLK_CLKSEL
+ (0x00000001u)
+
+	)
+
+196 
+	#CM_DPLL_CLKSEL_WDT1_CLK_CLKSEL_SHIFT
+ (0x00000000u)
+
+	)
+
+197 
+	#CM_DPLL_CLKSEL_WDT1_CLK_CLKSEL_SEL1
+ (0x0u)
+
+	)
+
+198 
+	#CM_DPLL_CLKSEL_WDT1_CLK_CLKSEL_SEL2
+ (0x1u)
+
+	)
+
+202 
+	#CM_DPLL_CLKSEL_GPIO0_DBCLK_CLKSEL
+ (0x00000003u)
+
+	)
+
+203 
+	#CM_DPLL_CLKSEL_GPIO0_DBCLK_CLKSEL_SHIFT
+ (0x00000000u)
+
+	)
+
+204 
+	#CM_DPLL_CLKSEL_GPIO0_DBCLK_CLKSEL_SEL1
+ (0x0u)
+
+	)
+
+205 
+	#CM_DPLL_CLKSEL_GPIO0_DBCLK_CLKSEL_SEL2
+ (0x1u)
+
+	)
+
+206 
+	#CM_DPLL_CLKSEL_GPIO0_DBCLK_CLKSEL_SEL3
+ (0x2u)
+
+	)
+
+	@inc/hw_cm_per.h
+
+45 #i‚de‡
+_HW_CM_PER_H_
+
+
+46 
+	#_HW_CM_PER_H_
+
+
+	)
+
+69 
+	#CM_PER_L4LS_CLKSTCTRL
+ (0x0)
+
+	)
+
+70 
+	#CM_PER_L3S_CLKSTCTRL
+ (0x4)
+
+	)
+
+71 
+	#CM_PER_L4FW_CLKSTCTRL
+ (0x8)
+
+	)
+
+72 
+	#CM_PER_L3_CLKSTCTRL
+ (0xc)
+
+	)
+
+73 
+	#CM_PER_CPGMAC0_CLKCTRL
+ (0x14)
+
+	)
+
+74 
+	#CM_PER_LCDC_CLKCTRL
+ (0x18)
+
+	)
+
+75 
+	#CM_PER_USB0_CLKCTRL
+ (0x1c)
+
+	)
+
+76 
+	#CM_PER_MLB_CLKCTRL
+ (0x20)
+
+	)
+
+77 
+	#CM_PER_TPTC0_CLKCTRL
+ (0x24)
+
+	)
+
+78 
+	#CM_PER_EMIF_CLKCTRL
+ (0x28)
+
+	)
+
+79 
+	#CM_PER_OCMCRAM_CLKCTRL
+ (0x2c)
+
+	)
+
+80 
+	#CM_PER_GPMC_CLKCTRL
+ (0x30)
+
+	)
+
+81 
+	#CM_PER_MCASP0_CLKCTRL
+ (0x34)
+
+	)
+
+82 
+	#CM_PER_UART5_CLKCTRL
+ (0x38)
+
+	)
+
+83 
+	#CM_PER_MMC0_CLKCTRL
+ (0x3c)
+
+	)
+
+84 
+	#CM_PER_ELM_CLKCTRL
+ (0x40)
+
+	)
+
+85 
+	#CM_PER_I2C2_CLKCTRL
+ (0x44)
+
+	)
+
+86 
+	#CM_PER_I2C1_CLKCTRL
+ (0x48)
+
+	)
+
+87 
+	#CM_PER_SPI0_CLKCTRL
+ (0x4c)
+
+	)
+
+88 
+	#CM_PER_SPI1_CLKCTRL
+ (0x50)
+
+	)
+
+89 
+	#CM_PER_L4LS_CLKCTRL
+ (0x60)
+
+	)
+
+90 
+	#CM_PER_L4FW_CLKCTRL
+ (0x64)
+
+	)
+
+91 
+	#CM_PER_MCASP1_CLKCTRL
+ (0x68)
+
+	)
+
+92 
+	#CM_PER_UART1_CLKCTRL
+ (0x6c)
+
+	)
+
+93 
+	#CM_PER_UART2_CLKCTRL
+ (0x70)
+
+	)
+
+94 
+	#CM_PER_UART3_CLKCTRL
+ (0x74)
+
+	)
+
+95 
+	#CM_PER_UART4_CLKCTRL
+ (0x78)
+
+	)
+
+96 
+	#CM_PER_TIMER7_CLKCTRL
+ (0x7c)
+
+	)
+
+97 
+	#CM_PER_TIMER2_CLKCTRL
+ (0x80)
+
+	)
+
+98 
+	#CM_PER_TIMER3_CLKCTRL
+ (0x84)
+
+	)
+
+99 
+	#CM_PER_TIMER4_CLKCTRL
+ (0x88)
+
+	)
+
+100 
+	#CM_PER_RNG_CLKCTRL
+ (0x90)
+
+	)
+
+101 
+	#CM_PER_AES0_CLKCTRL
+ (0x94)
+
+	)
+
+102 
+	#CM_PER_SHA0_CLKCTRL
+ (0xa0)
+
+	)
+
+103 
+	#CM_PER_PKA_CLKCTRL
+ (0xa4)
+
+	)
+
+104 
+	#CM_PER_GPIO6_CLKCTRL
+ (0xa8)
+
+	)
+
+105 
+	#CM_PER_GPIO1_CLKCTRL
+ (0xac)
+
+	)
+
+106 
+	#CM_PER_GPIO2_CLKCTRL
+ (0xb0)
+
+	)
+
+107 
+	#CM_PER_GPIO3_CLKCTRL
+ (0xb4)
+
+	)
+
+108 
+	#CM_PER_TPCC_CLKCTRL
+ (0xbc)
+
+	)
+
+109 
+	#CM_PER_DCAN0_CLKCTRL
+ (0xc0)
+
+	)
+
+110 
+	#CM_PER_DCAN1_CLKCTRL
+ (0xc4)
+
+	)
+
+111 
+	#CM_PER_EPWMSS1_CLKCTRL
+ (0xcc)
+
+	)
+
+112 
+	#CM_PER_EMIF_FW_CLKCTRL
+ (0xd0)
+
+	)
+
+113 
+	#CM_PER_EPWMSS0_CLKCTRL
+ (0xd4)
+
+	)
+
+114 
+	#CM_PER_EPWMSS2_CLKCTRL
+ (0xd8)
+
+	)
+
+115 
+	#CM_PER_L3_INSTR_CLKCTRL
+ (0xdc)
+
+	)
+
+116 
+	#CM_PER_L3_CLKCTRL
+ (0xe0)
+
+	)
+
+117 
+	#CM_PER_IEEE5000_CLKCTRL
+ (0xe4)
+
+	)
+
+118 
+	#CM_PER_ICSS_CLKCTRL
+ (0xe8)
+
+	)
+
+119 
+	#CM_PER_TIMER5_CLKCTRL
+ (0xec)
+
+	)
+
+120 
+	#CM_PER_TIMER6_CLKCTRL
+ (0xf0)
+
+	)
+
+121 
+	#CM_PER_MMC1_CLKCTRL
+ (0xf4)
+
+	)
+
+122 
+	#CM_PER_MMC2_CLKCTRL
+ (0xf8)
+
+	)
+
+123 
+	#CM_PER_TPTC1_CLKCTRL
+ (0xfc)
+
+	)
+
+124 
+	#CM_PER_TPTC2_CLKCTRL
+ (0x100)
+
+	)
+
+125 
+	#CM_PER_SPINLOCK_CLKCTRL
+ (0x10c)
+
+	)
+
+126 
+	#CM_PER_MAILBOX0_CLKCTRL
+ (0x110)
+
+	)
+
+127 
+	#CM_PER_L4HS_CLKSTCTRL
+ (0x11c)
+
+	)
+
+128 
+	#CM_PER_L4HS_CLKCTRL
+ (0x120)
+
+	)
+
+129 
+	#CM_PER_MSTR_EXPS_CLKCTRL
+ (0x124)
+
+	)
+
+130 
+	#CM_PER_SLV_EXPS_CLKCTRL
+ (0x128)
+
+	)
+
+131 
+	#CM_PER_OCPWP_L3_CLKSTCTRL
+ (0x12c)
+
+	)
+
+132 
+	#CM_PER_OCPWP_CLKCTRL
+ (0x130)
+
+	)
+
+133 
+	#CM_PER_ICSS_CLKSTCTRL
+ (0x140)
+
+	)
+
+134 
+	#CM_PER_CPSW_CLKSTCTRL
+ (0x144)
+
+	)
+
+135 
+	#CM_PER_LCDC_CLKSTCTRL
+ (0x148)
+
+	)
+
+136 
+	#CM_PER_CLKDIV32K_CLKCTRL
+ (0x14c)
+
+	)
+
+137 
+	#CM_PER_CLK_24MHZ_CLKSTCTRL
+ (0x150)
+
+	)
+
+144 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_CAN_CLK
+ (0x00000800u)
+
+	)
+
+145 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_CAN_CLK_SHIFT
+ (0x0000000Bu)
+
+	)
+
+146 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_CAN_CLK_ACT
+ (0x1u)
+
+	)
+
+147 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_CAN_CLK_INACT
+ (0x0u)
+
+	)
+
+149 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_GPIO_1_GDBCLK
+ (0x00080000u)
+
+	)
+
+150 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_GPIO_1_GDBCLK_SHIFT
+ (0x00000013u)
+
+	)
+
+151 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_GPIO_1_GDBCLK_ACT
+ (0x1u)
+
+	)
+
+152 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_GPIO_1_GDBCLK_INACT
+ (0x0u)
+
+	)
+
+154 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_GPIO_2_GDBCLK
+ (0x00100000u)
+
+	)
+
+155 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_GPIO_2_GDBCLK_SHIFT
+ (0x00000014u)
+
+	)
+
+156 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_GPIO_2_GDBCLK_ACT
+ (0x1u)
+
+	)
+
+157 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_GPIO_2_GDBCLK_INACT
+ (0x0u)
+
+	)
+
+159 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_GPIO_3_GDBCLK
+ (0x00200000u)
+
+	)
+
+160 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_GPIO_3_GDBCLK_SHIFT
+ (0x00000015u)
+
+	)
+
+161 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_GPIO_3_GDBCLK_ACT
+ (0x1u)
+
+	)
+
+162 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_GPIO_3_GDBCLK_INACT
+ (0x0u)
+
+	)
+
+164 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_I2C_FCLK
+ (0x01000000u)
+
+	)
+
+165 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_I2C_FCLK_SHIFT
+ (0x00000018u)
+
+	)
+
+166 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_I2C_FCLK_ACT
+ (0x1u)
+
+	)
+
+167 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_I2C_FCLK_INACT
+ (0x0u)
+
+	)
+
+169 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_L4LS_GCLK
+ (0x00000100u)
+
+	)
+
+170 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_L4LS_GCLK_SHIFT
+ (0x00000008u)
+
+	)
+
+171 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_L4LS_GCLK_ACT
+ (0x1u)
+
+	)
+
+172 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_L4LS_GCLK_INACT
+ (0x0u)
+
+	)
+
+174 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_LCDC_GCLK
+ (0x00020000u)
+
+	)
+
+175 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_LCDC_GCLK_SHIFT
+ (0x00000011u)
+
+	)
+
+176 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_LCDC_GCLK_ACT
+ (0x1u)
+
+	)
+
+177 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_LCDC_GCLK_INACT
+ (0x0u)
+
+	)
+
+179 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_SPI_GCLK
+ (0x02000000u)
+
+	)
+
+180 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_SPI_GCLK_SHIFT
+ (0x00000019u)
+
+	)
+
+181 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_SPI_GCLK_ACT
+ (0x1u)
+
+	)
+
+182 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_SPI_GCLK_INACT
+ (0x0u)
+
+	)
+
+184 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER2_GCLK
+ (0x00004000u)
+
+	)
+
+185 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER2_GCLK_SHIFT
+ (0x0000000Eu)
+
+	)
+
+186 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER2_GCLK_ACT
+ (0x1u)
+
+	)
+
+187 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER2_GCLK_INACT
+ (0x0u)
+
+	)
+
+189 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER3_GCLK
+ (0x00008000u)
+
+	)
+
+190 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER3_GCLK_SHIFT
+ (0x0000000Fu)
+
+	)
+
+191 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER3_GCLK_ACT
+ (0x1u)
+
+	)
+
+192 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER3_GCLK_INACT
+ (0x0u)
+
+	)
+
+194 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER4_GCLK
+ (0x00010000u)
+
+	)
+
+195 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER4_GCLK_SHIFT
+ (0x00000010u)
+
+	)
+
+196 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER4_GCLK_ACT
+ (0x1u)
+
+	)
+
+197 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER4_GCLK_INACT
+ (0x0u)
+
+	)
+
+199 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER5_GCLK
+ (0x08000000u)
+
+	)
+
+200 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER5_GCLK_SHIFT
+ (0x0000001Bu)
+
+	)
+
+201 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER5_GCLK_ACT
+ (0x1u)
+
+	)
+
+202 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER5_GCLK_INACT
+ (0x0u)
+
+	)
+
+204 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER6_GCLK
+ (0x10000000u)
+
+	)
+
+205 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER6_GCLK_SHIFT
+ (0x0000001Cu)
+
+	)
+
+206 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER6_GCLK_ACT
+ (0x1u)
+
+	)
+
+207 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER6_GCLK_INACT
+ (0x0u)
+
+	)
+
+209 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER7_GCLK
+ (0x00002000u)
+
+	)
+
+210 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER7_GCLK_SHIFT
+ (0x0000000Du)
+
+	)
+
+211 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER7_GCLK_ACT
+ (0x1u)
+
+	)
+
+212 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER7_GCLK_INACT
+ (0x0u)
+
+	)
+
+214 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_UART_GFCLK
+ (0x00000400u)
+
+	)
+
+215 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_UART_GFCLK_SHIFT
+ (0x0000000Au)
+
+	)
+
+216 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_UART_GFCLK_ACT
+ (0x1u)
+
+	)
+
+217 
+	#CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_UART_GFCLK_INACT
+ (0x0u)
+
+	)
+
+219 
+	#CM_PER_L4LS_CLKSTCTRL_CLKTRCTRL
+ (0x00000003u)
+
+	)
+
+220 
+	#CM_PER_L4LS_CLKSTCTRL_CLKTRCTRL_SHIFT
+ (0x00000000u)
+
+	)
+
+221 
+	#CM_PER_L4LS_CLKSTCTRL_CLKTRCTRL_HW_AUTO
+ (0x3u)
+
+	)
+
+222 
+	#CM_PER_L4LS_CLKSTCTRL_CLKTRCTRL_NO_SLEEP
+ (0x0u)
+
+	)
+
+223 
+	#CM_PER_L4LS_CLKSTCTRL_CLKTRCTRL_SW_SLEEP
+ (0x1u)
+
+	)
+
+224 
+	#CM_PER_L4LS_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+ (0x2u)
+
+	)
+
+228 
+	#CM_PER_L3S_CLKSTCTRL_CLKACTIVITY_L3S_GCLK
+ (0x00000008u)
+
+	)
+
+229 
+	#CM_PER_L3S_CLKSTCTRL_CLKACTIVITY_L3S_GCLK_SHIFT
+ (0x00000003u)
+
+	)
+
+230 
+	#CM_PER_L3S_CLKSTCTRL_CLKACTIVITY_L3S_GCLK_ACT
+ (0x1u)
+
+	)
+
+231 
+	#CM_PER_L3S_CLKSTCTRL_CLKACTIVITY_L3S_GCLK_INACT
+ (0x0u)
+
+	)
+
+233 
+	#CM_PER_L3S_CLKSTCTRL_CLKTRCTRL
+ (0x00000003u)
+
+	)
+
+234 
+	#CM_PER_L3S_CLKSTCTRL_CLKTRCTRL_SHIFT
+ (0x00000000u)
+
+	)
+
+235 
+	#CM_PER_L3S_CLKSTCTRL_CLKTRCTRL_HW_AUTO
+ (0x3u)
+
+	)
+
+236 
+	#CM_PER_L3S_CLKSTCTRL_CLKTRCTRL_NO_SLEEP
+ (0x0u)
+
+	)
+
+237 
+	#CM_PER_L3S_CLKSTCTRL_CLKTRCTRL_SW_SLEEP
+ (0x1u)
+
+	)
+
+238 
+	#CM_PER_L3S_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+ (0x2u)
+
+	)
+
+242 
+	#CM_PER_L4FW_CLKSTCTRL_CLKACTIVITY_L4FW_GCLK
+ (0x00000100u)
+
+	)
+
+243 
+	#CM_PER_L4FW_CLKSTCTRL_CLKACTIVITY_L4FW_GCLK_SHIFT
+ (0x00000008u)
+
+	)
+
+244 
+	#CM_PER_L4FW_CLKSTCTRL_CLKACTIVITY_L4FW_GCLK_ACT
+ (0x1u)
+
+	)
+
+245 
+	#CM_PER_L4FW_CLKSTCTRL_CLKACTIVITY_L4FW_GCLK_INACT
+ (0x0u)
+
+	)
+
+247 
+	#CM_PER_L4FW_CLKSTCTRL_CLKTRCTRL
+ (0x00000003u)
+
+	)
+
+248 
+	#CM_PER_L4FW_CLKSTCTRL_CLKTRCTRL_SHIFT
+ (0x00000000u)
+
+	)
+
+249 
+	#CM_PER_L4FW_CLKSTCTRL_CLKTRCTRL_HW_AUTO
+ (0x3u)
+
+	)
+
+250 
+	#CM_PER_L4FW_CLKSTCTRL_CLKTRCTRL_NO_SLEEP
+ (0x0u)
+
+	)
+
+251 
+	#CM_PER_L4FW_CLKSTCTRL_CLKTRCTRL_SW_SLEEP
+ (0x1u)
+
+	)
+
+252 
+	#CM_PER_L4FW_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+ (0x2u)
+
+	)
+
+256 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_CPTS_RFT_GCLK
+ (0x00000040u)
+
+	)
+
+257 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_CPTS_RFT_GCLK_SHIFT
+ (0x00000006u)
+
+	)
+
+258 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_CPTS_RFT_GCLK_ACT
+ (0x1u)
+
+	)
+
+259 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_CPTS_RFT_GCLK_INACT
+ (0x0u)
+
+	)
+
+261 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_EMIF_GCLK
+ (0x00000004u)
+
+	)
+
+262 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_EMIF_GCLK_SHIFT
+ (0x00000002u)
+
+	)
+
+263 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_EMIF_GCLK_ACT
+ (0x1u)
+
+	)
+
+264 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_EMIF_GCLK_INACT
+ (0x0u)
+
+	)
+
+266 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_L3_GCLK
+ (0x00000010u)
+
+	)
+
+267 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_L3_GCLK_SHIFT
+ (0x00000004u)
+
+	)
+
+268 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_L3_GCLK_ACT
+ (0x1u)
+
+	)
+
+269 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_L3_GCLK_INACT
+ (0x0u)
+
+	)
+
+271 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_MCASP_GCLK
+ (0x00000080u)
+
+	)
+
+272 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_MCASP_GCLK_SHIFT
+ (0x00000007u)
+
+	)
+
+273 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_MCASP_GCLK_ACT
+ (0x1u)
+
+	)
+
+274 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_MCASP_GCLK_INACT
+ (0x0u)
+
+	)
+
+276 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_MMC_FCLK
+ (0x00000008u)
+
+	)
+
+277 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_MMC_FCLK_SHIFT
+ (0x00000003u)
+
+	)
+
+278 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_MMC_FCLK_ACT
+ (0x1u)
+
+	)
+
+279 
+	#CM_PER_L3_CLKSTCTRL_CLKACTIVITY_MMC_FCLK_INACT
+ (0x0u)
+
+	)
+
+281 
+	#CM_PER_L3_CLKSTCTRL_CLKTRCTRL
+ (0x00000003u)
+
+	)
+
+282 
+	#CM_PER_L3_CLKSTCTRL_CLKTRCTRL_SHIFT
+ (0x00000000u)
+
+	)
+
+283 
+	#CM_PER_L3_CLKSTCTRL_CLKTRCTRL_HW_AUTO
+ (0x3u)
+
+	)
+
+284 
+	#CM_PER_L3_CLKSTCTRL_CLKTRCTRL_NO_SLEEP
+ (0x0u)
+
+	)
+
+285 
+	#CM_PER_L3_CLKSTCTRL_CLKTRCTRL_SW_SLEEP
+ (0x1u)
+
+	)
+
+286 
+	#CM_PER_L3_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+ (0x2u)
+
+	)
+
+290 
+	#CM_PER_CPGMAC0_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+291 
+	#CM_PER_CPGMAC0_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+292 
+	#CM_PER_CPGMAC0_CLKCTRL_IDLEST_DISABLED
+ (0x3u)
+
+	)
+
+293 
+	#CM_PER_CPGMAC0_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+294 
+	#CM_PER_CPGMAC0_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+295 
+	#CM_PER_CPGMAC0_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+297 
+	#CM_PER_CPGMAC0_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+298 
+	#CM_PER_CPGMAC0_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+299 
+	#CM_PER_CPGMAC0_CLKCTRL_MODULEMODE_DISABLE
+ (0x0u)
+
+	)
+
+300 
+	#CM_PER_CPGMAC0_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+301 
+	#CM_PER_CPGMAC0_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+302 
+	#CM_PER_CPGMAC0_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+304 
+	#CM_PER_CPGMAC0_CLKCTRL_STBYST
+ (0x00040000u)
+
+	)
+
+305 
+	#CM_PER_CPGMAC0_CLKCTRL_STBYST_SHIFT
+ (0x00000012u)
+
+	)
+
+306 
+	#CM_PER_CPGMAC0_CLKCTRL_STBYST_FUNC
+ (0x0u)
+
+	)
+
+307 
+	#CM_PER_CPGMAC0_CLKCTRL_STBYST_STANDBY
+ (0x1u)
+
+	)
+
+311 
+	#CM_PER_LCDC_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+312 
+	#CM_PER_LCDC_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+313 
+	#CM_PER_LCDC_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+314 
+	#CM_PER_LCDC_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+315 
+	#CM_PER_LCDC_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+316 
+	#CM_PER_LCDC_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+318 
+	#CM_PER_LCDC_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+319 
+	#CM_PER_LCDC_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+320 
+	#CM_PER_LCDC_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+321 
+	#CM_PER_LCDC_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+322 
+	#CM_PER_LCDC_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+323 
+	#CM_PER_LCDC_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+325 
+	#CM_PER_LCDC_CLKCTRL_STBYST
+ (0x00040000u)
+
+	)
+
+326 
+	#CM_PER_LCDC_CLKCTRL_STBYST_SHIFT
+ (0x00000012u)
+
+	)
+
+327 
+	#CM_PER_LCDC_CLKCTRL_STBYST_FUNC
+ (0x0u)
+
+	)
+
+328 
+	#CM_PER_LCDC_CLKCTRL_STBYST_STANDBY
+ (0x1u)
+
+	)
+
+332 
+	#CM_PER_USB0_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+333 
+	#CM_PER_USB0_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+334 
+	#CM_PER_USB0_CLKCTRL_IDLEST_DISABLED
+ (0x3u)
+
+	)
+
+335 
+	#CM_PER_USB0_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+336 
+	#CM_PER_USB0_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+337 
+	#CM_PER_USB0_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+339 
+	#CM_PER_USB0_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+340 
+	#CM_PER_USB0_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+341 
+	#CM_PER_USB0_CLKCTRL_MODULEMODE_DISABLE
+ (0x0u)
+
+	)
+
+342 
+	#CM_PER_USB0_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+343 
+	#CM_PER_USB0_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+344 
+	#CM_PER_USB0_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+346 
+	#CM_PER_USB0_CLKCTRL_STBYST
+ (0x00040000u)
+
+	)
+
+347 
+	#CM_PER_USB0_CLKCTRL_STBYST_SHIFT
+ (0x00000012u)
+
+	)
+
+348 
+	#CM_PER_USB0_CLKCTRL_STBYST_FUNC
+ (0x0u)
+
+	)
+
+349 
+	#CM_PER_USB0_CLKCTRL_STBYST_STANDBY
+ (0x1u)
+
+	)
+
+353 
+	#CM_PER_MLB_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+354 
+	#CM_PER_MLB_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+355 
+	#CM_PER_MLB_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+356 
+	#CM_PER_MLB_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+357 
+	#CM_PER_MLB_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+358 
+	#CM_PER_MLB_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+360 
+	#CM_PER_MLB_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+361 
+	#CM_PER_MLB_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+362 
+	#CM_PER_MLB_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+363 
+	#CM_PER_MLB_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+364 
+	#CM_PER_MLB_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+365 
+	#CM_PER_MLB_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+367 
+	#CM_PER_MLB_CLKCTRL_STBYST
+ (0x00040000u)
+
+	)
+
+368 
+	#CM_PER_MLB_CLKCTRL_STBYST_SHIFT
+ (0x00000012u)
+
+	)
+
+369 
+	#CM_PER_MLB_CLKCTRL_STBYST_FUNC
+ (0x0u)
+
+	)
+
+370 
+	#CM_PER_MLB_CLKCTRL_STBYST_STANDBY
+ (0x1u)
+
+	)
+
+374 
+	#CM_PER_TPTC0_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+375 
+	#CM_PER_TPTC0_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+376 
+	#CM_PER_TPTC0_CLKCTRL_IDLEST_DISABLED
+ (0x3u)
+
+	)
+
+377 
+	#CM_PER_TPTC0_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+378 
+	#CM_PER_TPTC0_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+379 
+	#CM_PER_TPTC0_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+381 
+	#CM_PER_TPTC0_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+382 
+	#CM_PER_TPTC0_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+383 
+	#CM_PER_TPTC0_CLKCTRL_MODULEMODE_DISABLE
+ (0x0u)
+
+	)
+
+384 
+	#CM_PER_TPTC0_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+385 
+	#CM_PER_TPTC0_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+386 
+	#CM_PER_TPTC0_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+388 
+	#CM_PER_TPTC0_CLKCTRL_STBYST
+ (0x00040000u)
+
+	)
+
+389 
+	#CM_PER_TPTC0_CLKCTRL_STBYST_SHIFT
+ (0x00000012u)
+
+	)
+
+390 
+	#CM_PER_TPTC0_CLKCTRL_STBYST_FUNC
+ (0x0u)
+
+	)
+
+391 
+	#CM_PER_TPTC0_CLKCTRL_STBYST_STANDBY
+ (0x1u)
+
+	)
+
+395 
+	#CM_PER_EMIF_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+396 
+	#CM_PER_EMIF_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+397 
+	#CM_PER_EMIF_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+398 
+	#CM_PER_EMIF_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+399 
+	#CM_PER_EMIF_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+400 
+	#CM_PER_EMIF_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+402 
+	#CM_PER_EMIF_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+403 
+	#CM_PER_EMIF_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+404 
+	#CM_PER_EMIF_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+405 
+	#CM_PER_EMIF_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+406 
+	#CM_PER_EMIF_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+407 
+	#CM_PER_EMIF_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+411 
+	#CM_PER_OCMCRAM_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+412 
+	#CM_PER_OCMCRAM_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+413 
+	#CM_PER_OCMCRAM_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+414 
+	#CM_PER_OCMCRAM_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+415 
+	#CM_PER_OCMCRAM_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+416 
+	#CM_PER_OCMCRAM_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+418 
+	#CM_PER_OCMCRAM_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+419 
+	#CM_PER_OCMCRAM_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+420 
+	#CM_PER_OCMCRAM_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+421 
+	#CM_PER_OCMCRAM_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+422 
+	#CM_PER_OCMCRAM_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+423 
+	#CM_PER_OCMCRAM_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+427 
+	#CM_PER_GPMC_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+428 
+	#CM_PER_GPMC_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+429 
+	#CM_PER_GPMC_CLKCTRL_IDLEST_DISABLED
+ (0x3u)
+
+	)
+
+430 
+	#CM_PER_GPMC_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+431 
+	#CM_PER_GPMC_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+432 
+	#CM_PER_GPMC_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+434 
+	#CM_PER_GPMC_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+435 
+	#CM_PER_GPMC_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+436 
+	#CM_PER_GPMC_CLKCTRL_MODULEMODE_DISABLE
+ (0x0u)
+
+	)
+
+437 
+	#CM_PER_GPMC_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+438 
+	#CM_PER_GPMC_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+439 
+	#CM_PER_GPMC_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+443 
+	#CM_PER_MCASP0_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+444 
+	#CM_PER_MCASP0_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+445 
+	#CM_PER_MCASP0_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+446 
+	#CM_PER_MCASP0_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+447 
+	#CM_PER_MCASP0_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+448 
+	#CM_PER_MCASP0_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+450 
+	#CM_PER_MCASP0_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+451 
+	#CM_PER_MCASP0_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+452 
+	#CM_PER_MCASP0_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+453 
+	#CM_PER_MCASP0_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+454 
+	#CM_PER_MCASP0_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+455 
+	#CM_PER_MCASP0_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+459 
+	#CM_PER_UART5_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+460 
+	#CM_PER_UART5_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+461 
+	#CM_PER_UART5_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+462 
+	#CM_PER_UART5_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+463 
+	#CM_PER_UART5_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+464 
+	#CM_PER_UART5_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+466 
+	#CM_PER_UART5_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+467 
+	#CM_PER_UART5_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+468 
+	#CM_PER_UART5_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+469 
+	#CM_PER_UART5_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+470 
+	#CM_PER_UART5_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+471 
+	#CM_PER_UART5_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+475 
+	#CM_PER_MMC0_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+476 
+	#CM_PER_MMC0_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+477 
+	#CM_PER_MMC0_CLKCTRL_IDLEST_DISABLED
+ (0x3u)
+
+	)
+
+478 
+	#CM_PER_MMC0_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+479 
+	#CM_PER_MMC0_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+480 
+	#CM_PER_MMC0_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+482 
+	#CM_PER_MMC0_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+483 
+	#CM_PER_MMC0_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+484 
+	#CM_PER_MMC0_CLKCTRL_MODULEMODE_DISABLE
+ (0x0u)
+
+	)
+
+485 
+	#CM_PER_MMC0_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+486 
+	#CM_PER_MMC0_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+487 
+	#CM_PER_MMC0_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+491 
+	#CM_PER_ELM_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+492 
+	#CM_PER_ELM_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+493 
+	#CM_PER_ELM_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+494 
+	#CM_PER_ELM_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+495 
+	#CM_PER_ELM_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+496 
+	#CM_PER_ELM_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+498 
+	#CM_PER_ELM_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+499 
+	#CM_PER_ELM_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+500 
+	#CM_PER_ELM_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+501 
+	#CM_PER_ELM_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+502 
+	#CM_PER_ELM_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+503 
+	#CM_PER_ELM_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+507 
+	#CM_PER_I2C2_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+508 
+	#CM_PER_I2C2_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+509 
+	#CM_PER_I2C2_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+510 
+	#CM_PER_I2C2_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+511 
+	#CM_PER_I2C2_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+512 
+	#CM_PER_I2C2_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+514 
+	#CM_PER_I2C2_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+515 
+	#CM_PER_I2C2_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+516 
+	#CM_PER_I2C2_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+517 
+	#CM_PER_I2C2_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+518 
+	#CM_PER_I2C2_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+519 
+	#CM_PER_I2C2_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+523 
+	#CM_PER_I2C1_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+524 
+	#CM_PER_I2C1_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+525 
+	#CM_PER_I2C1_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+526 
+	#CM_PER_I2C1_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+527 
+	#CM_PER_I2C1_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+528 
+	#CM_PER_I2C1_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+530 
+	#CM_PER_I2C1_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+531 
+	#CM_PER_I2C1_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+532 
+	#CM_PER_I2C1_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+533 
+	#CM_PER_I2C1_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+534 
+	#CM_PER_I2C1_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+535 
+	#CM_PER_I2C1_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+539 
+	#CM_PER_SPI0_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+540 
+	#CM_PER_SPI0_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+541 
+	#CM_PER_SPI0_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+542 
+	#CM_PER_SPI0_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+543 
+	#CM_PER_SPI0_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+544 
+	#CM_PER_SPI0_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+546 
+	#CM_PER_SPI0_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+547 
+	#CM_PER_SPI0_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+548 
+	#CM_PER_SPI0_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+549 
+	#CM_PER_SPI0_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+550 
+	#CM_PER_SPI0_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+551 
+	#CM_PER_SPI0_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+555 
+	#CM_PER_SPI1_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+556 
+	#CM_PER_SPI1_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+557 
+	#CM_PER_SPI1_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+558 
+	#CM_PER_SPI1_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+559 
+	#CM_PER_SPI1_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+560 
+	#CM_PER_SPI1_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+562 
+	#CM_PER_SPI1_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+563 
+	#CM_PER_SPI1_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+564 
+	#CM_PER_SPI1_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+565 
+	#CM_PER_SPI1_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+566 
+	#CM_PER_SPI1_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+567 
+	#CM_PER_SPI1_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+571 
+	#CM_PER_L4LS_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+572 
+	#CM_PER_L4LS_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+573 
+	#CM_PER_L4LS_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+574 
+	#CM_PER_L4LS_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+575 
+	#CM_PER_L4LS_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+576 
+	#CM_PER_L4LS_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+578 
+	#CM_PER_L4LS_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+579 
+	#CM_PER_L4LS_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+580 
+	#CM_PER_L4LS_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+581 
+	#CM_PER_L4LS_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+582 
+	#CM_PER_L4LS_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+583 
+	#CM_PER_L4LS_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+587 
+	#CM_PER_L4FW_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+588 
+	#CM_PER_L4FW_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+589 
+	#CM_PER_L4FW_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+590 
+	#CM_PER_L4FW_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+591 
+	#CM_PER_L4FW_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+592 
+	#CM_PER_L4FW_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+594 
+	#CM_PER_L4FW_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+595 
+	#CM_PER_L4FW_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+596 
+	#CM_PER_L4FW_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+597 
+	#CM_PER_L4FW_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+598 
+	#CM_PER_L4FW_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+599 
+	#CM_PER_L4FW_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+603 
+	#CM_PER_MCASP1_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+604 
+	#CM_PER_MCASP1_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+605 
+	#CM_PER_MCASP1_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+606 
+	#CM_PER_MCASP1_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+607 
+	#CM_PER_MCASP1_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+608 
+	#CM_PER_MCASP1_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+610 
+	#CM_PER_MCASP1_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+611 
+	#CM_PER_MCASP1_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+612 
+	#CM_PER_MCASP1_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+613 
+	#CM_PER_MCASP1_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+614 
+	#CM_PER_MCASP1_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+615 
+	#CM_PER_MCASP1_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+619 
+	#CM_PER_UART1_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+620 
+	#CM_PER_UART1_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+621 
+	#CM_PER_UART1_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+622 
+	#CM_PER_UART1_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+623 
+	#CM_PER_UART1_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+624 
+	#CM_PER_UART1_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+626 
+	#CM_PER_UART1_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+627 
+	#CM_PER_UART1_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+628 
+	#CM_PER_UART1_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+629 
+	#CM_PER_UART1_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+630 
+	#CM_PER_UART1_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+631 
+	#CM_PER_UART1_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+635 
+	#CM_PER_UART2_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+636 
+	#CM_PER_UART2_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+637 
+	#CM_PER_UART2_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+638 
+	#CM_PER_UART2_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+639 
+	#CM_PER_UART2_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+640 
+	#CM_PER_UART2_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+642 
+	#CM_PER_UART2_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+643 
+	#CM_PER_UART2_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+644 
+	#CM_PER_UART2_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+645 
+	#CM_PER_UART2_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+646 
+	#CM_PER_UART2_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+647 
+	#CM_PER_UART2_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+651 
+	#CM_PER_UART3_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+652 
+	#CM_PER_UART3_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+653 
+	#CM_PER_UART3_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+654 
+	#CM_PER_UART3_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+655 
+	#CM_PER_UART3_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+656 
+	#CM_PER_UART3_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+658 
+	#CM_PER_UART3_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+659 
+	#CM_PER_UART3_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+660 
+	#CM_PER_UART3_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+661 
+	#CM_PER_UART3_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+662 
+	#CM_PER_UART3_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+663 
+	#CM_PER_UART3_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+667 
+	#CM_PER_UART4_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+668 
+	#CM_PER_UART4_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+669 
+	#CM_PER_UART4_CLKCTRL_IDLEST_DISABLED
+ (0x3u)
+
+	)
+
+670 
+	#CM_PER_UART4_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+671 
+	#CM_PER_UART4_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+672 
+	#CM_PER_UART4_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+674 
+	#CM_PER_UART4_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+675 
+	#CM_PER_UART4_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+676 
+	#CM_PER_UART4_CLKCTRL_MODULEMODE_DISABLE
+ (0x0u)
+
+	)
+
+677 
+	#CM_PER_UART4_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+678 
+	#CM_PER_UART4_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+679 
+	#CM_PER_UART4_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+683 
+	#CM_PER_TIMER7_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+684 
+	#CM_PER_TIMER7_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+685 
+	#CM_PER_TIMER7_CLKCTRL_IDLEST_DISABLED
+ (0x3u)
+
+	)
+
+686 
+	#CM_PER_TIMER7_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+687 
+	#CM_PER_TIMER7_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+688 
+	#CM_PER_TIMER7_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+690 
+	#CM_PER_TIMER7_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+691 
+	#CM_PER_TIMER7_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+692 
+	#CM_PER_TIMER7_CLKCTRL_MODULEMODE_DISABLE
+ (0x0u)
+
+	)
+
+693 
+	#CM_PER_TIMER7_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+694 
+	#CM_PER_TIMER7_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+695 
+	#CM_PER_TIMER7_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+699 
+	#CM_PER_TIMER2_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+700 
+	#CM_PER_TIMER2_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+701 
+	#CM_PER_TIMER2_CLKCTRL_IDLEST_DISABLDED
+ (0x3u)
+
+	)
+
+702 
+	#CM_PER_TIMER2_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+703 
+	#CM_PER_TIMER2_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+704 
+	#CM_PER_TIMER2_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+706 
+	#CM_PER_TIMER2_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+707 
+	#CM_PER_TIMER2_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+708 
+	#CM_PER_TIMER2_CLKCTRL_MODULEMODE_DISABLE
+ (0x0u)
+
+	)
+
+709 
+	#CM_PER_TIMER2_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+710 
+	#CM_PER_TIMER2_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+711 
+	#CM_PER_TIMER2_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+715 
+	#CM_PER_TIMER3_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+716 
+	#CM_PER_TIMER3_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+717 
+	#CM_PER_TIMER3_CLKCTRL_IDLEST_DISABLED
+ (0x3u)
+
+	)
+
+718 
+	#CM_PER_TIMER3_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+719 
+	#CM_PER_TIMER3_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+720 
+	#CM_PER_TIMER3_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+722 
+	#CM_PER_TIMER3_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+723 
+	#CM_PER_TIMER3_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+724 
+	#CM_PER_TIMER3_CLKCTRL_MODULEMODE_DISABLE
+ (0x0u)
+
+	)
+
+725 
+	#CM_PER_TIMER3_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+726 
+	#CM_PER_TIMER3_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+727 
+	#CM_PER_TIMER3_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+731 
+	#CM_PER_TIMER4_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+732 
+	#CM_PER_TIMER4_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+733 
+	#CM_PER_TIMER4_CLKCTRL_IDLEST_DISABLED
+ (0x3u)
+
+	)
+
+734 
+	#CM_PER_TIMER4_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+735 
+	#CM_PER_TIMER4_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+736 
+	#CM_PER_TIMER4_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+738 
+	#CM_PER_TIMER4_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+739 
+	#CM_PER_TIMER4_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+740 
+	#CM_PER_TIMER4_CLKCTRL_MODULEMODE_DISABLE
+ (0x0u)
+
+	)
+
+741 
+	#CM_PER_TIMER4_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+742 
+	#CM_PER_TIMER4_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+743 
+	#CM_PER_TIMER4_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+747 
+	#CM_PER_RNG_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+748 
+	#CM_PER_RNG_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+749 
+	#CM_PER_RNG_CLKCTRL_IDLEST_DISABLED
+ (0x3u)
+
+	)
+
+750 
+	#CM_PER_RNG_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+751 
+	#CM_PER_RNG_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+752 
+	#CM_PER_RNG_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+754 
+	#CM_PER_RNG_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+755 
+	#CM_PER_RNG_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+756 
+	#CM_PER_RNG_CLKCTRL_MODULEMODE_DISABLE
+ (0x0u)
+
+	)
+
+757 
+	#CM_PER_RNG_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+758 
+	#CM_PER_RNG_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+759 
+	#CM_PER_RNG_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+763 
+	#CM_PER_AES0_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+764 
+	#CM_PER_AES0_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+765 
+	#CM_PER_AES0_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+766 
+	#CM_PER_AES0_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+767 
+	#CM_PER_AES0_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+768 
+	#CM_PER_AES0_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+770 
+	#CM_PER_AES0_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+771 
+	#CM_PER_AES0_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+772 
+	#CM_PER_AES0_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+773 
+	#CM_PER_AES0_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+774 
+	#CM_PER_AES0_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+775 
+	#CM_PER_AES0_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+779 
+	#CM_PER_SHA0_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+780 
+	#CM_PER_SHA0_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+781 
+	#CM_PER_SHA0_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+782 
+	#CM_PER_SHA0_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+783 
+	#CM_PER_SHA0_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+784 
+	#CM_PER_SHA0_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+786 
+	#CM_PER_SHA0_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+787 
+	#CM_PER_SHA0_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+788 
+	#CM_PER_SHA0_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+789 
+	#CM_PER_SHA0_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+790 
+	#CM_PER_SHA0_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+791 
+	#CM_PER_SHA0_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+795 
+	#CM_PER_PKA_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+796 
+	#CM_PER_PKA_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+797 
+	#CM_PER_PKA_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+798 
+	#CM_PER_PKA_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+799 
+	#CM_PER_PKA_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+800 
+	#CM_PER_PKA_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+802 
+	#CM_PER_PKA_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+803 
+	#CM_PER_PKA_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+804 
+	#CM_PER_PKA_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+805 
+	#CM_PER_PKA_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+806 
+	#CM_PER_PKA_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+807 
+	#CM_PER_PKA_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+811 
+	#CM_PER_GPIO1_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+812 
+	#CM_PER_GPIO1_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+813 
+	#CM_PER_GPIO1_CLKCTRL_IDLEST_DISABLED
+ (0x3u)
+
+	)
+
+814 
+	#CM_PER_GPIO1_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+815 
+	#CM_PER_GPIO1_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+816 
+	#CM_PER_GPIO1_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+818 
+	#CM_PER_GPIO1_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+819 
+	#CM_PER_GPIO1_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+820 
+	#CM_PER_GPIO1_CLKCTRL_MODULEMODE_DISABLE
+ (0x0u)
+
+	)
+
+821 
+	#CM_PER_GPIO1_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+822 
+	#CM_PER_GPIO1_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+823 
+	#CM_PER_GPIO1_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+825 
+	#CM_PER_GPIO1_CLKCTRL_OPTFCLKEN_GPIO_1_GDBCLK
+ (0x00040000u)
+
+	)
+
+826 
+	#CM_PER_GPIO1_CLKCTRL_OPTFCLKEN_GPIO_1_GDBCLK_SHIFT
+ (0x00000012u)
+
+	)
+
+827 
+	#CM_PER_GPIO1_CLKCTRL_OPTFCLKEN_GPIO_1_GDBCLK_FCLK_DIS
+ (0x0u)
+
+	)
+
+828 
+	#CM_PER_GPIO1_CLKCTRL_OPTFCLKEN_GPIO_1_GDBCLK_FCLK_EN
+ (0x1u)
+
+	)
+
+832 
+	#CM_PER_GPIO2_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+833 
+	#CM_PER_GPIO2_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+834 
+	#CM_PER_GPIO2_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+835 
+	#CM_PER_GPIO2_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+836 
+	#CM_PER_GPIO2_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+837 
+	#CM_PER_GPIO2_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+839 
+	#CM_PER_GPIO2_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+840 
+	#CM_PER_GPIO2_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+841 
+	#CM_PER_GPIO2_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+842 
+	#CM_PER_GPIO2_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+843 
+	#CM_PER_GPIO2_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+844 
+	#CM_PER_GPIO2_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+846 
+	#CM_PER_GPIO2_CLKCTRL_OPTFCLKEN_GPIO_2_GDBCLK
+ (0x00040000u)
+
+	)
+
+847 
+	#CM_PER_GPIO2_CLKCTRL_OPTFCLKEN_GPIO_2_GDBCLK_SHIFT
+ (0x00000012u)
+
+	)
+
+848 
+	#CM_PER_GPIO2_CLKCTRL_OPTFCLKEN_GPIO_2_GDBCLK_FCLK_DIS
+ (0x0u)
+
+	)
+
+849 
+	#CM_PER_GPIO2_CLKCTRL_OPTFCLKEN_GPIO_2_GDBCLK_FCLK_EN
+ (0x1u)
+
+	)
+
+853 
+	#CM_PER_GPIO3_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+854 
+	#CM_PER_GPIO3_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+855 
+	#CM_PER_GPIO3_CLKCTRL_IDLEST_DISABLED
+ (0x3u)
+
+	)
+
+856 
+	#CM_PER_GPIO3_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+857 
+	#CM_PER_GPIO3_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+858 
+	#CM_PER_GPIO3_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+860 
+	#CM_PER_GPIO3_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+861 
+	#CM_PER_GPIO3_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+862 
+	#CM_PER_GPIO3_CLKCTRL_MODULEMODE_DISABLE
+ (0x0u)
+
+	)
+
+863 
+	#CM_PER_GPIO3_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+864 
+	#CM_PER_GPIO3_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+865 
+	#CM_PER_GPIO3_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+867 
+	#CM_PER_GPIO3_CLKCTRL_OPTFCLKEN_GPIO_3_GDBCLK
+ (0x00040000u)
+
+	)
+
+868 
+	#CM_PER_GPIO3_CLKCTRL_OPTFCLKEN_GPIO_3_GDBCLK_SHIFT
+ (0x00000012u)
+
+	)
+
+869 
+	#CM_PER_GPIO3_CLKCTRL_OPTFCLKEN_GPIO_3_GDBCLK_FCLK_DIS
+ (0x0u)
+
+	)
+
+870 
+	#CM_PER_GPIO3_CLKCTRL_OPTFCLKEN_GPIO_3_GDBCLK_FCLK_EN
+ (0x1u)
+
+	)
+
+874 
+	#CM_PER_TPCC_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+875 
+	#CM_PER_TPCC_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+876 
+	#CM_PER_TPCC_CLKCTRL_IDLEST_DISABLED
+ (0x3u)
+
+	)
+
+877 
+	#CM_PER_TPCC_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+878 
+	#CM_PER_TPCC_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+879 
+	#CM_PER_TPCC_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+881 
+	#CM_PER_TPCC_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+882 
+	#CM_PER_TPCC_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+883 
+	#CM_PER_TPCC_CLKCTRL_MODULEMODE_DISABLE
+ (0x0u)
+
+	)
+
+884 
+	#CM_PER_TPCC_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+885 
+	#CM_PER_TPCC_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+886 
+	#CM_PER_TPCC_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+890 
+	#CM_PER_DCAN0_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+891 
+	#CM_PER_DCAN0_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+892 
+	#CM_PER_DCAN0_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+893 
+	#CM_PER_DCAN0_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+894 
+	#CM_PER_DCAN0_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+895 
+	#CM_PER_DCAN0_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+897 
+	#CM_PER_DCAN0_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+898 
+	#CM_PER_DCAN0_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+899 
+	#CM_PER_DCAN0_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+900 
+	#CM_PER_DCAN0_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+901 
+	#CM_PER_DCAN0_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+902 
+	#CM_PER_DCAN0_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+906 
+	#CM_PER_DCAN1_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+907 
+	#CM_PER_DCAN1_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+908 
+	#CM_PER_DCAN1_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+909 
+	#CM_PER_DCAN1_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+910 
+	#CM_PER_DCAN1_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+911 
+	#CM_PER_DCAN1_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+913 
+	#CM_PER_DCAN1_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+914 
+	#CM_PER_DCAN1_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+915 
+	#CM_PER_DCAN1_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+916 
+	#CM_PER_DCAN1_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+917 
+	#CM_PER_DCAN1_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+918 
+	#CM_PER_DCAN1_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+922 
+	#CM_PER_EPWMSS1_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+923 
+	#CM_PER_EPWMSS1_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+924 
+	#CM_PER_EPWMSS1_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+925 
+	#CM_PER_EPWMSS1_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+926 
+	#CM_PER_EPWMSS1_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+927 
+	#CM_PER_EPWMSS1_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+929 
+	#CM_PER_EPWMSS1_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+930 
+	#CM_PER_EPWMSS1_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+931 
+	#CM_PER_EPWMSS1_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+932 
+	#CM_PER_EPWMSS1_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+933 
+	#CM_PER_EPWMSS1_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+934 
+	#CM_PER_EPWMSS1_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+938 
+	#CM_PER_EMIF_FW_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+939 
+	#CM_PER_EMIF_FW_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+940 
+	#CM_PER_EMIF_FW_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+941 
+	#CM_PER_EMIF_FW_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+942 
+	#CM_PER_EMIF_FW_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+943 
+	#CM_PER_EMIF_FW_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+945 
+	#CM_PER_EMIF_FW_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+946 
+	#CM_PER_EMIF_FW_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+947 
+	#CM_PER_EMIF_FW_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+948 
+	#CM_PER_EMIF_FW_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+949 
+	#CM_PER_EMIF_FW_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+950 
+	#CM_PER_EMIF_FW_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+954 
+	#CM_PER_EPWMSS0_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+955 
+	#CM_PER_EPWMSS0_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+956 
+	#CM_PER_EPWMSS0_CLKCTRL_IDLEST_DISABLED
+ (0x3u)
+
+	)
+
+957 
+	#CM_PER_EPWMSS0_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+958 
+	#CM_PER_EPWMSS0_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+959 
+	#CM_PER_EPWMSS0_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+961 
+	#CM_PER_EPWMSS0_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+962 
+	#CM_PER_EPWMSS0_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+963 
+	#CM_PER_EPWMSS0_CLKCTRL_MODULEMODE_DISABLE
+ (0x0u)
+
+	)
+
+964 
+	#CM_PER_EPWMSS0_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+965 
+	#CM_PER_EPWMSS0_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+966 
+	#CM_PER_EPWMSS0_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+970 
+	#CM_PER_EPWMSS2_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+971 
+	#CM_PER_EPWMSS2_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+972 
+	#CM_PER_EPWMSS2_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+973 
+	#CM_PER_EPWMSS2_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+974 
+	#CM_PER_EPWMSS2_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+975 
+	#CM_PER_EPWMSS2_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+977 
+	#CM_PER_EPWMSS2_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+978 
+	#CM_PER_EPWMSS2_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+979 
+	#CM_PER_EPWMSS2_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+980 
+	#CM_PER_EPWMSS2_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+981 
+	#CM_PER_EPWMSS2_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+982 
+	#CM_PER_EPWMSS2_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+986 
+	#CM_PER_L3_INSTR_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+987 
+	#CM_PER_L3_INSTR_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+988 
+	#CM_PER_L3_INSTR_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+989 
+	#CM_PER_L3_INSTR_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+990 
+	#CM_PER_L3_INSTR_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+991 
+	#CM_PER_L3_INSTR_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+993 
+	#CM_PER_L3_INSTR_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+994 
+	#CM_PER_L3_INSTR_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+995 
+	#CM_PER_L3_INSTR_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+996 
+	#CM_PER_L3_INSTR_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+997 
+	#CM_PER_L3_INSTR_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+998 
+	#CM_PER_L3_INSTR_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+1002 
+	#CM_PER_L3_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+1003 
+	#CM_PER_L3_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+1004 
+	#CM_PER_L3_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+1005 
+	#CM_PER_L3_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+1006 
+	#CM_PER_L3_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+1007 
+	#CM_PER_L3_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+1009 
+	#CM_PER_L3_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+1010 
+	#CM_PER_L3_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+1011 
+	#CM_PER_L3_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+1012 
+	#CM_PER_L3_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+1013 
+	#CM_PER_L3_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+1014 
+	#CM_PER_L3_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+1018 
+	#CM_PER_IEEE5000_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+1019 
+	#CM_PER_IEEE5000_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+1020 
+	#CM_PER_IEEE5000_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+1021 
+	#CM_PER_IEEE5000_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+1022 
+	#CM_PER_IEEE5000_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+1023 
+	#CM_PER_IEEE5000_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+1025 
+	#CM_PER_IEEE5000_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+1026 
+	#CM_PER_IEEE5000_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+1027 
+	#CM_PER_IEEE5000_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+1028 
+	#CM_PER_IEEE5000_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+1029 
+	#CM_PER_IEEE5000_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+1030 
+	#CM_PER_IEEE5000_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+1032 
+	#CM_PER_IEEE5000_CLKCTRL_STBYST
+ (0x00040000u)
+
+	)
+
+1033 
+	#CM_PER_IEEE5000_CLKCTRL_STBYST_SHIFT
+ (0x00000012u)
+
+	)
+
+1034 
+	#CM_PER_IEEE5000_CLKCTRL_STBYST_FUNC
+ (0x0u)
+
+	)
+
+1035 
+	#CM_PER_IEEE5000_CLKCTRL_STBYST_STANDBY
+ (0x1u)
+
+	)
+
+1039 
+	#CM_PER_ICSS_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+1040 
+	#CM_PER_ICSS_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+1041 
+	#CM_PER_ICSS_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+1042 
+	#CM_PER_ICSS_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+1043 
+	#CM_PER_ICSS_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+1044 
+	#CM_PER_ICSS_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+1046 
+	#CM_PER_ICSS_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+1047 
+	#CM_PER_ICSS_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+1048 
+	#CM_PER_ICSS_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+1049 
+	#CM_PER_ICSS_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+1050 
+	#CM_PER_ICSS_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+1051 
+	#CM_PER_ICSS_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+1053 
+	#CM_PER_ICSS_CLKCTRL_STBYST
+ (0x00040000u)
+
+	)
+
+1054 
+	#CM_PER_ICSS_CLKCTRL_STBYST_SHIFT
+ (0x00000012u)
+
+	)
+
+1055 
+	#CM_PER_ICSS_CLKCTRL_STBYST_FUNC
+ (0x0u)
+
+	)
+
+1056 
+	#CM_PER_ICSS_CLKCTRL_STBYST_STANDBY
+ (0x1u)
+
+	)
+
+1060 
+	#CM_PER_TIMER5_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+1061 
+	#CM_PER_TIMER5_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+1062 
+	#CM_PER_TIMER5_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+1063 
+	#CM_PER_TIMER5_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+1064 
+	#CM_PER_TIMER5_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+1065 
+	#CM_PER_TIMER5_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+1067 
+	#CM_PER_TIMER5_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+1068 
+	#CM_PER_TIMER5_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+1069 
+	#CM_PER_TIMER5_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+1070 
+	#CM_PER_TIMER5_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+1071 
+	#CM_PER_TIMER5_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+1072 
+	#CM_PER_TIMER5_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+1076 
+	#CM_PER_TIMER6_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+1077 
+	#CM_PER_TIMER6_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+1078 
+	#CM_PER_TIMER6_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+1079 
+	#CM_PER_TIMER6_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+1080 
+	#CM_PER_TIMER6_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+1081 
+	#CM_PER_TIMER6_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+1083 
+	#CM_PER_TIMER6_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+1084 
+	#CM_PER_TIMER6_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+1085 
+	#CM_PER_TIMER6_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+1086 
+	#CM_PER_TIMER6_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+1087 
+	#CM_PER_TIMER6_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+1088 
+	#CM_PER_TIMER6_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+1092 
+	#CM_PER_MMC1_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+1093 
+	#CM_PER_MMC1_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+1094 
+	#CM_PER_MMC1_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+1095 
+	#CM_PER_MMC1_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+1096 
+	#CM_PER_MMC1_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+1097 
+	#CM_PER_MMC1_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+1099 
+	#CM_PER_MMC1_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+1100 
+	#CM_PER_MMC1_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+1101 
+	#CM_PER_MMC1_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+1102 
+	#CM_PER_MMC1_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+1103 
+	#CM_PER_MMC1_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+1104 
+	#CM_PER_MMC1_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+1108 
+	#CM_PER_MMC2_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+1109 
+	#CM_PER_MMC2_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+1110 
+	#CM_PER_MMC2_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+1111 
+	#CM_PER_MMC2_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+1112 
+	#CM_PER_MMC2_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+1113 
+	#CM_PER_MMC2_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+1115 
+	#CM_PER_MMC2_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+1116 
+	#CM_PER_MMC2_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+1117 
+	#CM_PER_MMC2_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+1118 
+	#CM_PER_MMC2_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+1119 
+	#CM_PER_MMC2_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+1120 
+	#CM_PER_MMC2_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+1124 
+	#CM_PER_TPTC1_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+1125 
+	#CM_PER_TPTC1_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+1126 
+	#CM_PER_TPTC1_CLKCTRL_IDLEST_DISABLED
+ (0x3u)
+
+	)
+
+1127 
+	#CM_PER_TPTC1_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+1128 
+	#CM_PER_TPTC1_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+1129 
+	#CM_PER_TPTC1_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+1131 
+	#CM_PER_TPTC1_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+1132 
+	#CM_PER_TPTC1_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+1133 
+	#CM_PER_TPTC1_CLKCTRL_MODULEMODE_DISABLE
+ (0x0u)
+
+	)
+
+1134 
+	#CM_PER_TPTC1_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+1135 
+	#CM_PER_TPTC1_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+1136 
+	#CM_PER_TPTC1_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+1138 
+	#CM_PER_TPTC1_CLKCTRL_STBYST
+ (0x00040000u)
+
+	)
+
+1139 
+	#CM_PER_TPTC1_CLKCTRL_STBYST_SHIFT
+ (0x00000012u)
+
+	)
+
+1140 
+	#CM_PER_TPTC1_CLKCTRL_STBYST_FUNC
+ (0x0u)
+
+	)
+
+1141 
+	#CM_PER_TPTC1_CLKCTRL_STBYST_STANDBY
+ (0x1u)
+
+	)
+
+1145 
+	#CM_PER_TPTC2_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+1146 
+	#CM_PER_TPTC2_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+1147 
+	#CM_PER_TPTC2_CLKCTRL_IDLEST_DISABLED
+ (0x3u)
+
+	)
+
+1148 
+	#CM_PER_TPTC2_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+1149 
+	#CM_PER_TPTC2_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+1150 
+	#CM_PER_TPTC2_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+1152 
+	#CM_PER_TPTC2_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+1153 
+	#CM_PER_TPTC2_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+1154 
+	#CM_PER_TPTC2_CLKCTRL_MODULEMODE_DISABLE
+ (0x0u)
+
+	)
+
+1155 
+	#CM_PER_TPTC2_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+1156 
+	#CM_PER_TPTC2_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+1157 
+	#CM_PER_TPTC2_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+1159 
+	#CM_PER_TPTC2_CLKCTRL_STBYST
+ (0x00040000u)
+
+	)
+
+1160 
+	#CM_PER_TPTC2_CLKCTRL_STBYST_SHIFT
+ (0x00000012u)
+
+	)
+
+1161 
+	#CM_PER_TPTC2_CLKCTRL_STBYST_FUNC
+ (0x0u)
+
+	)
+
+1162 
+	#CM_PER_TPTC2_CLKCTRL_STBYST_STANDBY
+ (0x1u)
+
+	)
+
+1166 
+	#CM_PER_SPINLOCK_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+1167 
+	#CM_PER_SPINLOCK_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+1168 
+	#CM_PER_SPINLOCK_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+1169 
+	#CM_PER_SPINLOCK_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+1170 
+	#CM_PER_SPINLOCK_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+1171 
+	#CM_PER_SPINLOCK_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+1173 
+	#CM_PER_SPINLOCK_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+1174 
+	#CM_PER_SPINLOCK_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+1175 
+	#CM_PER_SPINLOCK_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+1176 
+	#CM_PER_SPINLOCK_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+1177 
+	#CM_PER_SPINLOCK_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+1178 
+	#CM_PER_SPINLOCK_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+1182 
+	#CM_PER_MAILBOX0_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+1183 
+	#CM_PER_MAILBOX0_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+1184 
+	#CM_PER_MAILBOX0_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+1185 
+	#CM_PER_MAILBOX0_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+1186 
+	#CM_PER_MAILBOX0_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+1187 
+	#CM_PER_MAILBOX0_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+1189 
+	#CM_PER_MAILBOX0_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+1190 
+	#CM_PER_MAILBOX0_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+1191 
+	#CM_PER_MAILBOX0_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+1192 
+	#CM_PER_MAILBOX0_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+1193 
+	#CM_PER_MAILBOX0_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+1194 
+	#CM_PER_MAILBOX0_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+1198 
+	#CM_PER_L4HS_CLKSTCTRL_CLKACTIVITY_CPSW_250MHZ_GCLK
+ (0x00000010u)
+
+	)
+
+1199 
+	#CM_PER_L4HS_CLKSTCTRL_CLKACTIVITY_CPSW_250MHZ_GCLK_SHIFT
+ (0x00000004u)
+
+	)
+
+1200 
+	#CM_PER_L4HS_CLKSTCTRL_CLKACTIVITY_CPSW_250MHZ_GCLK_ACT
+ (0x1u)
+
+	)
+
+1201 
+	#CM_PER_L4HS_CLKSTCTRL_CLKACTIVITY_CPSW_250MHZ_GCLK_INACT
+ (0x0u)
+
+	)
+
+1203 
+	#CM_PER_L4HS_CLKSTCTRL_CLKACTIVITY_CPSW_50MHZ_GCLK
+ (0x00000020u)
+
+	)
+
+1204 
+	#CM_PER_L4HS_CLKSTCTRL_CLKACTIVITY_CPSW_50MHZ_GCLK_SHIFT
+ (0x00000005u)
+
+	)
+
+1205 
+	#CM_PER_L4HS_CLKSTCTRL_CLKACTIVITY_CPSW_50MHZ_GCLK_ACT
+ (0x1u)
+
+	)
+
+1206 
+	#CM_PER_L4HS_CLKSTCTRL_CLKACTIVITY_CPSW_50MHZ_GCLK_INACT
+ (0x0u)
+
+	)
+
+1208 
+	#CM_PER_L4HS_CLKSTCTRL_CLKACTIVITY_CPSW_5MHZ_GCLK
+ (0x00000040u)
+
+	)
+
+1209 
+	#CM_PER_L4HS_CLKSTCTRL_CLKACTIVITY_CPSW_5MHZ_GCLK_SHIFT
+ (0x00000006u)
+
+	)
+
+1210 
+	#CM_PER_L4HS_CLKSTCTRL_CLKACTIVITY_CPSW_5MHZ_GCLK_ACT
+ (0x1u)
+
+	)
+
+1211 
+	#CM_PER_L4HS_CLKSTCTRL_CLKACTIVITY_CPSW_5MHZ_GCLK_INACT
+ (0x0u)
+
+	)
+
+1213 
+	#CM_PER_L4HS_CLKSTCTRL_CLKACTIVITY_L4HS_GCLK
+ (0x00000008u)
+
+	)
+
+1214 
+	#CM_PER_L4HS_CLKSTCTRL_CLKACTIVITY_L4HS_GCLK_SHIFT
+ (0x00000003u)
+
+	)
+
+1215 
+	#CM_PER_L4HS_CLKSTCTRL_CLKACTIVITY_L4HS_GCLK_ACT
+ (0x1u)
+
+	)
+
+1216 
+	#CM_PER_L4HS_CLKSTCTRL_CLKACTIVITY_L4HS_GCLK_INACT
+ (0x0u)
+
+	)
+
+1218 
+	#CM_PER_L4HS_CLKSTCTRL_CLKTRCTRL
+ (0x00000003u)
+
+	)
+
+1219 
+	#CM_PER_L4HS_CLKSTCTRL_CLKTRCTRL_SHIFT
+ (0x00000000u)
+
+	)
+
+1220 
+	#CM_PER_L4HS_CLKSTCTRL_CLKTRCTRL_HW_AUTO
+ (0x3u)
+
+	)
+
+1221 
+	#CM_PER_L4HS_CLKSTCTRL_CLKTRCTRL_NO_SLEEP
+ (0x0u)
+
+	)
+
+1222 
+	#CM_PER_L4HS_CLKSTCTRL_CLKTRCTRL_SW_SLEEP
+ (0x1u)
+
+	)
+
+1223 
+	#CM_PER_L4HS_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+ (0x2u)
+
+	)
+
+1227 
+	#CM_PER_L4HS_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+1228 
+	#CM_PER_L4HS_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+1229 
+	#CM_PER_L4HS_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+1230 
+	#CM_PER_L4HS_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+1231 
+	#CM_PER_L4HS_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+1232 
+	#CM_PER_L4HS_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+1234 
+	#CM_PER_L4HS_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+1235 
+	#CM_PER_L4HS_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+1236 
+	#CM_PER_L4HS_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+1237 
+	#CM_PER_L4HS_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+1238 
+	#CM_PER_L4HS_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+1239 
+	#CM_PER_L4HS_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+1243 
+	#CM_PER_MSTR_EXPS_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+1244 
+	#CM_PER_MSTR_EXPS_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+1245 
+	#CM_PER_MSTR_EXPS_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+1246 
+	#CM_PER_MSTR_EXPS_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+1247 
+	#CM_PER_MSTR_EXPS_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+1248 
+	#CM_PER_MSTR_EXPS_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+1250 
+	#CM_PER_MSTR_EXPS_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+1251 
+	#CM_PER_MSTR_EXPS_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+1252 
+	#CM_PER_MSTR_EXPS_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+1253 
+	#CM_PER_MSTR_EXPS_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+1254 
+	#CM_PER_MSTR_EXPS_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+1255 
+	#CM_PER_MSTR_EXPS_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+1257 
+	#CM_PER_MSTR_EXPS_CLKCTRL_STBYST
+ (0x00040000u)
+
+	)
+
+1258 
+	#CM_PER_MSTR_EXPS_CLKCTRL_STBYST_SHIFT
+ (0x00000012u)
+
+	)
+
+1259 
+	#CM_PER_MSTR_EXPS_CLKCTRL_STBYST_FUNC
+ (0x0u)
+
+	)
+
+1260 
+	#CM_PER_MSTR_EXPS_CLKCTRL_STBYST_STANDBY
+ (0x1u)
+
+	)
+
+1264 
+	#CM_PER_SLV_EXPS_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+1265 
+	#CM_PER_SLV_EXPS_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+1266 
+	#CM_PER_SLV_EXPS_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+1267 
+	#CM_PER_SLV_EXPS_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+1268 
+	#CM_PER_SLV_EXPS_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+1269 
+	#CM_PER_SLV_EXPS_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+1271 
+	#CM_PER_SLV_EXPS_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+1272 
+	#CM_PER_SLV_EXPS_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+1273 
+	#CM_PER_SLV_EXPS_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+1274 
+	#CM_PER_SLV_EXPS_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+1275 
+	#CM_PER_SLV_EXPS_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+1276 
+	#CM_PER_SLV_EXPS_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+1280 
+	#CM_PER_OCPWP_L3_CLKSTCTRL_CLKACTIVITY_OCPWP_L3_GCLK
+ (0x00000010u)
+
+	)
+
+1281 
+	#CM_PER_OCPWP_L3_CLKSTCTRL_CLKACTIVITY_OCPWP_L3_GCLK_SHIFT
+ (0x00000004u)
+
+	)
+
+1282 
+	#CM_PER_OCPWP_L3_CLKSTCTRL_CLKACTIVITY_OCPWP_L3_GCLK_ACT
+ (0x1u)
+
+	)
+
+1283 
+	#CM_PER_OCPWP_L3_CLKSTCTRL_CLKACTIVITY_OCPWP_L3_GCLK_INACT
+ (0x0u)
+
+	)
+
+1285 
+	#CM_PER_OCPWP_L3_CLKSTCTRL_CLKACTIVITY_OCPWP_L4_GCLK
+ (0x00000020u)
+
+	)
+
+1286 
+	#CM_PER_OCPWP_L3_CLKSTCTRL_CLKACTIVITY_OCPWP_L4_GCLK_SHIFT
+ (0x00000005u)
+
+	)
+
+1287 
+	#CM_PER_OCPWP_L3_CLKSTCTRL_CLKACTIVITY_OCPWP_L4_GCLK_ACT
+ (0x1u)
+
+	)
+
+1288 
+	#CM_PER_OCPWP_L3_CLKSTCTRL_CLKACTIVITY_OCPWP_L4_GCLK_INACT
+ (0x0u)
+
+	)
+
+1290 
+	#CM_PER_OCPWP_L3_CLKSTCTRL_CLKTRCTRL
+ (0x00000003u)
+
+	)
+
+1291 
+	#CM_PER_OCPWP_L3_CLKSTCTRL_CLKTRCTRL_SHIFT
+ (0x00000000u)
+
+	)
+
+1292 
+	#CM_PER_OCPWP_L3_CLKSTCTRL_CLKTRCTRL_HW_AUTO
+ (0x3u)
+
+	)
+
+1293 
+	#CM_PER_OCPWP_L3_CLKSTCTRL_CLKTRCTRL_NO_SLEEP
+ (0x0u)
+
+	)
+
+1294 
+	#CM_PER_OCPWP_L3_CLKSTCTRL_CLKTRCTRL_SW_SLEEP
+ (0x1u)
+
+	)
+
+1295 
+	#CM_PER_OCPWP_L3_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+ (0x2u)
+
+	)
+
+1299 
+	#CM_PER_OCPWP_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+1300 
+	#CM_PER_OCPWP_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+1301 
+	#CM_PER_OCPWP_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+1302 
+	#CM_PER_OCPWP_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+1303 
+	#CM_PER_OCPWP_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+1304 
+	#CM_PER_OCPWP_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+1306 
+	#CM_PER_OCPWP_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+1307 
+	#CM_PER_OCPWP_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+1308 
+	#CM_PER_OCPWP_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+1309 
+	#CM_PER_OCPWP_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+1310 
+	#CM_PER_OCPWP_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+1311 
+	#CM_PER_OCPWP_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+1313 
+	#CM_PER_OCPWP_CLKCTRL_STBYST
+ (0x00040000u)
+
+	)
+
+1314 
+	#CM_PER_OCPWP_CLKCTRL_STBYST_SHIFT
+ (0x00000012u)
+
+	)
+
+1315 
+	#CM_PER_OCPWP_CLKCTRL_STBYST_FUNC
+ (0x0u)
+
+	)
+
+1316 
+	#CM_PER_OCPWP_CLKCTRL_STBYST_STANDBY
+ (0x1u)
+
+	)
+
+1320 
+	#CM_PER_ICSS_CLKSTCTRL_CLKACTIVITY_ICSS_IEP_GCLK
+ (0x00000020u)
+
+	)
+
+1321 
+	#CM_PER_ICSS_CLKSTCTRL_CLKACTIVITY_ICSS_IEP_GCLK_SHIFT
+ (0x00000005u)
+
+	)
+
+1322 
+	#CM_PER_ICSS_CLKSTCTRL_CLKACTIVITY_ICSS_IEP_GCLK_ACT
+ (0x1u)
+
+	)
+
+1323 
+	#CM_PER_ICSS_CLKSTCTRL_CLKACTIVITY_ICSS_IEP_GCLK_INACT
+ (0x0u)
+
+	)
+
+1325 
+	#CM_PER_ICSS_CLKSTCTRL_CLKACTIVITY_ICSS_OCP_GCLK
+ (0x00000010u)
+
+	)
+
+1326 
+	#CM_PER_ICSS_CLKSTCTRL_CLKACTIVITY_ICSS_OCP_GCLK_SHIFT
+ (0x00000004u)
+
+	)
+
+1327 
+	#CM_PER_ICSS_CLKSTCTRL_CLKACTIVITY_ICSS_OCP_GCLK_ACT
+ (0x1u)
+
+	)
+
+1328 
+	#CM_PER_ICSS_CLKSTCTRL_CLKACTIVITY_ICSS_OCP_GCLK_INACT
+ (0x0u)
+
+	)
+
+1330 
+	#CM_PER_ICSS_CLKSTCTRL_CLKACTIVITY_ICSS_UART_GCLK
+ (0x00000040u)
+
+	)
+
+1331 
+	#CM_PER_ICSS_CLKSTCTRL_CLKACTIVITY_ICSS_UART_GCLK_SHIFT
+ (0x00000006u)
+
+	)
+
+1332 
+	#CM_PER_ICSS_CLKSTCTRL_CLKACTIVITY_ICSS_UART_GCLK_ACT
+ (0x1u)
+
+	)
+
+1333 
+	#CM_PER_ICSS_CLKSTCTRL_CLKACTIVITY_ICSS_UART_GCLK_INACT
+ (0x0u)
+
+	)
+
+1335 
+	#CM_PER_ICSS_CLKSTCTRL_CLKTRCTRL
+ (0x00000003u)
+
+	)
+
+1336 
+	#CM_PER_ICSS_CLKSTCTRL_CLKTRCTRL_SHIFT
+ (0x00000000u)
+
+	)
+
+1337 
+	#CM_PER_ICSS_CLKSTCTRL_CLKTRCTRL_HW_AUTO
+ (0x3u)
+
+	)
+
+1338 
+	#CM_PER_ICSS_CLKSTCTRL_CLKTRCTRL_NO_SLEEP
+ (0x0u)
+
+	)
+
+1339 
+	#CM_PER_ICSS_CLKSTCTRL_CLKTRCTRL_SW_SLEEP
+ (0x1u)
+
+	)
+
+1340 
+	#CM_PER_ICSS_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+ (0x2u)
+
+	)
+
+1344 
+	#CM_PER_CPSW_CLKSTCTRL_CLKACTIVITY_CPSW_125MHZ_GCLK
+ (0x00000010u)
+
+	)
+
+1345 
+	#CM_PER_CPSW_CLKSTCTRL_CLKACTIVITY_CPSW_125MHZ_GCLK_SHIFT
+ (0x00000004u)
+
+	)
+
+1346 
+	#CM_PER_CPSW_CLKSTCTRL_CLKACTIVITY_CPSW_125MHZ_GCLK_ACT
+ (0x1u)
+
+	)
+
+1347 
+	#CM_PER_CPSW_CLKSTCTRL_CLKACTIVITY_CPSW_125MHZ_GCLK_INACT
+ (0x0u)
+
+	)
+
+1349 
+	#CM_PER_CPSW_CLKSTCTRL_CLKTRCTRL
+ (0x00000003u)
+
+	)
+
+1350 
+	#CM_PER_CPSW_CLKSTCTRL_CLKTRCTRL_SHIFT
+ (0x00000000u)
+
+	)
+
+1351 
+	#CM_PER_CPSW_CLKSTCTRL_CLKTRCTRL_HW_AUTO
+ (0x3u)
+
+	)
+
+1352 
+	#CM_PER_CPSW_CLKSTCTRL_CLKTRCTRL_NO_SLEEP
+ (0x0u)
+
+	)
+
+1353 
+	#CM_PER_CPSW_CLKSTCTRL_CLKTRCTRL_SW_SLEEP
+ (0x1u)
+
+	)
+
+1354 
+	#CM_PER_CPSW_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+ (0x2u)
+
+	)
+
+1358 
+	#CM_PER_LCDC_CLKSTCTRL_CLKACTIVITY_LCDC_L3_OCP_GCLK
+ (0x00000010u)
+
+	)
+
+1359 
+	#CM_PER_LCDC_CLKSTCTRL_CLKACTIVITY_LCDC_L3_OCP_GCLK_SHIFT
+ (0x00000004u)
+
+	)
+
+1360 
+	#CM_PER_LCDC_CLKSTCTRL_CLKACTIVITY_LCDC_L3_OCP_GCLK_ACT
+ (0x1u)
+
+	)
+
+1361 
+	#CM_PER_LCDC_CLKSTCTRL_CLKACTIVITY_LCDC_L3_OCP_GCLK_INACT
+ (0x0u)
+
+	)
+
+1363 
+	#CM_PER_LCDC_CLKSTCTRL_CLKACTIVITY_LCDC_L4_OCP_GCLK
+ (0x00000020u)
+
+	)
+
+1364 
+	#CM_PER_LCDC_CLKSTCTRL_CLKACTIVITY_LCDC_L4_OCP_GCLK_SHIFT
+ (0x00000005u)
+
+	)
+
+1365 
+	#CM_PER_LCDC_CLKSTCTRL_CLKACTIVITY_LCDC_L4_OCP_GCLK_ACT
+ (0x1u)
+
+	)
+
+1366 
+	#CM_PER_LCDC_CLKSTCTRL_CLKACTIVITY_LCDC_L4_OCP_GCLK_INACT
+ (0x0u)
+
+	)
+
+1368 
+	#CM_PER_LCDC_CLKSTCTRL_CLKTRCTRL
+ (0x00000003u)
+
+	)
+
+1369 
+	#CM_PER_LCDC_CLKSTCTRL_CLKTRCTRL_SHIFT
+ (0x00000000u)
+
+	)
+
+1370 
+	#CM_PER_LCDC_CLKSTCTRL_CLKTRCTRL_HW_AUTO
+ (0x3u)
+
+	)
+
+1371 
+	#CM_PER_LCDC_CLKSTCTRL_CLKTRCTRL_NO_SLEEP
+ (0x0u)
+
+	)
+
+1372 
+	#CM_PER_LCDC_CLKSTCTRL_CLKTRCTRL_SW_SLEEP
+ (0x1u)
+
+	)
+
+1373 
+	#CM_PER_LCDC_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+ (0x2u)
+
+	)
+
+1377 
+	#CM_PER_CLKDIV32K_CLKCTRL_IDLEST
+ (0x00030000u)
+
+	)
+
+1378 
+	#CM_PER_CLKDIV32K_CLKCTRL_IDLEST_SHIFT
+ (0x00000010u)
+
+	)
+
+1379 
+	#CM_PER_CLKDIV32K_CLKCTRL_IDLEST_DISABLE
+ (0x3u)
+
+	)
+
+1380 
+	#CM_PER_CLKDIV32K_CLKCTRL_IDLEST_FUNC
+ (0x0u)
+
+	)
+
+1381 
+	#CM_PER_CLKDIV32K_CLKCTRL_IDLEST_IDLE
+ (0x2u)
+
+	)
+
+1382 
+	#CM_PER_CLKDIV32K_CLKCTRL_IDLEST_TRANS
+ (0x1u)
+
+	)
+
+1384 
+	#CM_PER_CLKDIV32K_CLKCTRL_MODULEMODE
+ (0x00000003u)
+
+	)
+
+1385 
+	#CM_PER_CLKDIV32K_CLKCTRL_MODULEMODE_SHIFT
+ (0x00000000u)
+
+	)
+
+1386 
+	#CM_PER_CLKDIV32K_CLKCTRL_MODULEMODE_DISABLED
+ (0x0u)
+
+	)
+
+1387 
+	#CM_PER_CLKDIV32K_CLKCTRL_MODULEMODE_ENABLE
+ (0x2u)
+
+	)
+
+1388 
+	#CM_PER_CLKDIV32K_CLKCTRL_MODULEMODE_RESERVED
+ (0x3u)
+
+	)
+
+1389 
+	#CM_PER_CLKDIV32K_CLKCTRL_MODULEMODE_RESERVED_1
+ (0x1u)
+
+	)
+
+1393 
+	#CM_PER_CLK_24MHZ_CLKSTCTRL_CLKACTIVITY_CLK_24MHZ_GCLK
+ (0x00000010u)
+
+	)
+
+1394 
+	#CM_PER_CLK_24MHZ_CLKSTCTRL_CLKACTIVITY_CLK_24MHZ_GCLK_SHIFT
+ (0x00000004u)
+
+	)
+
+1395 
+	#CM_PER_CLK_24MHZ_CLKSTCTRL_CLKACTIVITY_CLK_24MHZ_GCLK_ACT
+ (0x1u)
+
+	)
+
+1396 
+	#CM_PER_CLK_24MHZ_CLKSTCTRL_CLKACTIVITY_CLK_24MHZ_GCLK_INACT
+ (0x0u)
+
+	)
+
+1398 
+	#CM_PER_CLK_24MHZ_CLKSTCTRL_CLKTRCTRL
+ (0x00000003u)
+
+	)
+
+1399 
+	#CM_PER_CLK_24MHZ_CLKSTCTRL_CLKTRCTRL_SHIFT
+ (0x00000000u)
+
+	)
+
+1400 
+	#CM_PER_CLK_24MHZ_CLKSTCTRL_CLKTRCTRL_HW_AUTO
+ (0x3u)
+
+	)
+
+1401 
+	#CM_PER_CLK_24MHZ_CLKSTCTRL_CLKTRCTRL_NO_SLEEP
+ (0x0u)
+
+	)
+
+1402 
+	#CM_PER_CLK_24MHZ_CLKSTCTRL_CLKTRCTRL_SW_SLEEP
+ (0x1u)
+
+	)
+
+1403 
+	#CM_PER_CLK_24MHZ_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+ (0x2u)
+
+	)
+
+	@inc/hw_dmtimer.h
+
+45 #i‚de‡
+_HW_DMTIMER_H_
+
+
+46 
+	#_HW_DMTIMER_H_
+
+
+	)
+
+48 #ifde‡
+__˝lu•lus
+
+
+73 
+	#DMTIMER_TIDR
+ (0x0)
+
+	)
+
+74 
+	#DMTIMER_TIOCP_CFG
+ (0x10)
+
+	)
+
+75 
+	#DMTIMER_IRQ_EOI
+ (0x20)
+
+	)
+
+76 
+	#DMTIMER_IRQSTATUS_RAW
+ (0x24)
+
+	)
+
+77 
+	#DMTIMER_IRQSTATUS
+ (0x28)
+
+	)
+
+78 
+	#DMTIMER_IRQENABLE_SET
+ (0x2C)
+
+	)
+
+79 
+	#DMTIMER_IRQENABLE_CLR
+ (0x30)
+
+	)
+
+80 
+	#DMTIMER_IRQWAKEEN
+ (0x34)
+
+	)
+
+81 
+	#DMTIMER_TCLR
+ (0x38)
+
+	)
+
+82 
+	#DMTIMER_TCRR
+ (0x3C)
+
+	)
+
+83 
+	#DMTIMER_TLDR
+ (0x40)
+
+	)
+
+84 
+	#DMTIMER_TTGR
+ (0x44)
+
+	)
+
+85 
+	#DMTIMER_TWPS
+ (0x48)
+
+	)
+
+86 
+	#DMTIMER_TMAR
+ (0x4C)
+
+	)
+
+87 
+	#DMTIMER_TCAR
+(
+n
+Ë(0x50 + ((“Ë- 1Ë* 8))
+
+	)
+
+88 
+	#DMTIMER_TSICR
+ (0x54)
+
+	)
+
+95 
+	#DMTIMER_TIDR_CUSTOM
+ (0x000000C0u)
+
+	)
+
+96 
+	#DMTIMER_TIDR_CUSTOM_SHIFT
+ (0x00000006u)
+
+	)
+
+98 
+	#DMTIMER_TIDR_FUNC
+ (0x0FFF0000u)
+
+	)
+
+99 
+	#DMTIMER_TIDR_FUNC_SHIFT
+ (0x00000010u)
+
+	)
+
+101 
+	#DMTIMER_TIDR_R_RTL
+ (0x0000F800u)
+
+	)
+
+102 
+	#DMTIMER_TIDR_R_RTL_SHIFT
+ (0x0000000Bu)
+
+	)
+
+104 
+	#DMTIMER_TIDR_SCHEME
+ (0xC0000000u)
+
+	)
+
+105 
+	#DMTIMER_TIDR_SCHEME_SHIFT
+ (0x0000001Eu)
+
+	)
+
+106 
+	#DMTIMER_TIDR_SCHEME_HIGHLANDER0P8
+ (0x1u)
+
+	)
+
+107 
+	#DMTIMER_TIDR_SCHEME_LEGACY
+ (0x0u)
+
+	)
+
+109 
+	#DMTIMER_TIDR_X_MAJOR
+ (0x00000700u)
+
+	)
+
+110 
+	#DMTIMER_TIDR_X_MAJOR_SHIFT
+ (0x00000008u)
+
+	)
+
+112 
+	#DMTIMER_TIDR_Y_MINOR
+ (0x0000003Fu)
+
+	)
+
+113 
+	#DMTIMER_TIDR_Y_MINOR_SHIFT
+ (0x00000000u)
+
+	)
+
+117 
+	#DMTIMER_TIOCP_CFG_EMUFREE
+ (0x00000002u)
+
+	)
+
+118 
+	#DMTIMER_TIOCP_CFG_EMUFREE_SHIFT
+ (0x00000001u)
+
+	)
+
+119 
+	#DMTIMER_TIOCP_CFG_EMUFREE_TIMER_FREE
+ (0x1u)
+
+	)
+
+120 
+	#DMTIMER_TIOCP_CFG_EMUFREE_TIMER_FROZEN
+ (0x0u)
+
+	)
+
+122 
+	#DMTIMER_TIOCP_CFG_IDLEMODE
+ (0x0000000Cu)
+
+	)
+
+123 
+	#DMTIMER_TIOCP_CFG_IDLEMODE_SHIFT
+ (0x00000002u)
+
+	)
+
+124 
+	#DMTIMER_TIOCP_CFG_IDLEMODE_FORCE
+ (0x0u)
+
+	)
+
+125 
+	#DMTIMER_TIOCP_CFG_IDLEMODE_NOIDLE
+ (0x1u)
+
+	)
+
+126 
+	#DMTIMER_TIOCP_CFG_IDLEMODE_SMART
+ (0x2u)
+
+	)
+
+127 
+	#DMTIMER_TIOCP_CFG_IDLEMODE_WAKEUP
+ (0x3u)
+
+	)
+
+129 
+	#DMTIMER_TIOCP_CFG_SOFTRESET
+ (0x00000001u)
+
+	)
+
+130 
+	#DMTIMER_TIOCP_CFG_SOFTRESET_SHIFT
+ (0x00000000u)
+
+	)
+
+131 
+	#DMTIMER_TIOCP_CFG_SOFTRESET_DONE
+ (0x0u)
+
+	)
+
+132 
+	#DMTIMER_TIOCP_CFG_SOFTRESET_INITIATE
+ (0x1u)
+
+	)
+
+133 
+	#DMTIMER_TIOCP_CFG_SOFTRESET_ONGOING
+ (0x1u)
+
+	)
+
+137 
+	#DMTIMER_IRQ_EOI_LINE_NUMBER
+ (0x00000001u)
+
+	)
+
+138 
+	#DMTIMER_IRQ_EOI_LINE_NUMBER_SHIFT
+ (0x00000000u)
+
+	)
+
+142 
+	#DMTIMER_IRQSTATUS_RAW_MAT_IT_FLAG
+ (0x00000001u)
+
+	)
+
+143 
+	#DMTIMER_IRQSTATUS_RAW_MAT_IT_FLAG_SHIFT
+ (0x00000000u)
+
+	)
+
+144 
+	#DMTIMER_IRQSTATUS_RAW_MAT_IT_FLAG_NONE
+ (0x0u)
+
+	)
+
+145 
+	#DMTIMER_IRQSTATUS_RAW_MAT_IT_FLAG_PENDING
+ (0x1u)
+
+	)
+
+146 
+	#DMTIMER_IRQSTATUS_RAW_MAT_IT_FLAG_SET
+ (0x1u)
+
+	)
+
+148 
+	#DMTIMER_IRQSTATUS_RAW_OVF_IT_FLAG
+ (0x00000002u)
+
+	)
+
+149 
+	#DMTIMER_IRQSTATUS_RAW_OVF_IT_FLAG_SHIFT
+ (0x00000001u)
+
+	)
+
+150 
+	#DMTIMER_IRQSTATUS_RAW_OVF_IT_FLAG_NONE
+ (0x0u)
+
+	)
+
+151 
+	#DMTIMER_IRQSTATUS_RAW_OVF_IT_FLAG_PENDING
+ (0x1u)
+
+	)
+
+152 
+	#DMTIMER_IRQSTATUS_RAW_OVF_IT_FLAG_SET
+ (0x1u)
+
+	)
+
+154 
+	#DMTIMER_IRQSTATUS_RAW_TCAR_IT_FLAG
+ (0x00000004u)
+
+	)
+
+155 
+	#DMTIMER_IRQSTATUS_RAW_TCAR_IT_FLAG_SHIFT
+ (0x00000002u)
+
+	)
+
+156 
+	#DMTIMER_IRQSTATUS_RAW_TCAR_IT_FLAG_NONE
+ (0x0u)
+
+	)
+
+157 
+	#DMTIMER_IRQSTATUS_RAW_TCAR_IT_FLAG_PENDING
+ (0x1u)
+
+	)
+
+158 
+	#DMTIMER_IRQSTATUS_RAW_TCAR_IT_FLAG_SET
+ (0x1u)
+
+	)
+
+162 
+	#DMTIMER_IRQSTATUS_MAT_IT_FLAG
+ (0x00000001u)
+
+	)
+
+163 
+	#DMTIMER_IRQSTATUS_MAT_IT_FLAG_SHIFT
+ (0x00000000u)
+
+	)
+
+164 
+	#DMTIMER_IRQSTATUS_MAT_IT_FLAG_CLEAR
+ (0x1u)
+
+	)
+
+165 
+	#DMTIMER_IRQSTATUS_MAT_IT_FLAG_NONE
+ (0x0u)
+
+	)
+
+166 
+	#DMTIMER_IRQSTATUS_MAT_IT_FLAG_PENDING
+ (0x1u)
+
+	)
+
+168 
+	#DMTIMER_IRQSTATUS_OVF_IT_FLAG
+ (0x00000002u)
+
+	)
+
+169 
+	#DMTIMER_IRQSTATUS_OVF_IT_FLAG_SHIFT
+ (0x00000001u)
+
+	)
+
+170 
+	#DMTIMER_IRQSTATUS_OVF_IT_FLAG_CLEAR
+ (0x1u)
+
+	)
+
+171 
+	#DMTIMER_IRQSTATUS_OVF_IT_FLAG_NONE
+ (0x0u)
+
+	)
+
+172 
+	#DMTIMER_IRQSTATUS_OVF_IT_FLAG_PENDING
+ (0x1u)
+
+	)
+
+174 
+	#DMTIMER_IRQSTATUS_TCAR_IT_FLAG
+ (0x00000004u)
+
+	)
+
+175 
+	#DMTIMER_IRQSTATUS_TCAR_IT_FLAG_SHIFT
+ (0x00000002u)
+
+	)
+
+176 
+	#DMTIMER_IRQSTATUS_TCAR_IT_FLAG_CLEAR
+ (0x1u)
+
+	)
+
+177 
+	#DMTIMER_IRQSTATUS_TCAR_IT_FLAG_NONE
+ (0x0u)
+
+	)
+
+178 
+	#DMTIMER_IRQSTATUS_TCAR_IT_FLAG_PENDING
+ (0x1u)
+
+	)
+
+182 
+	#DMTIMER_IRQENABLE_SET_MAT_EN_FLAG
+ (0x00000001u)
+
+	)
+
+183 
+	#DMTIMER_IRQENABLE_SET_MAT_EN_FLAG_SHIFT
+ (0x00000000u)
+
+	)
+
+184 
+	#DMTIMER_IRQENABLE_SET_MAT_EN_FLAG_DISABLED
+ (0x0u)
+
+	)
+
+185 
+	#DMTIMER_IRQENABLE_SET_MAT_EN_FLAG_ENABLE
+ (0x1u)
+
+	)
+
+186 
+	#DMTIMER_IRQENABLE_SET_MAT_EN_FLAG_ENABLED
+ (0x1u)
+
+	)
+
+188 
+	#DMTIMER_IRQENABLE_SET_OVF_EN_FLAG
+ (0x00000002u)
+
+	)
+
+189 
+	#DMTIMER_IRQENABLE_SET_OVF_EN_FLAG_SHIFT
+ (0x00000001u)
+
+	)
+
+190 
+	#DMTIMER_IRQENABLE_SET_OVF_EN_FLAG_DISABLED
+ (0x0u)
+
+	)
+
+191 
+	#DMTIMER_IRQENABLE_SET_OVF_EN_FLAG_ENABLE
+ (0x1u)
+
+	)
+
+192 
+	#DMTIMER_IRQENABLE_SET_OVF_EN_FLAG_ENABLED
+ (0x1u)
+
+	)
+
+194 
+	#DMTIMER_IRQENABLE_SET_TCAR_EN_FLAG
+ (0x00000004u)
+
+	)
+
+195 
+	#DMTIMER_IRQENABLE_SET_TCAR_EN_FLAG_SHIFT
+ (0x00000002u)
+
+	)
+
+196 
+	#DMTIMER_IRQENABLE_SET_TCAR_EN_FLAG_DISABLED
+ (0x0u)
+
+	)
+
+197 
+	#DMTIMER_IRQENABLE_SET_TCAR_EN_FLAG_ENABLE
+ (0x1u)
+
+	)
+
+198 
+	#DMTIMER_IRQENABLE_SET_TCAR_EN_FLAG_ENABLED
+ (0x1u)
+
+	)
+
+202 
+	#DMTIMER_IRQENABLE_CLR_MAT_EN_FLAG
+ (0x00000001u)
+
+	)
+
+203 
+	#DMTIMER_IRQENABLE_CLR_MAT_EN_FLAG_SHIFT
+ (0x00000000u)
+
+	)
+
+204 
+	#DMTIMER_IRQENABLE_CLR_MAT_EN_FLAG_DISABLE
+ (0x1u)
+
+	)
+
+205 
+	#DMTIMER_IRQENABLE_CLR_MAT_EN_FLAG_DISABLED
+ (0x0u)
+
+	)
+
+206 
+	#DMTIMER_IRQENABLE_CLR_MAT_EN_FLAG_ENABLED
+ (0x1u)
+
+	)
+
+208 
+	#DMTIMER_IRQENABLE_CLR_OVF_EN_FLAG
+ (0x00000002u)
+
+	)
+
+209 
+	#DMTIMER_IRQENABLE_CLR_OVF_EN_FLAG_SHIFT
+ (0x00000001u)
+
+	)
+
+210 
+	#DMTIMER_IRQENABLE_CLR_OVF_EN_FLAG_DISABLE
+ (0x1u)
+
+	)
+
+211 
+	#DMTIMER_IRQENABLE_CLR_OVF_EN_FLAG_DISABLED
+ (0x0u)
+
+	)
+
+212 
+	#DMTIMER_IRQENABLE_CLR_OVF_EN_FLAG_ENABLED
+ (0x1u)
+
+	)
+
+214 
+	#DMTIMER_IRQENABLE_CLR_TCAR_EN_FLAG
+ (0x00000004u)
+
+	)
+
+215 
+	#DMTIMER_IRQENABLE_CLR_TCAR_EN_FLAG_SHIFT
+ (0x00000002u)
+
+	)
+
+216 
+	#DMTIMER_IRQENABLE_CLR_TCAR_EN_FLAG_DISABLE
+ (0x1u)
+
+	)
+
+217 
+	#DMTIMER_IRQENABLE_CLR_TCAR_EN_FLAG_DISABLED
+ (0x0u)
+
+	)
+
+218 
+	#DMTIMER_IRQENABLE_CLR_TCAR_EN_FLAG_ENABLED
+ (0x1u)
+
+	)
+
+222 
+	#DMTIMER_IRQWAKEEN_MAT_WUP_ENA
+ (0x00000001u)
+
+	)
+
+223 
+	#DMTIMER_IRQWAKEEN_MAT_WUP_ENA_SHIFT
+ (0x00000000u)
+
+	)
+
+224 
+	#DMTIMER_IRQWAKEEN_MAT_WUP_ENA_DISABLE
+ (0x0u)
+
+	)
+
+225 
+	#DMTIMER_IRQWAKEEN_MAT_WUP_ENA_ENABLE
+ (0x1u)
+
+	)
+
+227 
+	#DMTIMER_IRQWAKEEN_OVF_WUP_ENA
+ (0x00000002u)
+
+	)
+
+228 
+	#DMTIMER_IRQWAKEEN_OVF_WUP_ENA_SHIFT
+ (0x00000001u)
+
+	)
+
+229 
+	#DMTIMER_IRQWAKEEN_OVF_WUP_ENA_DISABLE
+ (0x0u)
+
+	)
+
+230 
+	#DMTIMER_IRQWAKEEN_OVF_WUP_ENA_ENABLE
+ (0x1u)
+
+	)
+
+232 
+	#DMTIMER_IRQWAKEEN_TCAR_WUP_ENA
+ (0x00000004u)
+
+	)
+
+233 
+	#DMTIMER_IRQWAKEEN_TCAR_WUP_ENA_SHIFT
+ (0x00000002u)
+
+	)
+
+234 
+	#DMTIMER_IRQWAKEEN_TCAR_WUP_ENA_DISABLE
+ (0x0u)
+
+	)
+
+235 
+	#DMTIMER_IRQWAKEEN_TCAR_WUP_ENA_ENABLE
+ (0x1u)
+
+	)
+
+239 
+	#DMTIMER_TCLR_AR
+ (0x00000002u)
+
+	)
+
+240 
+	#DMTIMER_TCLR_AR_SHIFT
+ (0x00000001u)
+
+	)
+
+241 
+	#DMTIMER_TCLR_AR_AUTO
+ (0x1u)
+
+	)
+
+242 
+	#DMTIMER_TCLR_AR_ONESHOT
+ (0x0u)
+
+	)
+
+244 
+	#DMTIMER_TCLR_CAPT_MODE
+ (0x00002000u)
+
+	)
+
+245 
+	#DMTIMER_TCLR_CAPT_MODE_SHIFT
+ (0x0000000Du)
+
+	)
+
+246 
+	#DMTIMER_TCLR_CAPT_MODE_SECOND
+ (0x1u)
+
+	)
+
+247 
+	#DMTIMER_TCLR_CAPT_MODE_SINGLE
+ (0x0u)
+
+	)
+
+249 
+	#DMTIMER_TCLR_CE
+ (0x00000040u)
+
+	)
+
+250 
+	#DMTIMER_TCLR_CE_SHIFT
+ (0x00000006u)
+
+	)
+
+251 
+	#DMTIMER_TCLR_CE_DISABLE
+ (0x0u)
+
+	)
+
+252 
+	#DMTIMER_TCLR_CE_ENABLE
+ (0x1u)
+
+	)
+
+254 
+	#DMTIMER_TCLR_GPO_CFG
+ (0x00004000u)
+
+	)
+
+255 
+	#DMTIMER_TCLR_GPO_CFG_SHIFT
+ (0x0000000Eu)
+
+	)
+
+256 
+	#DMTIMER_TCLR_GPO_CFG_DRIVE1
+ (0x1u)
+
+	)
+
+257 
+	#DMTIMER_TCLR_GPO_CFG_DRIVE0
+ (0x0u)
+
+	)
+
+259 
+	#DMTIMER_TCLR_PRE
+ (0x00000020u)
+
+	)
+
+260 
+	#DMTIMER_TCLR_PRE_SHIFT
+ (0x00000005u)
+
+	)
+
+261 
+	#DMTIMER_TCLR_PRE_DISABLE
+ (0x0u)
+
+	)
+
+262 
+	#DMTIMER_TCLR_PRE_ENABLE
+ (0x1u)
+
+	)
+
+264 
+	#DMTIMER_TCLR_PT
+ (0x00001000u)
+
+	)
+
+265 
+	#DMTIMER_TCLR_PT_SHIFT
+ (0x0000000Cu)
+
+	)
+
+266 
+	#DMTIMER_TCLR_PT_PULSE
+ (0x0u)
+
+	)
+
+267 
+	#DMTIMER_TCLR_PT_TOGGLE
+ (0x1u)
+
+	)
+
+269 
+	#DMTIMER_TCLR_PTV
+ (0x0000001Cu)
+
+	)
+
+270 
+	#DMTIMER_TCLR_PTV_SHIFT
+ (0x00000002u)
+
+	)
+
+272 
+	#DMTIMER_TCLR_SCPWM
+ (0x00000080u)
+
+	)
+
+273 
+	#DMTIMER_TCLR_SCPWM_SHIFT
+ (0x00000007u)
+
+	)
+
+274 
+	#DMTIMER_TCLR_SCPWM_CLEAR
+ (0x0u)
+
+	)
+
+275 
+	#DMTIMER_TCLR_SCPWM_SET
+ (0x1u)
+
+	)
+
+277 
+	#DMTIMER_TCLR_ST
+ (0x00000001u)
+
+	)
+
+278 
+	#DMTIMER_TCLR_ST_SHIFT
+ (0x00000000u)
+
+	)
+
+279 
+	#DMTIMER_TCLR_ST_START
+ (0x1u)
+
+	)
+
+280 
+	#DMTIMER_TCLR_ST_STOP
+ (0x0u)
+
+	)
+
+282 
+	#DMTIMER_TCLR_TCM
+ (0x00000300u)
+
+	)
+
+283 
+	#DMTIMER_TCLR_TCM_SHIFT
+ (0x00000008u)
+
+	)
+
+284 
+	#DMTIMER_TCLR_TCM_BOTH
+ (0x3u)
+
+	)
+
+285 
+	#DMTIMER_TCLR_TCM_HIGHLOW
+ (0x2u)
+
+	)
+
+286 
+	#DMTIMER_TCLR_TCM_LOWHIGH
+ (0x1u)
+
+	)
+
+287 
+	#DMTIMER_TCLR_TCM_NOCAPTURE
+ (0x0u)
+
+	)
+
+289 
+	#DMTIMER_TCLR_TRG
+ (0x00000C00u)
+
+	)
+
+290 
+	#DMTIMER_TCLR_TRG_SHIFT
+ (0x0000000Au)
+
+	)
+
+291 
+	#DMTIMER_TCLR_TRG_NOTRIGGER
+ (0x0u)
+
+	)
+
+292 
+	#DMTIMER_TCLR_TRG_OVERFLOW
+ (0x1u)
+
+	)
+
+293 
+	#DMTIMER_TCLR_TRG_OVERFLOWANDMATCH
+ (0x2u)
+
+	)
+
+297 
+	#DMTIMER_TCRR_TIMER_COUNTER
+ (0xFFFFFFFFu)
+
+	)
+
+298 
+	#DMTIMER_TCRR_TIMER_COUNTER_SHIFT
+ (0x00000000u)
+
+	)
+
+302 
+	#DMTIMER_TLDR_LOAD_VALUE
+ (0xFFFFFFFFu)
+
+	)
+
+303 
+	#DMTIMER_TLDR_LOAD_VALUE_SHIFT
+ (0x00000000u)
+
+	)
+
+307 
+	#DMTIMER_TTGR_TTGR_VALUE
+ (0xFFFFFFFFu)
+
+	)
+
+308 
+	#DMTIMER_TTGR_TTGR_VALUE_SHIFT
+ (0x00000000u)
+
+	)
+
+312 
+	#DMTIMER_TWPS_W_PEND_TCLR
+ (0x00000001u)
+
+	)
+
+313 
+	#DMTIMER_TWPS_W_PEND_TCLR_SHIFT
+ (0x00000000u)
+
+	)
+
+314 
+	#DMTIMER_TWPS_W_PEND_TCLR_NONE
+ (0x0u)
+
+	)
+
+315 
+	#DMTIMER_TWPS_W_PEND_TCLR_PENDING
+ (0x1u)
+
+	)
+
+317 
+	#DMTIMER_TWPS_W_PEND_TCRR
+ (0x00000002u)
+
+	)
+
+318 
+	#DMTIMER_TWPS_W_PEND_TCRR_SHIFT
+ (0x00000001u)
+
+	)
+
+319 
+	#DMTIMER_TWPS_W_PEND_TCRR_NONE
+ (0x0u)
+
+	)
+
+320 
+	#DMTIMER_TWPS_W_PEND_TCRR_PENDING
+ (0x1u)
+
+	)
+
+322 
+	#DMTIMER_TWPS_W_PEND_TLDR
+ (0x00000004u)
+
+	)
+
+323 
+	#DMTIMER_TWPS_W_PEND_TLDR_SHIFT
+ (0x00000002u)
+
+	)
+
+324 
+	#DMTIMER_TWPS_W_PEND_TLDR_NONE
+ (0x0u)
+
+	)
+
+325 
+	#DMTIMER_TWPS_W_PEND_TLDR_PENDING
+ (0x1u)
+
+	)
+
+327 
+	#DMTIMER_TWPS_W_PEND_TMAR
+ (0x00000010u)
+
+	)
+
+328 
+	#DMTIMER_TWPS_W_PEND_TMAR_SHIFT
+ (0x00000004u)
+
+	)
+
+329 
+	#DMTIMER_TWPS_W_PEND_TMAR_NONE
+ (0x0u)
+
+	)
+
+330 
+	#DMTIMER_TWPS_W_PEND_TMAR_PENDING
+ (0x1u)
+
+	)
+
+332 
+	#DMTIMER_TWPS_W_PEND_TTGR
+ (0x00000008u)
+
+	)
+
+333 
+	#DMTIMER_TWPS_W_PEND_TTGR_SHIFT
+ (0x00000003u)
+
+	)
+
+334 
+	#DMTIMER_TWPS_W_PEND_TTGR_NONE
+ (0x0u)
+
+	)
+
+335 
+	#DMTIMER_TWPS_W_PEND_TTGR_PENDING
+ (0x1u)
+
+	)
+
+339 
+	#DMTIMER_TMAR_COMPARE_VALUE
+ (0xFFFFFFFFu)
+
+	)
+
+340 
+	#DMTIMER_TMAR_COMPARE_VALUE_SHIFT
+ (0x00000000u)
+
+	)
+
+344 
+	#DMTIMER_TCAR1_CAPTURED_VALUE
+ (0xFFFFFFFFu)
+
+	)
+
+345 
+	#DMTIMER_TCAR1_CAPTURED_VALUE_SHIFT
+ (0x00000000u)
+
+	)
+
+349 
+	#DMTIMER_TSICR_POSTED
+ (0x00000004u)
+
+	)
+
+350 
+	#DMTIMER_TSICR_POSTED_SHIFT
+ (0x00000002u)
+
+	)
+
+351 
+	#DMTIMER_TSICR_POSTED_ACTIVE
+ (0x1u)
+
+	)
+
+352 
+	#DMTIMER_TSICR_POSTED_INACTIVE
+ (0x0u)
+
+	)
+
+354 
+	#DMTIMER_TSICR_SFT
+ (0x00000002u)
+
+	)
+
+355 
+	#DMTIMER_TSICR_SFT_SHIFT
+ (0x00000001u)
+
+	)
+
+356 
+	#DMTIMER_TSICR_SFT_RESETDISABLE
+ (0x1u)
+
+	)
+
+357 
+	#DMTIMER_TSICR_SFT_RESETENABLE
+ (0x0u)
+
+	)
+
+361 
+	#DMTIMER_TCAR2_CAPTURED_VALUE
+ (0xFFFFFFFFu)
+
+	)
+
+362 
+	#DMTIMER_TCAR2_CAPTURED_VALUE_SHIFT
+ (0x00000000u)
+
+	)
+
+366 #ifde‡
+__˝lu•lus
+
+
+	@inc/hw_types.h
+
+42 #i‚de‡
+_HW_TYPES_H_
+
+
+43 
+	#_HW_TYPES_H_
+
+
+	)
+
+50 
+	ttBoﬁón
+;
+
+53 
+	måue
+ = 1,
+
+54 
+	mÁl£
+ = 0
+
+55 }
+	tboﬁ
+;
+
+57 #i‚de‡
+NULL
+
+
+58 
+	#NULL
+ ((*Ë0)
+
+	)
+
+66 
+	#HWREG
+(
+x
+) \
+
+67 (*((vﬁ©ûê*)(
+x
+)))
+
+	)
+
+68 
+	#HWREGH
+(
+x
+) \
+
+69 (*((vﬁ©ûê*)(
+x
+)))
+
+	)
+
+70 
+	#HWREGB
+(
+x
+) \
+
+71 (*((vﬁ©ûê*)(
+x
+)))
+
+	)
+
+72 
+	#HWREGBITW
+(
+x
+, 
+b
+) \
+
+73 
+	`HWREG
+((()(
+x
+) & 0xF0000000) | 0x02000000 | \
+
+74 ((()(
+x
+Ë& 0x000FFFFFË<< 5Ë| ((
+b
+Ë<< 2))
+
+	)
+
+75 
+	#HWREGBITH
+(
+x
+, 
+b
+) \
+
+76 
+	`HWREGH
+((()(
+x
+) & 0xF0000000) | 0x02000000 | \
+
+77 ((()(
+x
+Ë& 0x000FFFFFË<< 5Ë| ((
+b
+Ë<< 2))
+
+	)
+
+78 
+	#HWREGBITB
+(
+x
+, 
+b
+) \
+
+79 
+	`HWREGB
+((()(
+x
+) & 0xF0000000) | 0x02000000 | \
+
+80 ((()(
+x
+Ë& 0x000FFFFFË<< 5Ë| ((
+b
+Ë<< 2))
+
+	)
+
+82 
+	#TRUE
+ 1
+
+	)
+
+83 
+	#FALSE
+ 0
+
+	)
+
+	@inc/interrupt.h
+
+1 #i‚de‡
+INTERRUPT_H_
+
+
+2 
+	#INTERRUPT_H_
+
+
+	)
+
+22 
+	~"soc_AM335x.h
+"
+
+23 
+	~"hw_ty≥s.h
+"
+
+24 
+	~"˝u.h
+"
+
+26 #ifde‡
+__˝lu•lus
+
+
+37 
+	#AINTC_HOSTINT_ROUTE_IRQ
+ (0)
+
+	)
+
+40 
+	#AINTC_HOSTINT_ROUTE_FIQ
+ (0x00000001u)
+
+	)
+
+45 
+	#SYS_INT_EMUINT
+ (0)
+
+	)
+
+46 
+	#SYS_INT_COMMTX
+ (1)
+
+	)
+
+47 
+	#SYS_INT_COMMRX
+ (2)
+
+	)
+
+48 
+	#SYS_INT_BENCH
+ (3)
+
+	)
+
+49 
+	#SYS_INT_ELM_IRQ
+ (4)
+
+	)
+
+50 
+	#SYS_INT_SSM_WFI_IRQ
+ (5)
+
+	)
+
+51 
+	#SYS_INT_SSM_IRQ
+ (6)
+
+	)
+
+52 
+	#SYS_INT_NMI
+ (7)
+
+	)
+
+53 
+	#SYS_INT_SEC_EVNT
+ (8)
+
+	)
+
+54 
+	#SYS_INT_L3DEBUG
+ (9)
+
+	)
+
+55 
+	#SYS_INT_L3APPINT
+ (10)
+
+	)
+
+56 
+	#SYS_INT_PRCMINT
+ (11)
+
+	)
+
+57 
+	#SYS_INT_EDMACOMPINT
+ (12)
+
+	)
+
+58 
+	#SYS_INT_EDMAMPERR
+ (13)
+
+	)
+
+59 
+	#SYS_INT_EDMAERRINT
+ (14)
+
+	)
+
+60 
+	#SYS_INT_WDT0INT
+ (15)
+
+	)
+
+61 
+	#SYS_INT_ADC_TSC_GENINT
+ (16)
+
+	)
+
+62 
+	#SYS_INT_USBSSINT
+ (17)
+
+	)
+
+63 
+	#SYS_INT_USB0
+ (18)
+
+	)
+
+64 
+	#SYS_INT_USB1
+ (19)
+
+	)
+
+65 
+	#SYS_INT_PRUSS1_EVTOUT0
+ (20)
+
+	)
+
+66 
+	#SYS_INT_PRUSS1_EVTOUT1
+ (21)
+
+	)
+
+67 
+	#SYS_INT_PRUSS1_EVTOUT2
+ (22)
+
+	)
+
+68 
+	#SYS_INT_PRUSS1_EVTOUT3
+ (23)
+
+	)
+
+69 
+	#SYS_INT_PRUSS1_EVTOUT4
+ (24)
+
+	)
+
+70 
+	#SYS_INT_PRUSS1_EVTOUT5
+ (25)
+
+	)
+
+71 
+	#SYS_INT_PRUSS1_EVTOUT6
+ (26)
+
+	)
+
+72 
+	#SYS_INT_PRUSS1_EVTOUT7
+ (27)
+
+	)
+
+73 
+	#SYS_INT_MMCSD1INT
+ (28)
+
+	)
+
+74 
+	#SYS_INT_MMCSD2INT
+ (29)
+
+	)
+
+75 
+	#SYS_INT_I2C2INT
+ (30)
+
+	)
+
+76 
+	#SYS_INT_eCAP0INT
+ (31)
+
+	)
+
+77 
+	#SYS_INT_GPIOINT2A
+ (32)
+
+	)
+
+78 
+	#SYS_INT_GPIOINT2B
+ (33)
+
+	)
+
+79 
+	#SYS_INT_USBWAKEUP
+ (34)
+
+	)
+
+80 
+	#SYS_INT_LCDCINT
+ (36)
+
+	)
+
+81 
+	#SYS_INT_GFXINT
+ (37)
+
+	)
+
+82 
+	#SYS_INT_2DHWAINT
+ (38)
+
+	)
+
+83 
+	#SYS_INT_ePWM2INT
+ (39)
+
+	)
+
+84 
+	#SYS_INT_3PGSWRXTHR0
+ (40)
+
+	)
+
+85 
+	#SYS_INT_3PGSWRXINT0
+ (41)
+
+	)
+
+86 
+	#SYS_INT_3PGSWTXINT0
+ (42)
+
+	)
+
+87 
+	#SYS_INT_3PGSWMISC0
+ (43)
+
+	)
+
+88 
+	#SYS_INT_UART3INT
+ (44)
+
+	)
+
+89 
+	#SYS_INT_UART4INT
+ (45)
+
+	)
+
+90 
+	#SYS_INT_UART5INT
+ (46)
+
+	)
+
+91 
+	#SYS_INT_eCAP1INT
+ (47)
+
+	)
+
+92 
+	#SYS_INT_DCAN0_INT0
+ (52)
+
+	)
+
+93 
+	#SYS_INT_DCAN0_INT1
+ (53)
+
+	)
+
+94 
+	#SYS_INT_DCAN0_PARITY
+ (54)
+
+	)
+
+95 
+	#SYS_INT_DCAN1_INT0
+ (55)
+
+	)
+
+96 
+	#SYS_INT_DCAN1_INT1
+ (56)
+
+	)
+
+97 
+	#SYS_INT_DCAN1_PARITY
+ (57)
+
+	)
+
+98 
+	#SYS_INT_ePWM0_TZINT
+ (58)
+
+	)
+
+99 
+	#SYS_INT_ePWM1_TZINT
+ (59)
+
+	)
+
+100 
+	#SYS_INT_ePWM2_TZINT
+ (60)
+
+	)
+
+101 
+	#SYS_INT_eCAP2INT
+ (61)
+
+	)
+
+102 
+	#SYS_INT_GPIOINT3A
+ (62)
+
+	)
+
+103 
+	#SYS_INT_GPIOINT3B
+ (63)
+
+	)
+
+104 
+	#SYS_INT_MMCSD0INT
+ (64)
+
+	)
+
+105 
+	#SYS_INT_SPI0INT
+ (65)
+
+	)
+
+106 
+	#SYS_INT_TINT0
+ (66)
+
+	)
+
+107 
+	#SYS_INT_TINT1_1MS
+ (67)
+
+	)
+
+108 
+	#SYS_INT_TINT2
+ (68)
+
+	)
+
+109 
+	#SYS_INT_TINT3
+ (69)
+
+	)
+
+110 
+	#SYS_INT_I2C0INT
+ (70)
+
+	)
+
+111 
+	#SYS_INT_I2C1INT
+ (71)
+
+	)
+
+112 
+	#SYS_INT_UART0INT
+ (72)
+
+	)
+
+113 
+	#SYS_INT_UART1INT
+ (73)
+
+	)
+
+114 
+	#SYS_INT_UART2INT
+ (74)
+
+	)
+
+115 
+	#SYS_INT_RTCINT
+ (75)
+
+	)
+
+116 
+	#SYS_INT_RTCALARMINT
+ (76)
+
+	)
+
+117 
+	#SYS_INT_MBINT0
+ (77)
+
+	)
+
+118 
+	#SYS_INT_M3_TXEV
+ (78)
+
+	)
+
+119 
+	#SYS_INT_eQEP0INT
+ (79)
+
+	)
+
+120 
+	#SYS_INT_MCATXINT0
+ (80)
+
+	)
+
+121 
+	#SYS_INT_MCARXINT0
+ (81)
+
+	)
+
+122 
+	#SYS_INT_MCATXINT1
+ (82)
+
+	)
+
+123 
+	#SYS_INT_MCARXINT1
+ (83)
+
+	)
+
+124 
+	#SYS_INT_ePWM0INT
+ (86)
+
+	)
+
+125 
+	#SYS_INT_ePWM1INT
+ (87)
+
+	)
+
+126 
+	#SYS_INT_eQEP1INT
+ (88)
+
+	)
+
+127 
+	#SYS_INT_eQEP2INT
+ (89)
+
+	)
+
+128 
+	#SYS_INT_DMA_INTR_PIN2
+ (90)
+
+	)
+
+129 
+	#SYS_INT_WDT1INT
+ (91)
+
+	)
+
+130 
+	#SYS_INT_TINT4
+ (92)
+
+	)
+
+131 
+	#SYS_INT_TINT5
+ (93)
+
+	)
+
+132 
+	#SYS_INT_TINT6
+ (94)
+
+	)
+
+133 
+	#SYS_INT_TINT7
+ (95)
+
+	)
+
+134 
+	#SYS_INT_GPIOINT0A
+ (96)
+
+	)
+
+135 
+	#SYS_INT_GPIOINT0B
+ (97)
+
+	)
+
+136 
+	#SYS_INT_GPIOINT1A
+ (98)
+
+	)
+
+137 
+	#SYS_INT_GPIOINT1B
+ (99)
+
+	)
+
+138 
+	#SYS_INT_GPMCINT
+ (100)
+
+	)
+
+139 
+	#SYS_INT_DDRERR0
+ (101)
+
+	)
+
+140 
+	#SYS_INT_AES0_IRQ_S
+ (102)
+
+	)
+
+141 
+	#SYS_INT_AES0_IRQ_P
+ (103)
+
+	)
+
+142 
+	#SYS_INT_SHA_IRQ_S
+ (108)
+
+	)
+
+143 
+	#SYS_INT_SHA_IRQ_P
+ (109)
+
+	)
+
+144 
+	#SYS_INT_FPKA_SINTREQUEST_S
+ (110)
+
+	)
+
+145 
+	#SYS_INT_RNG_IRQ
+ (111)
+
+	)
+
+146 
+	#SYS_INT_TCERRINT0
+ (112)
+
+	)
+
+147 
+	#SYS_INT_TCERRINT1
+ (113)
+
+	)
+
+148 
+	#SYS_INT_TCERRINT2
+ (114)
+
+	)
+
+149 
+	#SYS_INT_SMRFLX_SabîtoŸh
+ (120)
+
+	)
+
+150 
+	#SYS_INT_SMRFLX_C‹e
+ (121)
+
+	)
+
+151 
+	#SYS_INT_DMA_INTR_PIN0
+ (123)
+
+	)
+
+152 
+	#SYS_INT_DMA_INTR_PIN1
+ (124)
+
+	)
+
+153 
+	#SYS_INT_SPI1INT
+ (125)
+
+	)
+
+158 
+I¡Regi°î
+(
+öåNum
+, (*
+‚H™dÀr
+)());
+
+159 
+I¡UnRegi°î
+(
+öåNum
+);
+
+160 
+I¡AINTCInô
+();
+
+161 
+I¡Pri‹ôySë
+(
+öåNum
+, 
+¥i‹ôy
+, 
+ho°I¡Rouã
+);
+
+162 
+I¡Sy°emE«bÀ
+(
+öåNum
+);
+
+163 
+I¡Sy°emDißbÀ
+(
+öåNum
+);
+
+164 
+I¡Ma°îIRQE«bÀ
+();
+
+165 
+I¡Ma°îIRQDißbÀ
+();
+
+167 #ifde‡
+__˝lu•lus
+
+
+	@inc/pad.h
+
+1 #i‚de‡
+__PAD_H
+
+
+2 
+	#__PAD_H
+
+
+	)
+
+23 
+	~"c⁄åﬁ_moduÀ.h
+"
+
+29 
+	mMODE_0
+ = 0,
+
+30 
+	mMODE_1
+ = 1,
+
+31 
+	mMODE_2
+ = 2,
+
+32 
+	mMODE_3
+ = 3,
+
+33 
+	mMODE_4
+ = 4,
+
+34 
+	mMODE_5
+ = 5,
+
+35 
+	mMODE_6
+ = 6,
+
+36 
+	mMODE_7
+ = 7
+
+38 }
+	tpömode_t
+;
+
+43 
+∑dSëMode
+(
+CONTROL_MODULE
+ 
+off£t
+, 
+pömode_t
+ 
+mode
+);
+
+44 
+pömode_t
+ 
+∑dGëMode
+(
+CONTROL_MODULE
+ 
+off£t
+);
+
+	@inc/soc_AM335x.h
+
+44 #i‚de‡
+_SOC_AM33XX_H_
+
+
+45 
+	#_SOC_AM33XX_H_
+
+
+	)
+
+47 #ifde‡
+__˝lu•lus
+
+
+52 
+	#SOC_CACHELINE_SIZE_MAX
+ (64)
+
+	)
+
+55 
+	#SOC_AINTC_REGS
+ (0x48200000)
+
+	)
+
+58 
+	#SOC_UART_0_REGS
+ (0x44E09000)
+
+	)
+
+59 
+	#SOC_UART_1_REGS
+ (0x48022000)
+
+	)
+
+60 
+	#SOC_UART_2_REGS
+ (0x48024000)
+
+	)
+
+61 
+	#SOC_UART_3_REGS
+ (0x481A6000)
+
+	)
+
+62 
+	#SOC_UART_4_REGS
+ (0x481A8000)
+
+	)
+
+63 
+	#SOC_UART_5_REGS
+ (0x481AA000)
+
+	)
+
+66 
+	#SOC_USB_0_BASE
+ (0x47401400)
+
+	)
+
+67 
+	#SOC_USB_1_BASE
+ (0x47401C00)
+
+	)
+
+69 
+	#SOC_SPI_0_REGS
+ (0x48030000)
+
+	)
+
+70 
+	#SOC_SPI_1_REGS
+ (0x481A0000)
+
+	)
+
+73 
+	#SOC_GPIO_0_REGS
+ (0x44E07000)
+
+	)
+
+74 
+	#SOC_GPIO_1_REGS
+ (0x4804C000)
+
+	)
+
+75 
+	#SOC_GPIO_2_REGS
+ (0x481AC000)
+
+	)
+
+76 
+	#SOC_GPIO_3_REGS
+ (0x481AE000)
+
+	)
+
+79 
+	#SOC_DMTIMER_0_REGS
+ (0x44E05000)
+
+	)
+
+80 
+	#SOC_DMTIMER_1_REGS
+ (0x44E31000)
+
+	)
+
+81 
+	#SOC_DMTIMER_2_REGS
+ (0x48040000)
+
+	)
+
+82 
+	#SOC_DMTIMER_3_REGS
+ (0x48042000)
+
+	)
+
+83 
+	#SOC_DMTIMER_4_REGS
+ (0x48044000)
+
+	)
+
+84 
+	#SOC_DMTIMER_5_REGS
+ (0x48046000)
+
+	)
+
+85 
+	#SOC_DMTIMER_6_REGS
+ (0x48048000)
+
+	)
+
+86 
+	#SOC_DMTIMER_7_REGS
+ (0x4804A000)
+
+	)
+
+89 
+	#SOC_MMCHS_0_REGS
+ (0x48060000)
+
+	)
+
+90 
+	#SOC_MMCHS_1_REGS
+ (0x481D8000)
+
+	)
+
+91 
+	#SOC_MMCHS_2_REGS
+ (0x47810000)
+
+	)
+
+94 
+	#SOC_GPMC_0_REGS
+ (0x50000000)
+
+	)
+
+97 
+	#SOC_ELM_0_REGS
+ (0x48080000)
+
+	)
+
+100 
+	#SOC_I2C_0_REGS
+ (0x44E0B000)
+
+	)
+
+101 
+	#SOC_I2C_1_REGS
+ (0x4802A000)
+
+	)
+
+102 
+	#SOC_I2C_2_REGS
+ (0x4819C000)
+
+	)
+
+105 
+	#SOC_WDT_0_REGS
+ (0x44E33000)
+
+	)
+
+106 
+	#SOC_WDT_1_REGS
+ (0x44E35000)
+
+	)
+
+109 
+	#SOC_CPSW_SS_REGS
+ (0x4A100000)
+
+	)
+
+110 
+	#SOC_CPSW_MDIO_REGS
+ (0x4A101000)
+
+	)
+
+111 
+	#SOC_CPSW_WR_REGS
+ (0x4A101200)
+
+	)
+
+112 
+	#SOC_CPSW_CPDMA_REGS
+ (0x4A100800)
+
+	)
+
+113 
+	#SOC_CPSW_ALE_REGS
+ (0x4A100D00)
+
+	)
+
+114 
+	#SOC_CPSW_STAT_REGS
+ (0x4A100900)
+
+	)
+
+115 
+	#SOC_CPSW_PORT_0_REGS
+ (0x4A100100)
+
+	)
+
+116 
+	#SOC_CPSW_PORT_1_REGS
+ (0x4A100200)
+
+	)
+
+117 
+	#SOC_CPSW_SLIVER_1_REGS
+ (0x4A100D80)
+
+	)
+
+118 
+	#SOC_CPSW_PORT_2_REGS
+ (0x4A100300)
+
+	)
+
+119 
+	#SOC_CPSW_SLIVER_2_REGS
+ (0x4A100DC0)
+
+	)
+
+120 
+	#SOC_CPSW_CPPI_RAM_REGS
+ (0x4A102000)
+
+	)
+
+123 
+	#SOC_MCASP_0_CTRL_REGS
+ (0x48038000)
+
+	)
+
+124 
+	#SOC_MCASP_0_FIFO_REGS
+ (
+SOC_MCASP_0_CTRL_REGS
+ + 0x1000)
+
+	)
+
+125 
+	#SOC_MCASP_0_DATA_REGS
+ (0x46000000)
+
+	)
+
+126 
+	#SOC_MCASP_1_CTRL_REGS
+ (0x4803C000)
+
+	)
+
+127 
+	#SOC_MCASP_1_FIFO_REGS
+ (
+SOC_MCASP_1_CTRL_REGS
+ + 0x1000)
+
+	)
+
+128 
+	#SOC_MCASP_1_DATA_REGS
+ (0x46400000)
+
+	)
+
+131 
+	#SOC_EMIF_0_REGS
+ (0x4C000000)
+
+	)
+
+134 
+	#SOC_RTC_0_REGS
+ (0x44E3E000)
+
+	)
+
+137 
+	#SOC_PRCM_REGS
+ (0x44E00000)
+
+	)
+
+138 
+	#SOC_CM_PER_REGS
+ (
+SOC_PRCM_REGS
+ + 0)
+
+	)
+
+139 
+	#SOC_CM_WKUP_REGS
+ (
+SOC_PRCM_REGS
+ + 0x400)
+
+	)
+
+140 
+	#SOC_CM_DPLL_REGS
+ (
+SOC_PRCM_REGS
+ + 0x500)
+
+	)
+
+141 
+	#SOC_CM_MPU_REGS
+ (
+SOC_PRCM_REGS
+ + 0x600)
+
+	)
+
+142 
+	#SOC_CM_DEVICE_REGS
+ (
+SOC_PRCM_REGS
+ + 0x700)
+
+	)
+
+143 
+	#SOC_CM_RTC_REGS
+ (
+SOC_PRCM_REGS
+ + 0x800)
+
+	)
+
+144 
+	#SOC_CM_GFX_REGS
+ (
+SOC_PRCM_REGS
+ + 0x900)
+
+	)
+
+145 
+	#SOC_CM_CEFUSE_REGS
+ (
+SOC_PRCM_REGS
+ + 0xA00)
+
+	)
+
+146 
+	#SOC_OCP_SOCKET_RAM_REGS
+ (
+SOC_PRCM_REGS
+ + 0xB00)
+
+	)
+
+147 
+	#SOC_PRM_PER_REGS
+ (
+SOC_PRCM_REGS
+ + 0xC00)
+
+	)
+
+148 
+	#SOC_PRM_WKUP_REGS
+ (
+SOC_PRCM_REGS
+ + 0xD00)
+
+	)
+
+149 
+	#SOC_PRM_MPU_REGS
+ (
+SOC_PRCM_REGS
+ + 0xE00)
+
+	)
+
+150 
+	#SOC_PRM_DEVICE_REGS
+ (
+SOC_PRCM_REGS
+ + 0xF00)
+
+	)
+
+151 
+	#SOC_PRM_RTC_REGS
+ (
+SOC_PRCM_REGS
+ + 0x1000)
+
+	)
+
+152 
+	#SOC_PRM_GFX_REGS
+ (
+SOC_PRCM_REGS
+ + 0x1100)
+
+	)
+
+153 
+	#SOC_PRM_CEFUSE_REGS
+ (
+SOC_PRCM_REGS
+ + 0x1200)
+
+	)
+
+156 
+	#SOC_CONTROL_REGS
+ (0x44E10000)
+
+	)
+
+160 
+	#SOC_EDMA30CC_0_REGS
+ (0x49000000)
+
+	)
+
+163 
+	#SOC_DCAN_0_REGS
+ (0x481CC000)
+
+	)
+
+164 
+	#SOC_DCAN_1_REGS
+ (0x481D0000)
+
+	)
+
+170 
+	#TPCC_MUX
+(
+n
+Ë0xF90 + (“Ë* 4)
+
+	)
+
+173 
+	#SOC_LCDC_0_REGS
+ 0x4830E000
+
+	)
+
+175 
+	#SOC_ADC_TSC_0_REGS
+ 0x44E0D000
+
+	)
+
+179 
+	#SOC_PWMSS0_REGS
+ (0x48300000)
+
+	)
+
+180 
+	#SOC_PWMSS1_REGS
+ (0x48302000)
+
+	)
+
+181 
+	#SOC_PWMSS2_REGS
+ (0x48304000)
+
+	)
+
+183 
+	#SOC_ECAP_REGS
+ (0x00000100)
+
+	)
+
+184 
+	#SOC_EQEP_REGS
+ (0x00000180)
+
+	)
+
+185 
+	#SOC_EPWM_REGS
+ (0x00000200)
+
+	)
+
+187 
+	#SOC_ECAP_0_REGS
+ (
+SOC_PWMSS0_REGS
+ + 
+SOC_ECAP_REGS
+)
+
+	)
+
+188 
+	#SOC_ECAP_1_REGS
+ (
+SOC_PWMSS1_REGS
+ + 
+SOC_ECAP_REGS
+)
+
+	)
+
+189 
+	#SOC_ECAP_2_REGS
+ (
+SOC_PWMSS2_REGS
+ + 
+SOC_ECAP_REGS
+)
+
+	)
+
+191 
+	#SOC_EQEP_0_REGS
+ (
+SOC_PWMSS0_REGS
+ + 
+SOC_EQEP_REGS
+)
+
+	)
+
+192 
+	#SOC_EQEP_1_REGS
+ (
+SOC_PWMSS1_REGS
+ + 
+SOC_EQEP_REGS
+)
+
+	)
+
+193 
+	#SOC_EQEP_2_REGS
+ (
+SOC_PWMSS2_REGS
+ + 
+SOC_EQEP_REGS
+)
+
+	)
+
+195 
+	#SOC_EPWM_0_REGS
+ (
+SOC_PWMSS0_REGS
+ + 
+SOC_EPWM_REGS
+)
+
+	)
+
+196 
+	#SOC_EPWM_1_REGS
+ (
+SOC_PWMSS1_REGS
+ + 
+SOC_EPWM_REGS
+)
+
+	)
+
+197 
+	#SOC_EPWM_2_REGS
+ (
+SOC_PWMSS2_REGS
+ + 
+SOC_EPWM_REGS
+)
+
+	)
+
+200 
+	#SOC_EPWM_MODULE_FREQ
+ 100
+
+	)
+
+202 #ifde‡
+__˝lu•lus
+
+
+	@inc/timer.h
+
+1 #i‚de‡
+TIMER_H_
+
+
+2 
+	#TIMER_H_
+
+
+	)
+
+21 
+	~"soc_AM335x.h
+"
+
+22 
+	~"hw_ty≥s.h
+"
+
+23 
+	~"hw_dmtimî.h
+"
+
+24 
+	~"hw_cm_≥r.h
+"
+
+25 
+	~"hw_cm_d∂l.h
+"
+
+26 
+	~"öãºu±.h
+"
+
+27 
+	~"˛ock_moduÀ.h
+"
+
+28 
+	~"c⁄åﬁ_moduÀ.h
+"
+
+33 
+	#TIMER_INITIAL_COUNT
+ (0xFF000000u)
+
+	)
+
+34 
+	#TIMER_RLD_COUNT
+ (0xFF000000u)
+
+	)
+
+40 
+	#TIMER_1MS_COUNT
+ (0x5DC0u)
+
+	)
+
+41 
+	#TIMER_OVERFLOW
+ (0xFFFFFFFFu)
+
+	)
+
+43 
+	#DELAY_USE_INTERRUPTS
+ 0
+
+	)
+
+51 
+	#DMTIMER_PRESCALER_CLK_DIV_BY_2
+ ((0 << 
+DMTIMER_TCLR_PTV_SHIFT
+) | \
+
+52 
+DMTIMER_TCLR_PRE
+)
+
+	)
+
+55 
+	#DMTIMER_PRESCALER_CLK_DIV_BY_4
+ ((1 << 
+DMTIMER_TCLR_PTV_SHIFT
+) | \
+
+56 
+DMTIMER_TCLR_PRE
+)
+
+	)
+
+59 
+	#DMTIMER_PRESCALER_CLK_DIV_BY_8
+ ((2 << 
+DMTIMER_TCLR_PTV_SHIFT
+) | \
+
+60 
+DMTIMER_TCLR_PRE
+)
+
+	)
+
+63 
+	#DMTIMER_PRESCALER_CLK_DIV_BY_16
+ ((3 << 
+DMTIMER_TCLR_PTV_SHIFT
+) | \
+
+64 
+DMTIMER_TCLR_PRE
+)
+
+	)
+
+67 
+	#DMTIMER_PRESCALER_CLK_DIV_BY_32
+ ((4 << 
+DMTIMER_TCLR_PTV_SHIFT
+) | \
+
+68 
+DMTIMER_TCLR_PRE
+)
+
+	)
+
+71 
+	#DMTIMER_PRESCALER_CLK_DIV_BY_64
+ ((5 << 
+DMTIMER_TCLR_PTV_SHIFT
+) | \
+
+72 
+DMTIMER_TCLR_PRE
+)
+
+	)
+
+75 
+	#DMTIMER_PRESCALER_CLK_DIV_BY_128
+ ((6 << 
+DMTIMER_TCLR_PTV_SHIFT
+) | \
+
+76 
+DMTIMER_TCLR_PRE
+)
+
+	)
+
+79 
+	#DMTIMER_PRESCALER_CLK_DIV_BY_256
+ ((7 << 
+DMTIMER_TCLR_PTV_SHIFT
+) | \
+
+80 
+DMTIMER_TCLR_PRE
+)
+
+	)
+
+87 
+	#DMTIMER_ONESHOT_CMP_ENABLE
+ (
+DMTIMER_TCLR_CE
+)
+
+	)
+
+90 
+	#DMTIMER_ONESHOT_NOCMP_ENABLE
+ (0x0000000)
+
+	)
+
+93 
+	#DMTIMER_AUTORLD_CMP_ENABLE
+ (
+DMTIMER_TCLR_AR
+ | 
+DMTIMER_TCLR_CE
+)
+
+	)
+
+96 
+	#DMTIMER_AUTORLD_NOCMP_ENABLE
+ (
+DMTIMER_TCLR_AR
+)
+
+	)
+
+103 
+	#DMTIMER_GPO_CFG_0
+ (
+DMTIMER_TCLR_GPO_CFG_DRIVE0
+)
+
+	)
+
+106 
+	#DMTIMER_GPO_CFG_1
+ (
+DMTIMER_TCLR_GPO_CFG_DRIVE1
+ << \
+
+107 
+DMTIMER_TCLR_GPO_CFG_SHIFT
+)
+
+	)
+
+118 
+	#DMTIMER_INT_TCAR_IT_FLAG
+ (
+DMTIMER_IRQSTATUS_RAW_TCAR_IT_FLAG
+)
+
+	)
+
+121 
+	#DMTIMER_INT_OVF_IT_FLAG
+ (
+DMTIMER_IRQSTATUS_RAW_OVF_IT_FLAG
+)
+
+	)
+
+124 
+	#DMTIMER_INT_MAT_IT_FLAG
+ (
+DMTIMER_IRQSTATUS_RAW_MAT_IT_FLAG
+)
+
+	)
+
+135 
+	#DMTIMER_INT_TCAR_EN_FLAG
+ (
+DMTIMER_IRQENABLE_SET_TCAR_EN_FLAG
+)
+
+	)
+
+138 
+	#DMTIMER_INT_OVF_EN_FLAG
+ (
+DMTIMER_IRQENABLE_SET_OVF_EN_FLAG
+)
+
+	)
+
+141 
+	#DMTIMER_INT_MAT_EN_FLAG
+ (
+DMTIMER_IRQENABLE_SET_MAT_EN_FLAG
+)
+
+	)
+
+148 
+	#DMTIMER_SFT_RESET_ENABLE
+ (
+DMTIMER_TSICR_SFT_RESETENABLE
+)
+
+	)
+
+151 
+	#DMTIMER_SFT_RESET_DISABLE
+ (
+DMTIMER_TSICR_SFT
+)
+
+	)
+
+159 
+	#DMTIMER_IS_RESET_DONE
+ (
+DMTIMER_TIOCP_CFG_SOFTRESET_DONE
+)
+
+	)
+
+162 
+	#DMTIMER_IS_RESET_ONGOING
+ (
+DMTIMER_TIOCP_CFG_SOFTRESET_ONGOING
+)
+
+	)
+
+169 
+	#DMTIMER_POSTED
+ (
+DMTIMER_TSICR_POSTED
+)
+
+	)
+
+172 
+	#DMTIMER_NONPOSTED
+ (
+DMTIMER_TSICR_POSTED_INACTIVE
+)
+
+	)
+
+180 
+	#DMTIMER_WRITE_POST_TMAR
+ (
+DMTIMER_TWPS_W_PEND_TMAR
+)
+
+	)
+
+183 
+	#DMTIMER_WRITE_POST_TTGR
+ (
+DMTIMER_TWPS_W_PEND_TTGR
+)
+
+	)
+
+186 
+	#DMTIMER_WRITE_POST_TLDR
+ (
+DMTIMER_TWPS_W_PEND_TLDR
+)
+
+	)
+
+189 
+	#DMTIMER_WRITE_POST_TCRR
+ (
+DMTIMER_TWPS_W_PEND_TCRR
+)
+
+	)
+
+192 
+	#DMTIMER_WRITE_POST_TCLR
+ (
+DMTIMER_TWPS_W_PEND_TCLR
+)
+
+	)
+
+195 
+	gÊagI§
+;
+
+197 
+DMTimîModuÀClkC⁄fig
+();
+
+198 
+DMTimîCou¡îSë
+(, );
+
+199 
+DMTimîCou¡îGë
+();
+
+200 
+DMTimîE«bÀ
+();
+
+201 
+DMTimîDißbÀ
+();
+
+202 
+DMTimîRe£t
+();
+
+203 
+DMTimîI¡E«bÀ
+(, );
+
+204 
+DMTimîI¡DißbÀ
+(, );
+
+205 
+DMTimîSëUp
+();
+
+206 
+Dñay
+(volatile );
+
+207 
+DMTimîI§
+();
+
+	@inc/uart.h
+
+1 #i‚de‡
+UART_H_
+
+
+2 
+	#UART_H_
+
+
+	)
+
+22 
+	~"hw_ty≥s.h
+"
+
+23 
+	~"soc_AM335x.h
+"
+
+24 
+	~"gpio.h
+"
+
+25 
+	~"∑d.h
+"
+
+26 
+	~"c⁄åﬁ_moduÀ.h
+"
+
+27 
+	~"˛ock_moduÀ.h
+"
+
+29 
+	#UARTx_OP_R_RHR
+ 0x0
+
+	)
+
+30 
+	#UARTx_OP_R_IER
+ 0x4
+
+	)
+
+31 
+	#UARTx_OP_R_IIR
+ 0x8
+
+	)
+
+32 
+	#UARTx_OP_R_LCR
+ 0xC
+
+	)
+
+33 
+	#UARTx_OP_R_MCR
+ 0x10
+
+	)
+
+34 
+	#UARTx_OP_R_LSR
+ 0x14
+
+	)
+
+35 
+	#UARTx_OP_R_MSRTCR
+ 0x18
+
+	)
+
+36 
+	#UARTx_OP_R_SPRTLR
+ 0x1C
+
+	)
+
+37 
+	#UARTx_OP_R_MDR1
+ 0x20
+
+	)
+
+38 
+	#UARTx_OP_R_MDR2
+ 0x24
+
+	)
+
+39 
+	#UARTx_OP_R_SFLSR
+ 0x28
+
+	)
+
+40 
+	#UARTx_OP_R_RESUME
+ 0x2C
+
+	)
+
+41 
+	#UARTx_OP_R_SFREGL
+ 0x30
+
+	)
+
+42 
+	#UARTx_OP_R_SFREGH
+ 0x34
+
+	)
+
+43 
+	#UARTx_OP_R_BLR
+ 0x38
+
+	)
+
+44 
+	#UARTx_OP_R_ACREG
+ 0x3C
+
+	)
+
+45 
+	#UARTx_OP_R_SCR
+ 0x40
+
+	)
+
+46 
+	#UARTx_OP_R_SSR
+ 0x44
+
+	)
+
+47 
+	#UARTx_OP_R_EBLR
+ 0x48
+
+	)
+
+48 
+	#UARTx_OP_R_MVR
+ 0x50
+
+	)
+
+49 
+	#UARTx_OP_R_SYSC
+ 0x54
+
+	)
+
+50 
+	#UARTx_OP_R_SYSS
+ 0x58
+
+	)
+
+51 
+	#UARTx_OP_R_WER
+ 0x5C
+
+	)
+
+52 
+	#UARTx_OP_R_CFPS
+ 0x60
+
+	)
+
+53 
+	#UARTx_OP_R_RXFIFO_LVL
+ 0x64
+
+	)
+
+54 
+	#UARTx_OP_R_TXFIFO_LVL
+ 0x68
+
+	)
+
+55 
+	#UARTx_OP_R_IER2
+ 0x6C
+
+	)
+
+56 
+	#UARTx_OP_R_ISR2
+ 0x70
+
+	)
+
+57 
+	#UARTx_OP_R_FREQ_SEL
+ 0x74
+
+	)
+
+58 
+	#UARTx_OP_R_MDR3
+ 0x80
+
+	)
+
+59 
+	#UARTx_OP_R_TXDMA
+ 0x84
+
+	)
+
+61 
+	#UARTx_OP_W_THR
+ 0x0
+
+	)
+
+62 
+	#UARTx_OP_W_IER
+ 0x4
+
+	)
+
+63 
+	#UARTx_OP_W_FCR
+ 0x8
+
+	)
+
+64 
+	#UARTx_OP_W_LCR
+ 0xC
+
+	)
+
+65 
+	#UARTx_OP_W_MCR
+ 0x10
+
+	)
+
+66 
+	#UARTx_OP_W_TCR
+ 0x18
+
+	)
+
+67 
+	#UARTx_OP_W_SPRTLR
+ 0x1C
+
+	)
+
+68 
+	#UARTx_OP_W_MDR1
+ 0x20
+
+	)
+
+69 
+	#UARTx_OP_W_MDR2
+ 0x24
+
+	)
+
+70 
+	#UARTx_OP_W_TXFLL
+ 0x28
+
+	)
+
+71 
+	#UARTx_OP_W_TXFLH
+ 0x2C
+
+	)
+
+72 
+	#UARTx_OP_W_RXFLL
+ 0x30
+
+	)
+
+73 
+	#UARTx_OP_W_RXFLH
+ 0x34
+
+	)
+
+74 
+	#UARTx_OP_W_BLR
+ 0x38
+
+	)
+
+75 
+	#UARTx_OP_W_ACREG
+ 0x3C
+
+	)
+
+76 
+	#UARTx_OP_W_SCR
+ 0x40
+
+	)
+
+77 
+	#UARTx_OP_W_SSR
+ 0x44
+
+	)
+
+78 
+	#UARTx_OP_W_EBLR
+ 0x48
+
+	)
+
+79 
+	#UARTx_OP_W_SYSC
+ 0x54
+
+	)
+
+80 
+	#UARTx_OP_W_WER
+ 0x5C
+
+	)
+
+81 
+	#UARTx_OP_W_CFPS
+ 0x60
+
+	)
+
+82 
+	#UARTx_OP_W_RXFIFO_LVL
+ 0x64
+
+	)
+
+83 
+	#UARTx_OP_W_TXFIFO_LVL
+ 0x68
+
+	)
+
+84 
+	#UARTx_OP_W_IER2
+ 0x6C
+
+	)
+
+85 
+	#UARTx_OP_W_ISR2
+ 0x70
+
+	)
+
+86 
+	#UARTx_OP_W_FREQ_SEL
+ 0x74
+
+	)
+
+87 
+	#UARTx_OP_W_MDR3
+ 0x80
+
+	)
+
+88 
+	#UARTx_OP_W_TXDMA
+ 0x84
+
+	)
+
+91 
+	#UARTx_MA_R_DLL
+ 0x0
+
+	)
+
+92 
+	#UARTx_MA_R_DLH
+ 0x4
+
+	)
+
+93 
+	#UARTx_MA_R_IIR
+ 0x8
+
+	)
+
+94 
+	#UARTx_MA_R_LCR
+ 0xC
+
+	)
+
+95 
+	#UARTx_MA_R_MCR
+ 0x10
+
+	)
+
+96 
+	#UARTx_MA_R_LSR
+ 0x14
+
+	)
+
+97 
+	#UARTx_MA_R_MSRTCR
+ 0x18
+
+	)
+
+98 
+	#UARTx_MA_R_SPRTLR
+ 0x1C
+
+	)
+
+99 
+	#UARTx_MA_R_MDR1
+ 0x20
+
+	)
+
+100 
+	#UARTx_MA_R_MDR2
+ 0x24
+
+	)
+
+101 
+	#UARTx_MA_R_SFLR
+ 0x28
+
+	)
+
+102 
+	#UARTx_MA_R_RESUME
+ 0x2C
+
+	)
+
+103 
+	#UARTx_MA_R_SFREGL
+ 0x30
+
+	)
+
+104 
+	#UARTx_MA_R_SFREGH
+ 0x34
+
+	)
+
+105 
+	#UARTx_MA_R_UASR
+ 0x38
+
+	)
+
+106 
+	#UARTx_MA_R_SCR
+ 0x40
+
+	)
+
+107 
+	#UARTx_MA_R_SSR
+ 0x44
+
+	)
+
+108 
+	#UARTx_MA_R_
+ 0x48
+
+	)
+
+109 
+	#UARTx_MA_R_MVR
+ 0x50
+
+	)
+
+110 
+	#UARTx_MA_R_SYSC
+ 0x54
+
+	)
+
+111 
+	#UARTx_MA_R_SYSS
+ 0x58
+
+	)
+
+112 
+	#UARTx_MA_R_WER
+ 0x5C
+
+	)
+
+113 
+	#UARTx_MA_R_CFPS
+ 0x60
+
+	)
+
+114 
+	#UARTx_MA_R_RXFIFO_LVL
+ 0x64
+
+	)
+
+115 
+	#UARTx_MA_R_TXFIFO_LVL
+ 0x68
+
+	)
+
+116 
+	#UARTx_MA_R_IER2
+ 0x6C
+
+	)
+
+117 
+	#UARTx_MA_R_ISR2
+ 0x70
+
+	)
+
+118 
+	#UARTx_MA_R_FREQ_SEL
+ 0x74
+
+	)
+
+119 
+	#UARTx_MA_R_MDR3
+ 0x80
+
+	)
+
+120 
+	#UARTx_MA_R_TXDMA
+ 0x84
+
+	)
+
+122 
+	#UARTx_MA_W_DLL
+ 0x00
+
+	)
+
+123 
+	#UARTx_MA_W_DLH
+ 0x04
+
+	)
+
+124 
+	#UARTx_MA_W_FCR
+ 0x08
+
+	)
+
+125 
+	#UARTx_MA_W_LCR
+ 0x0C
+
+	)
+
+126 
+	#UARTx_MA_W_MCR
+ 0x10
+
+	)
+
+127 
+	#UARTx_MA_W_TCR
+ 0x18
+
+	)
+
+128 
+	#UARTx_MA_W_SPRTLR
+ 0x1C
+
+	)
+
+129 
+	#UARTx_MA_W_MDR1
+ 0x20
+
+	)
+
+130 
+	#UARTx_MA_W_MDR2
+ 0x24
+
+	)
+
+131 
+	#UARTx_MA_W_TXFLL
+ 0x28
+
+	)
+
+132 
+	#UARTx_MA_W_TXFLH
+ 0x2C
+
+	)
+
+133 
+	#UARTx_MA_W_RXFLL
+ 0x30
+
+	)
+
+134 
+	#UARTx_MA_W_RXFLH
+ 0x34
+
+	)
+
+135 
+	#UARTx_MA_W_SCR
+ 0x40
+
+	)
+
+136 
+	#UARTx_MA_W_SSR
+ 0x44
+
+	)
+
+137 
+	#UARTx_MA_W_SYSC
+ 0x54
+
+	)
+
+138 
+	#UARTx_MA_W_WER
+ 0x5C
+
+	)
+
+139 
+	#UARTx_MA_W_CFPS
+ 0x60
+
+	)
+
+140 
+	#UARTx_MA_W_RXFIFO_LVL
+ 0x64
+
+	)
+
+141 
+	#UARTx_MA_W_TXFIFO_LVL
+ 0x68
+
+	)
+
+142 
+	#UARTx_MA_W_IER2
+ 0x6C
+
+	)
+
+143 
+	#UARTx_MA_W_ISR2
+ 0x70
+
+	)
+
+144 
+	#UARTx_MA_W_FREQ_SEL
+ 0x74
+
+	)
+
+145 
+	#UARTx_MA_W_MDR3
+ 0x80
+
+	)
+
+146 
+	#UARTx_MA_W_TXDMA
+ 0x84
+
+	)
+
+149 
+	#UARTx_MB_R_DLL
+ 0x00
+
+	)
+
+150 
+	#UARTx_MB_R_DLH
+ 0x04
+
+	)
+
+151 
+	#UARTx_MB_R_EFR
+ 0x08
+
+	)
+
+152 
+	#UARTx_MB_R_LCR
+ 0x0C
+
+	)
+
+153 
+	#UARTx_MB_R_XON1ADDR2
+ 0x10
+
+	)
+
+154 
+	#UARTx_MB_R_XON2ADDR2
+ 0x14
+
+	)
+
+155 
+	#UARTx_MB_R_XOFF1TCR
+ 0x18
+
+	)
+
+156 
+	#UARTx_MB_R_XOFF2TLR
+ 0x1C
+
+	)
+
+157 
+	#UARTx_MB_R_MDR1
+ 0x20
+
+	)
+
+158 
+	#UARTx_MB_R_MDR2
+ 0x24
+
+	)
+
+159 
+	#UARTx_MB_R_SFLSR
+ 0x28
+
+	)
+
+160 
+	#UARTx_MB_R_RESUME
+ 0x2C
+
+	)
+
+161 
+	#UARTx_MB_R_SFREGL
+ 0x30
+
+	)
+
+162 
+	#UARTx_MB_R_SFREGH
+ 0x34
+
+	)
+
+163 
+	#UARTx_MB_R_UASR
+ 0x38
+
+	)
+
+164 
+	#UARTx_MB_R_SCR
+ 0x40
+
+	)
+
+165 
+	#UARTx_MB_R_SSR
+ 0x44
+
+	)
+
+166 
+	#UARTx_MB_R_MVR
+ 0x50
+
+	)
+
+167 
+	#UARTx_MB_R_SYSC
+ 0x54
+
+	)
+
+168 
+	#UARTx_MB_R_SYSS
+ 0x58
+
+	)
+
+169 
+	#UARTx_MB_R_WER
+ 0x5C
+
+	)
+
+170 
+	#UARTx_MB_R_CFPS
+ 0x60
+
+	)
+
+171 
+	#UARTx_MB_R_RXFIFO_LVL
+ 0x64
+
+	)
+
+172 
+	#UARTx_MB_R_TXFIFO_LVL
+ 0x68
+
+	)
+
+173 
+	#UARTx_MB_R_IER2
+ 0x6C
+
+	)
+
+174 
+	#UARTx_MB_R_ISR2
+ 0x70
+
+	)
+
+175 
+	#UARTx_MB_R_FREQ_SEL
+ 0x74
+
+	)
+
+176 
+	#UARTx_MB_R_MDR3
+ 0x80
+
+	)
+
+177 
+	#UARTx_MB_R_TXDMA
+ 0x84
+
+	)
+
+180 
+	#UARTx_MB_W_DLL
+ 0x00
+
+	)
+
+181 
+	#UARTx_MB_W_DLH
+ 0x04
+
+	)
+
+182 
+	#UARTx_MB_W_EFR
+ 0x08
+
+	)
+
+183 
+	#UARTx_MB_W_LCR
+ 0x0C
+
+	)
+
+184 
+	#UARTx_MB_W_XON1ADDR1
+ 0x10
+
+	)
+
+185 
+	#UARTx_MB_W_XON2ADDR2
+ 0x14
+
+	)
+
+186 
+	#UARTx_MB_W_XOFF1TCR
+ 0x18
+
+	)
+
+187 
+	#UARTx_MB_W_XOFF2TLR
+ 0x1C
+
+	)
+
+188 
+	#UARTx_MB_W_MDR1
+ 0x20
+
+	)
+
+189 
+	#UARTx_MB_W_MDR2
+ 0x24
+
+	)
+
+190 
+	#UARTx_MB_W_SFLSR
+ 0x28
+
+	)
+
+191 
+	#UARTx_MB_W_RESUME
+ 0x2C
+
+	)
+
+192 
+	#UARTx_MB_W_SFREGL
+ 0x30
+
+	)
+
+193 
+	#UARTx_MB_W_SFREGH
+ 0x34
+
+	)
+
+194 
+	#UARTx_MB_W_UASR
+ 0x38
+
+	)
+
+195 
+	#UARTx_MB_W_SCR
+ 0x40
+
+	)
+
+196 
+	#UARTx_MB_W_SSR
+ 0x44
+
+	)
+
+197 
+	#UARTx_MB_W_MVR
+ 0x50
+
+	)
+
+198 
+	#UARTx_MB_W_SYSC
+ 0x54
+
+	)
+
+199 
+	#UARTx_MB_W_SYSS
+ 0x58
+
+	)
+
+200 
+	#UARTx_MB_W_WER
+ 0x5C
+
+	)
+
+201 
+	#UARTx_MB_W_CFPS
+ 0x60
+
+	)
+
+202 
+	#UARTx_MB_W_RXFIFO_LVL
+ 0x64
+
+	)
+
+203 
+	#UARTx_MB_W_TXFIFO_LVL
+ 0x68
+
+	)
+
+204 
+	#UARTx_MB_W_IER2
+ 0x6C
+
+	)
+
+205 
+	#UARTx_MB_W_ISR2
+ 0x70
+
+	)
+
+206 
+	#UARTx_MB_W_FREQ_SEL
+ 0x74
+
+	)
+
+207 
+	#UARTx_MB_W_MDR3
+ 0x80
+
+	)
+
+208 
+	#UARTx_MB_W_TXDMA
+ 0x84
+
+	)
+
+214 
+	e_UART_t
+{
+
+215 
+	mUART0
+ = 0,
+
+216 
+	mUART1
+ = 1,
+
+217 
+	mUART2
+ = 2,
+
+218 
+	mUART3
+ = 3,
+
+219 
+	mUART4
+ = 4,
+
+220 
+	mUART5
+ = 5
+
+221 }
+	tUART_t
+;
+
+227 
+	e_FLOW_t
+{
+
+228 
+	mFLOW_OFF
+ = 0,
+
+229 
+	mFLOW_ON
+ = 1
+
+230 }
+	tFLOW_t
+;
+
+236 
+	e_PARITY_BIT_t
+{
+
+237 
+	mPARITY_NONE
+,
+
+238 
+	mPARITY_EVEN
+,
+
+239 
+	mPARITY_ODD
+
+
+240 }
+	tPARITY_BIT_t
+;
+
+246 
+	e_STOP_BIT_t
+{
+
+247 
+	mSTOP1
+,
+
+248 
+	mSTOP1_5
+,
+
+249 
+	mSTOP2
+
+
+250 }
+	tSTOP_BIT_t
+;
+
+263 
+u¨tInôModuÀ
+(
+UART_t
+ 
+u¨t
+, 
+baudøã
+, 
+STOP_BIT_t
+ 
+°›Bô
+, 
+PARITY_BIT_t
+ 
+∑rôy
+, 
+FLOW_t
+ 
+ÊowC⁄åﬁ
+);
+
+273 
+u¨tPutC
+(
+UART_t
+ 
+u¨t
+, 
+c
+);
+
+282 
+u¨tGëC
+(
+UART_t
+ 
+u¨t
+);
+
+293 
+u¨tPutSåög
+(
+UART_t
+ 
+u¨t
+, *
+°r
+, 
+Àngth
+);
+
+303 
+u¨tGëSåög
+(
+UART_t
+ 
+u¨t
+, *
+buf
+, 
+Àngth
+);
+
+305 c⁄° 
+	gUART_ARRAY_BASE
+[] = {
+SOC_UART_0_REGS
+, 
+SOC_UART_1_REGS
+, 
+SOC_UART_2_REGS
+, 
+SOC_UART_3_REGS
+, 
+SOC_UART_4_REGS
+, 
+SOC_UART_5_REGS
+};
+
+	@src/clock_module.c
+
+19 
+	~"˛ock_moduÀ.h
+"
+
+20 
+	~"hw_ty≥s.h
+"
+
+21 
+	~"soc_AM335x.h
+"
+
+24 
+boﬁ
+ 
+	$ckmCheckVÆidModuÀ
+(
+CKM_MODULE_REG
+ 
+off£t
+){
+
+25 if((
+off£t
+ > 
+CKM_PER_CLK_24MHZ_CLKSTCTRL
+)){
+
+26 (
+Ál£
+);
+
+28 (
+åue
+);
+
+29 
+	}
+}
+
+31 
+	$ckmSëCLKModuÀRegi°î
+(
+CKM_MODULE
+ 
+ba£
+, 
+CKM_MODULE_REG
+ 
+off£t
+, 
+vÆue
+){
+
+32 if(
+	`ckmCheckVÆidModuÀ
+(
+off£t
+)){
+
+33 
+addr_ãmp
+ = 
+ba£
+ + 
+off£t
+;
+
+34 
+	`HWREG
+(
+addr_ãmp
+Ë|
+vÆue
+;
+
+36 
+	}
+}
+
+38 
+	$ckmGëCLKModuÀRegi°î
+(
+CKM_MODULE
+ 
+ba£
+, 
+CKM_MODULE_REG
+ 
+off£t
+){
+
+39 if(
+	`ckmCheckVÆidModuÀ
+(
+off£t
+)){
+
+40 
+addr_ãmp
+ = 
+ba£
+ + 
+off£t
+;
+
+41 (
+	`HWREG
+(
+addr_ãmp
+));
+
+44 
+	}
+}
+
+	@src/control_module.c
+
+19 
+	~"c⁄åﬁ_moduÀ.h
+"
+
+20 
+	~"soc_AM335x.h
+"
+
+21 
+	~"hw_ty≥s.h
+"
+
+23 
+	$cmSëCålModuÀ
+(
+CONTROL_MODULE
+ 
+off£t
+, 
+vÆue
+){
+
+24 
+	`HWREG
+(
+SOC_CONTROL_REGS
+ + 
+off£t
+Ë|
+vÆue
+;
+
+25 
+	}
+}
+
+27 
+	$cmGëCålModuÀ
+(
+CONTROL_MODULE
+ 
+off£t
+){
+
+28 (
+	`HWREG
+(
+SOC_CONTROL_REGS
+ + 
+off£t
+));
+
+29 
+	}
+}
+
+	@src/cpu.c
+
+20 
+	~"˝u.h
+"
+
+37 
+	$CPUSwôchToPrivûegedMode
+(){
+
+38 
+	`asm
+(" SWI 458752");
+
+39 
+	}
+}
+
+55 
+	$CPUSwôchToU£rMode
+(){
+
+56 
+	`asm
+(" mrsÑ0, CPSR\n\t"
+
+60 
+	}
+}
+
+74 
+	$CPUAb‹tH™dÀr
+(){
+
+76 
+	}
+}
+
+83 
+	$CPUI¡Sètus
+(){
+
+84 
+°©
+;
+
+87 
+	`asm
+(" mrsÑ0, CPSR\n\t"
+
+88 "ánd %[ªsu…],Ñ0, #0xC0" : [
+ªsu…
+] "Ù" (
+°©
+));
+
+90  
+°©
+;
+
+91 
+	}
+}
+
+98 
+	$CPUúqd
+(){
+
+100 
+	`asm
+(" dsb \n\t"
+
+104 
+	}
+}
+
+111 
+	$CPUúqe
+(){
+
+113 
+	`asm
+(" dsb \n\t"
+
+117 
+	}
+}
+
+124 
+	$CPUfiqd
+(){
+
+126 
+	`asm
+(" dsb \n\t"
+
+130 
+	}
+}
+
+137 
+	$CPUfiqe
+(){
+
+139 
+	`asm
+(" dsb \n\t"
+
+143 
+	}
+}
+
+	@src/gpio.c
+
+19 
+	~"gpio.h
+"
+
+26 c⁄° 
+CONTROL_MODULE
+ 
+	gGPIO_CTRL_MODULE_ARRAY
+[32][4] = {
+
+28 {
+CM_c⁄f_mdio
+ ,
+CM_c⁄f_gpmc_ad0
+ ,
+CM_c⁄f_gpmc_c¢3
+ ,
+CM_c⁄f_mii1_cﬁ
+ },
+
+29 {
+CM_c⁄f_mdc
+ ,
+CM_c⁄f_gpmc_ad1
+ ,
+CM_c⁄f_gpmc_˛k
+ ,
+CM_c⁄f_mii1_¸s
+ },
+
+30 {
+CM_c⁄f_•i0_s˛k
+ ,
+CM_c⁄f_gpmc_ad2
+ ,
+CM_c⁄f_gpmc_advn_Æe
+ ,
+CM_c⁄f_mii1_rx_î
+ },
+
+31 {
+CM_c⁄f_•i0_d0
+ ,
+CM_c⁄f_gpmc_ad3
+ ,
+CM_c⁄f_gpmc_€n_ªn
+ ,
+CM_c⁄f_mii1_tx_í
+ },
+
+32 {
+CM_c⁄f_•i0_d1
+ ,
+CM_c⁄f_gpmc_ad4
+ ,
+CM_c⁄f_gpmc_wí
+ ,
+CM_c⁄f_mii1_rx_dv
+ },
+
+33 {
+CM_c⁄f_•i0_cs0
+ ,
+CM_c⁄f_gpmc_ad5
+ ,
+CM_c⁄f_gpmc_bí0_˛e
+ ,
+CM_c⁄f_i2c0_sda
+ },
+
+34 {
+CM_c⁄f_•i0_cs1
+ ,
+CM_c⁄f_gpmc_ad6
+ ,
+CM_c⁄f_lcd_d©a0
+ ,
+CM_c⁄f_i2c0_s˛
+ },
+
+35 {
+CM_c⁄f_eˇp0_ö_pwm0_out
+ ,
+CM_c⁄f_gpmc_ad7
+ ,
+CM_c⁄f_lcd_d©a1
+ ,
+CM_c⁄f_emu0
+ },
+
+36 {
+CM_c⁄f_lcd_d©a12
+ ,
+CM_c⁄f_u¨t0_˘¢
+ ,
+CM_c⁄f_lcd_d©a2
+ ,
+CM_c⁄f_emu1
+ },
+
+37 {
+CM_c⁄f_lcd_d©a13
+ ,
+CM_c⁄f_u¨t0_π¢
+ ,
+CM_c⁄f_lcd_d©a3
+ ,
+CM_c⁄f_mii1_tx_˛k
+ },
+
+38 {
+CM_c⁄f_lcd_d©a14
+ ,
+CM_c⁄f_u¨t0_rxd
+ ,
+CM_c⁄f_lcd_d©a4
+ ,
+CM_c⁄f_mii1_rx_˛k
+ },
+
+39 {
+CM_c⁄f_lcd_d©a15
+ ,
+CM_c⁄f_u¨t0_txd
+ ,
+CM_c⁄f_lcd_d©a5
+ ,-1 },
+
+40 {
+CM_c⁄f_u¨t1_˘¢
+ ,
+CM_c⁄f_gpmc_ad12
+ ,
+CM_c⁄f_lcd_d©a6
+ ,-1 },
+
+41 {
+CM_c⁄f_u¨t1_π¢
+ ,
+CM_c⁄f_gpmc_ad13
+ ,
+CM_c⁄f_lcd_d©a7
+ ,
+CM_c⁄f_usb1_drvvbus
+ },
+
+42 {
+CM_c⁄f_u¨t1_rxd
+ ,
+CM_c⁄f_gpmc_ad14
+ ,
+CM_c⁄f_lcd_d©a8
+ ,
+CM_c⁄f_mˇ•0_a˛kx
+ },
+
+43 {
+CM_c⁄f_u¨t1_txd
+ ,
+CM_c⁄f_gpmc_ad15
+ ,
+CM_c⁄f_lcd_d©a9
+ ,
+CM_c⁄f_mˇ•0_fsx
+ },
+
+44 {
+CM_c⁄f_mii1_txd3
+ ,
+CM_c⁄f_gpmc_a0
+ ,
+CM_c⁄f_lcd_d©a10
+ ,
+CM_c⁄f_mˇ•0_axr0
+ },
+
+45 {
+CM_c⁄f_mii1_txd2
+ ,
+CM_c⁄f_gpmc_a1
+ ,
+CM_c⁄f_lcd_d©a11
+ ,
+CM_c⁄f_mˇ•0_ah˛kr
+ },
+
+46 {
+CM_c⁄f_usb0_drvvbus
+ ,
+CM_c⁄f_gpmc_a2
+ ,
+CM_c⁄f_mii1_rxd3
+ ,
+CM_c⁄f_mˇ•0_a˛kr
+ },
+
+47 {
+CM_c⁄f_xdma_evít_öå0
+ ,
+CM_c⁄f_gpmc_a3
+ ,
+CM_c⁄f_mii1_rxd2
+ ,
+CM_c⁄f_mˇ•0_f§
+ },
+
+48 {
+CM_c⁄f_xdma_evít_öå1
+ ,
+CM_c⁄f_gpmc_a4
+ ,
+CM_c⁄f_mii1_rxd1
+ ,
+CM_c⁄f_mˇ•0_axr1
+ },
+
+49 {
+CM_c⁄f_mii1_txd1
+ ,
+CM_c⁄f_gpmc_a5
+ ,
+CM_c⁄f_mii1_rxd0
+ ,
+CM_c⁄f_mˇ•0_ah˛kx
+ },
+
+50 {
+CM_c⁄f_gpmc_ad8
+ ,
+CM_c⁄f_gpmc_a6
+ ,
+CM_c⁄f_lcd_vsync
+ ,-1 },
+
+51 {
+CM_c⁄f_gpmc_ad9
+ ,
+CM_c⁄f_gpmc_a7
+ ,
+CM_c⁄f_lcd_hsync
+ ,-1 },
+
+52 {-1 ,
+CM_c⁄f_gpmc_a8
+ ,
+CM_c⁄f_lcd_p˛k
+ ,-1 },
+
+53 {-1 ,
+CM_c⁄f_gpmc_a9
+ ,
+CM_c⁄f_lcd_ac_büs_í
+ ,-1 },
+
+54 {
+CM_c⁄f_gpmc_ad10
+ ,
+CM_c⁄f_gpmc_a10
+ ,
+CM_c⁄f_mmc0_d©3
+ ,-1 },
+
+55 {
+CM_c⁄f_gpmc_ad11
+ ,
+CM_c⁄f_gpmc_a11
+ ,
+CM_c⁄f_mmc0_d©2
+ ,-1 },
+
+56 {
+CM_c⁄f_mii1_txd0
+ ,
+CM_c⁄f_gpmc_bí1
+ ,
+CM_c⁄f_mmc0_d©1
+ ,-1 },
+
+57 {
+CM_c⁄f_rmii1_ªf_˛k
+ ,
+CM_c⁄f_gpmc_c¢0
+ ,
+CM_c⁄f_mmc0_d©0
+ ,-1 },
+
+58 {
+CM_c⁄f_gpmc_waô0
+ ,
+CM_c⁄f_gpmc_c¢1
+ ,
+CM_c⁄f_mmc0_˛k
+ ,-1 },
+
+59 {
+CM_c⁄f_gpmc_w≤
+ ,
+CM_c⁄f_gpmc_c¢2
+ ,
+CM_c⁄f_mmc0_cmd
+ ,-1 },
+
+68 
+boﬁ
+ 
+	$gpioCheckVÆidP‹tPö
+(
+gpioP‹t
+ 
+p‹t
+, 
+ucPöNumbî
+ 
+pö
+){
+
+69 if((
+p‹t
+ < 
+GPIO0
+Ë|| (p‹à> 
+GPIO3
+)){
+
+71 (
+Ál£
+);
+
+73 if((
+pö
+ < 0) || (pin > 31)){
+
+75 (
+Ál£
+);
+
+77 (
+åue
+);
+
+78 
+	}
+}
+
+86 
+boﬁ
+ 
+	$gpioCheckVÆidDúe˘i⁄
+(
+pöDúe˘i⁄
+ 
+dú
+){
+
+87 if((
+dú
+!=
+INPUT
+Ë&& (dú!=
+OUTPUT
+)){
+
+89 (
+Ál£
+);
+
+91 (
+åue
+);
+
+92 
+	}
+}
+
+100 
+	$gpioInôModuÀ
+(
+gpioP‹t
+ 
+p‹t
+){
+
+101 if(
+	`gpioCheckVÆidP‹tPö
+(
+p‹t
+, 0)){
+
+102 
+£âög
+ = (1<<18) | (0x2<<0);
+
+103 
+p‹t
+){
+
+104 
+GPIO0
+:
+
+107 
+GPIO1
+:
+
+108 
+	`ckmSëCLKModuÀRegi°î
+(
+CKM_PER
+, 
+CKM_PER_GPIO1_CLKCTRL
+, 
+£âög
+);
+
+109 (
+	`ckmGëCLKModuÀRegi°î
+(
+CKM_PER
+, 
+CKM_PER_GPIO1_CLKCTRL
+) & (0x3<<16)) != 0)
+
+111 
+GPIO2
+:
+
+112 
+	`ckmSëCLKModuÀRegi°î
+(
+CKM_PER
+, 
+CKM_PER_GPIO2_CLKCTRL
+, 
+£âög
+);
+
+113 (
+	`ckmGëCLKModuÀRegi°î
+(
+CKM_PER
+, 
+CKM_PER_GPIO2_CLKCTRL
+) & (0x3<<16)) != 0)
+
+115 
+GPIO3
+:
+
+122 
+	}
+}
+
+130 
+	$gpioInôPö
+(
+gpioP‹t
+ 
+p‹t
+, 
+ucPöNumbî
+ 
+pö
+){
+
+131 if(
+	`gpioCheckVÆidP‹tPö
+(
+p‹t
+, 
+pö
+)){
+
+132 
+CONTROL_MODULE
+ 
+moduÀ
+ = 
+GPIO_CTRL_MODULE_ARRAY
+[
+pö
+][
+p‹t
+];
+
+133 
+	`∑dSëMode
+(
+moduÀ
+, 
+MODE_7
+);
+
+135 
+	}
+}
+
+143 
+	$gpioSëDúe˘i⁄
+(
+gpioP‹t
+ 
+p‹t
+, 
+ucPöNumbî
+ 
+pö
+, 
+pöDúe˘i⁄
+ 
+dú
+){
+
+144 
+addr_ãmp
+, 
+vÆ_ãmp
+;
+
+146 if(
+	`gpioCheckVÆidP‹tPö
+(
+p‹t
+,
+pö
+)){
+
+147 if(
+	`gpioCheckVÆidDúe˘i⁄
+(
+dú
+)){
+
+148 
+p‹t
+) {
+
+149 
+GPIO0
+:
+
+151 
+GPIO1
+:
+
+153 
+addr_ãmp
+ = 
+SOC_GPIO_1_REGS
+ + 
+GPIO_OE
+;
+
+155 
+vÆ_ãmp
+ = 
+	`HWREG
+(
+addr_ãmp
+);
+
+157 
+GPIO2
+:
+
+159 
+addr_ãmp
+ = 
+SOC_GPIO_2_REGS
+ + 
+GPIO_OE
+;
+
+161 
+vÆ_ãmp
+ = 
+	`HWREG
+(
+addr_ãmp
+);
+
+163 
+GPIO3
+:
+
+169 
+vÆ_ãmp
+ &~(1<<
+pö
+);
+
+170 
+vÆ_ãmp
+ |(
+dú
+<<
+pö
+);
+
+173 
+	`HWREG
+(
+addr_ãmp
+Ë
+vÆ_ãmp
+;
+
+176 
+	}
+}
+
+184 
+	$gpioGëDúe˘i⁄
+(
+gpioP‹t
+ 
+p‹t
+, 
+ucPöNumbî
+ 
+pö
+){
+
+185 
+addr_ãmp
+, 
+vÆ_ãmp
+;
+
+187 if(
+	`gpioCheckVÆidP‹tPö
+(
+p‹t
+,
+pö
+)){
+
+188 
+p‹t
+) {
+
+189 
+GPIO0
+:
+
+191 
+addr_ãmp
+ = 
+SOC_GPIO_0_REGS
+ + 
+GPIO_OE
+;
+
+192 
+vÆ_ãmp
+ = 
+	`HWREG
+(
+addr_ãmp
+);
+
+194 
+GPIO1
+:
+
+196 
+addr_ãmp
+ = 
+SOC_GPIO_1_REGS
+ + 
+GPIO_OE
+;
+
+197 
+vÆ_ãmp
+ = 
+	`HWREG
+(
+addr_ãmp
+);
+
+199 
+GPIO2
+:
+
+202 
+GPIO3
+:
+
+211 if(
+vÆ_ãmp
+ & (1<<
+pö
+)){
+
+212 (
+INPUT
+);
+
+214 (
+OUTPUT
+);
+
+219 
+	}
+}
+
+227 
+	$gpioSëPöVÆue
+(
+gpioP‹t
+ 
+p‹t
+, 
+ucPöNumbî
+ 
+pö
+, 
+pöLevñ
+ 
+vÆue
+){
+
+228 
+addr_ãmp
+, 
+vÆ_ãmp
+;
+
+230 if(
+vÆue
+ =
+HIGH
+){
+
+231 if(
+	`gpioCheckVÆidP‹tPö
+(
+p‹t
+,
+pö
+)){
+
+232 
+p‹t
+) {
+
+233 
+GPIO0
+:
+
+235 
+GPIO1
+:
+
+237 
+addr_ãmp
+ = 
+SOC_GPIO_1_REGS
+ + 
+GPIO_SETDATAOUT
+;
+
+238 
+vÆ_ãmp
+ = 1<<
+pö
+;
+
+240 
+GPIO2
+:
+
+242 
+addr_ãmp
+ = 
+SOC_GPIO_2_REGS
+ + 
+GPIO_SETDATAOUT
+;
+
+243 
+vÆ_ãmp
+ = 1<<
+pö
+;
+
+245 
+GPIO3
+:
+
+250 
+	`HWREG
+(
+addr_ãmp
+Ë|
+vÆ_ãmp
+;
+
+253 if(
+	`gpioCheckVÆidP‹tPö
+(
+p‹t
+,
+pö
+)){
+
+254 
+p‹t
+) {
+
+255 
+GPIO0
+:
+
+257 
+GPIO1
+:
+
+259 
+addr_ãmp
+ = 
+SOC_GPIO_1_REGS
+ + 
+GPIO_CLEARDATAOUT
+;
+
+260 
+vÆ_ãmp
+ = 1<<
+pö
+;
+
+262 
+GPIO2
+:
+
+264 
+addr_ãmp
+ = 
+SOC_GPIO_2_REGS
+ + 
+GPIO_CLEARDATAOUT
+;
+
+265 
+vÆ_ãmp
+ = 1<<
+pö
+;
+
+267 
+GPIO3
+:
+
+272 
+	`HWREG
+(
+addr_ãmp
+Ë&
+vÆ_ãmp
+;
+
+275 
+	}
+}
+
+283 
+	$gpioGëPöVÆue
+(
+gpioP‹t
+ 
+p‹t
+, 
+ucPöNumbî
+ 
+pö
+){
+
+286 if(
+	`gpioCheckVÆidP‹tPö
+(
+p‹t
+,
+pö
+)){
+
+287 
+p‹t
+) {
+
+288 
+GPIO0
+:
+
+290 
+GPIO1
+:
+
+292 
+GPIO2
+:
+
+294 
+GPIO3
+:
+
+308 
+	}
+}
+
+	@src/interrupt.c
+
+19 
+	~"öãºu±.h
+"
+
+24 
+	#REG_IDX_SHIFT
+ (0x05)
+
+	)
+
+25 
+	#REG_BIT_MASK
+ (0x1F)
+
+	)
+
+26 
+	#NUM_INTERRUPTS
+ (128u)
+
+	)
+
+31 (*
+‚RAMVe˘‹s
+[
+NUM_INTERRUPTS
+])();
+
+36 
+	`I¡DeÁu…H™dÀr
+();
+
+46 
+	$I¡DeÁu…H™dÀr
+(){
+
+49 
+	}
+}
+
+66 
+	$I¡Regi°î
+(
+öåNum
+, (*
+‚H™dÀr
+)()){
+
+68 
+‚RAMVe˘‹s
+[
+öåNum
+] = 
+‚H™dÀr
+;
+
+69 
+	}
+}
+
+84 
+	$I¡UnRegi°î
+(
+öåNum
+){
+
+86 
+‚RAMVe˘‹s
+[
+öåNum
+] = 
+I¡DeÁu…H™dÀr
+;
+
+87 
+	}
+}
+
+100 
+	$I¡AINTCInô
+(){
+
+101 
+öåNum
+;
+
+104 
+	`HWREG
+(
+SOC_AINTC_REGS
+ + 
+INTC_SYSCONFIG
+Ë
+INTC_SYSCONFIG_SOFTRESET
+;
+
+107 (
+	`HWREG
+(
+SOC_AINTC_REGS
+ + 
+INTC_SYSSTATUS
+)
+
+108 & 
+INTC_SYSSTATUS_RESETDONE
+) != INTC_SYSSTATUS_RESETDONE);
+
+111 
+	`HWREG
+(
+SOC_AINTC_REGS
+ + 
+INTC_THRESHOLD
+) =
+
+112 
+INTC_THRESHOLD_PRIORITYTHRESHOLD
+;
+
+115 
+öåNum
+ = 0; i¡rNum < 
+NUM_INTERRUPTS
+; intrNum++)
+
+117 
+‚RAMVe˘‹s
+[
+öåNum
+] = 
+I¡DeÁu…H™dÀr
+;
+
+119 
+	}
+}
+
+142 
+	$I¡Pri‹ôySë
+(
+öåNum
+, 
+¥i‹ôy
+,
+
+143 
+ho°I¡Rouã
+){
+
+144 
+	`HWREG
+(
+SOC_AINTC_REGS
+ + 
+	`INTC_ILR
+(
+öåNum
+)) =
+
+145 ((
+¥i‹ôy
+ << 
+INTC_ILR_PRIORITY_SHIFT
+)
+
+146 & 
+INTC_ILR_PRIORITY
+)
+
+147 | 
+ho°I¡Rouã
+ ;
+
+148 
+	}
+}
+
+162 
+	$I¡Sy°emE«bÀ
+(
+öåNum
+){
+
+163 
+	`__asm
+(" dsb");
+
+166 
+	`HWREG
+(
+SOC_AINTC_REGS
+ + 
+	`INTC_MIR_CLEAR
+(
+öåNum
+ >> 
+REG_IDX_SHIFT
+))
+
+167 (0x01 << (
+öåNum
+ & 
+REG_BIT_MASK
+));
+
+168 
+	}
+}
+
+181 
+	$I¡Sy°emDißbÀ
+(
+öåNum
+){
+
+183 
+	`__asm
+(" dsb");
+
+186 
+	`HWREG
+(
+SOC_AINTC_REGS
+ + 
+	`INTC_MIR_SET
+(
+öåNum
+ >> 
+REG_IDX_SHIFT
+))
+
+187 (0x01 << (
+öåNum
+ & 
+REG_BIT_MASK
+));
+
+188 
+	}
+}
+
+203 
+	$I¡Ma°îIRQE«bÀ
+( ){
+
+205 
+	`CPUúqe
+();
+
+206 
+	}
+}
+
+223 
+	$I¡Ma°îIRQDißbÀ
+( ){
+
+225 
+	`CPUúqd
+();
+
+227 
+	}
+}
+
+	@src/main.c
+
+19 
+	~"u¨t.h
+"
+
+20 
+	~"timî.h
+"
+
+25 
+	#TIMER_DELAY
+ 5
+
+	)
+
+36 
+	$maö
+(){
+
+41 
+	`u¨tInôModuÀ
+(
+UART0
+, 115200, 
+STOP1
+, 
+PARITY_NONE
+, 
+FLOW_OFF
+);
+
+43 
+	`u¨tPutSåög
+(
+UART0
+,"Timer Pratical\n",15);
+
+46 
+	`DMTimîModuÀClkC⁄fig
+();
+
+48 #ifde‡
+DELAY_USE_INTERRUPTS
+
+
+50 
+	`I¡Ma°îIRQE«bÀ
+();
+
+53 
+	`I¡AINTCInô
+();
+
+57 
+	`DMTimîSëUp
+();
+
+59 
+TRUE
+){
+
+61 
+	`u¨tPutSåög
+(
+UART0
+,"start\n",6);
+
+64 
+	`Dñay
+(
+TIMER_DELAY
+);
+
+66 
+	`u¨tPutSåög
+(
+UART0
+,"stop\n",5);
+
+71 
+	}
+}
+
+	@src/pad.c
+
+19 
+	~"∑d.h
+"
+
+20 
+	~"c⁄åﬁ_moduÀ.h
+"
+
+28 
+	$∑dSëMode
+(
+CONTROL_MODULE
+ 
+off£t
+, 
+pömode_t
+ 
+mode
+){
+
+29 if((
+off£t
+ <
+CM_c⁄f_usb1_drvvbus
+ ) && (off£à>
+CM_c⁄f_gpmc_ad0
+)){
+
+30 
+ãmp
+ = 
+	`cmGëCålModuÀ
+(
+off£t
+);
+
+31 
+ãmp
+ &= ~(0b111);
+
+32 
+ãmp
+ |
+mode
+;
+
+33 
+	`cmSëCålModuÀ
+(
+off£t
+, 
+ãmp
+);
+
+37 
+	}
+}
+
+45 
+pömode_t
+ 
+	$∑dGëMode
+(
+CONTROL_MODULE
+ 
+off£t
+){
+
+46 if((
+off£t
+ <
+CM_c⁄f_usb1_drvvbus
+ ) && (off£à>
+CM_c⁄f_gpmc_ad0
+)){
+
+47 
+ãmp
+ = 
+	`cmGëCålModuÀ
+(
+off£t
+);
+
+49  ((
+pömode_t
+Ë
+ãmp
+);
+
+54 
+	}
+}
+
+	@src/timer.c
+
+19 
+	~"timî.h
+"
+
+31 
+	$DMTimîWrôePo°edSètusGë
+(
+ba£Add
+) {
+
+33  (
+	`HWREG
+(
+ba£Add
+ + 
+DMTIMER_TWPS
+));
+
+34 
+	}
+}
+
+52 
+	#DMTimîWaôF‹Wrôe
+(
+ªg
+, 
+ba£Add
+) \
+
+53 if(
+	`HWREG
+(
+ba£Add
+ + 
+DMTIMER_TSICR
+Ë& 
+DMTIMER_TSICR_POSTED
+)\
+
+54 (
+ªg
+ & 
+	`DMTimîWrôePo°edSètusGë
+(
+ba£Add
+)));
+
+	)
+
+70 
+	$DMTimîRñﬂdSë
+(
+ba£Add
+, 
+ªlﬂd
+) {
+
+72 
+	`DMTimîWaôF‹Wrôe
+(
+DMTIMER_WRITE_POST_TLDR
+, 
+ba£Add
+);
+
+75 
+	`HWREG
+(
+ba£Add
+ + 
+DMTIMER_TLDR
+Ë
+ªlﬂd
+;
+
+76 
+	}
+}
+
+98 
+	$DMTimîModeC⁄figuª
+(
+ba£Add
+, 
+timîMode
+) {
+
+100 
+	`DMTimîWaôF‹Wrôe
+(
+DMTIMER_WRITE_POST_TCLR
+, 
+ba£Add
+);
+
+103 
+	`HWREG
+(
+ba£Add
+ + 
+DMTIMER_TCLR
+Ë&~(
+DMTIMER_TCLR_AR
+ | 
+DMTIMER_TCLR_CE
+);
+
+106 
+	`DMTimîWaôF‹Wrôe
+(
+DMTIMER_WRITE_POST_TCLR
+, 
+ba£Add
+);
+
+109 
+	`HWREG
+(
+ba£Add
+ + 
+DMTIMER_TCLR
+Ë|(
+timîMode
+ & (
+DMTIMER_TCLR_AR
+ |
+
+110 
+DMTIMER_TCLR_CE
+));
+
+111 
+	}
+}
+
+128 
+	$DMTimîI¡SètusCÀ¨
+(
+ba£Add
+, 
+ötFœgs
+) {
+
+131 
+	`HWREG
+(
+ba£Add
+ + 
+DMTIMER_IRQSTATUS
+Ë(
+ötFœgs
+ &
+
+132 (
+DMTIMER_IRQSTATUS_TCAR_IT_FLAG
+ |
+
+133 
+DMTIMER_IRQSTATUS_OVF_IT_FLAG
+ |
+
+134 
+DMTIMER_IRQSTATUS_MAT_IT_FLAG
+));
+
+135 
+	}
+}
+
+145 
+	$DMTimîModuÀClkC⁄fig
+(){
+
+147 
+	`ckmSëCLKModuÀRegi°î
+(
+SOC_CM_PER_REGS
+, 
+CM_PER_L3S_CLKSTCTRL
+, 
+CM_PER_L3S_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+);
+
+149 (
+	`HWREG
+(
+SOC_CM_PER_REGS
+ + 
+CM_PER_L3S_CLKSTCTRL
+) &
+
+150 
+CM_PER_L3S_CLKSTCTRL_CLKTRCTRL
+Ë!
+CM_PER_L3S_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+);
+
+152 
+	`ckmSëCLKModuÀRegi°î
+(
+SOC_CM_PER_REGS
+, 
+CM_PER_L3_CLKSTCTRL
+, 
+CM_PER_L3_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+);
+
+154 (
+	`HWREG
+(
+SOC_CM_PER_REGS
+ + 
+CM_PER_L3_CLKSTCTRL
+) &
+
+155 
+CM_PER_L3_CLKSTCTRL_CLKTRCTRL
+Ë!
+CM_PER_L3_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+);
+
+157 
+	`ckmSëCLKModuÀRegi°î
+(
+SOC_CM_PER_REGS
+, 
+CM_PER_L3_INSTR_CLKCTRL
+, 
+CM_PER_L3_INSTR_CLKCTRL_MODULEMODE_ENABLE
+);
+
+159 (
+	`HWREG
+(
+SOC_CM_PER_REGS
+ + 
+CM_PER_L3_INSTR_CLKCTRL
+) &
+
+160 
+CM_PER_L3_INSTR_CLKCTRL_MODULEMODE
+) !=
+
+161 
+CM_PER_L3_INSTR_CLKCTRL_MODULEMODE_ENABLE
+);
+
+163 
+	`ckmSëCLKModuÀRegi°î
+(
+SOC_CM_PER_REGS
+, 
+CM_PER_L3_CLKCTRL
+, 
+CM_PER_L3_CLKCTRL_MODULEMODE_ENABLE
+);
+
+165 (
+	`HWREG
+(
+SOC_CM_PER_REGS
+ + 
+CM_PER_L3_CLKCTRL
+) &
+
+166 
+CM_PER_L3_CLKCTRL_MODULEMODE
+Ë!
+CM_PER_L3_CLKCTRL_MODULEMODE_ENABLE
+);
+
+168 
+	`ckmSëCLKModuÀRegi°î
+(
+SOC_CM_PER_REGS
+, 
+CM_PER_OCPWP_L3_CLKSTCTRL
+, 
+CM_PER_OCPWP_L3_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+);
+
+170 (
+	`HWREG
+(
+SOC_CM_PER_REGS
+ + 
+CM_PER_OCPWP_L3_CLKSTCTRL
+) &
+
+171 
+CM_PER_OCPWP_L3_CLKSTCTRL_CLKTRCTRL
+) !=
+
+172 
+CM_PER_OCPWP_L3_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+);
+
+174 
+	`ckmSëCLKModuÀRegi°î
+(
+SOC_CM_PER_REGS
+, 
+CM_PER_L4LS_CLKSTCTRL
+, 
+CM_PER_L4LS_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+);
+
+176 (
+	`HWREG
+(
+SOC_CM_PER_REGS
+ + 
+CM_PER_L4LS_CLKSTCTRL
+) &
+
+177 
+CM_PER_L4LS_CLKSTCTRL_CLKTRCTRL
+) !=
+
+178 
+CM_PER_L4LS_CLKSTCTRL_CLKTRCTRL_SW_WKUP
+);
+
+180 
+	`ckmSëCLKModuÀRegi°î
+(
+SOC_CM_PER_REGS
+, 
+CM_PER_L4LS_CLKCTRL
+, 
+CM_PER_L4LS_CLKCTRL_MODULEMODE_ENABLE
+);
+
+182 (
+	`HWREG
+(
+SOC_CM_PER_REGS
+ + 
+CM_PER_L4LS_CLKCTRL
+) &
+
+183 
+CM_PER_L4LS_CLKCTRL_MODULEMODE
+Ë!
+CM_PER_L4LS_CLKCTRL_MODULEMODE_ENABLE
+);
+
+186 
+	`HWREG
+(
+SOC_CM_DPLL_REGS
+ + 
+CM_DPLL_CLKSEL_TIMER7_CLK
+) &=
+
+187 ~(
+CM_DPLL_CLKSEL_TIMER7_CLK_CLKSEL
+);
+
+189 
+	`HWREG
+(
+SOC_CM_DPLL_REGS
+ + 
+CM_DPLL_CLKSEL_TIMER7_CLK
+) |=
+
+190 
+CM_DPLL_CLKSEL_TIMER7_CLK_CLKSEL_CLK_M_OSC
+;
+
+192 (
+	`HWREG
+(
+SOC_CM_DPLL_REGS
+ + 
+CM_DPLL_CLKSEL_TIMER7_CLK
+) &
+
+193 
+CM_DPLL_CLKSEL_TIMER7_CLK_CLKSEL
+) !=
+
+194 
+CM_DPLL_CLKSEL_TIMER7_CLK_CLKSEL_CLK_M_OSC
+);
+
+196 
+	`ckmSëCLKModuÀRegi°î
+(
+SOC_CM_PER_REGS
+, 
+CM_PER_TIMER7_CLKCTRL
+, 
+CM_PER_TIMER7_CLKCTRL_MODULEMODE_ENABLE
+);
+
+198 (
+	`HWREG
+(
+SOC_CM_PER_REGS
+ + 
+CM_PER_TIMER7_CLKCTRL
+) &
+
+199 
+CM_PER_TIMER7_CLKCTRL_MODULEMODE
+Ë!
+CM_PER_TIMER7_CLKCTRL_MODULEMODE_ENABLE
+);
+
+201 (
+	`HWREG
+(
+SOC_CM_PER_REGS
+ + 
+CM_PER_TIMER7_CLKCTRL
+) &
+
+202 
+CM_PER_TIMER7_CLKCTRL_IDLEST
+Ë!
+CM_PER_TIMER7_CLKCTRL_IDLEST_FUNC
+);
+
+204 !(
+	`HWREG
+(
+SOC_CM_PER_REGS
+ + 
+CM_PER_L3S_CLKSTCTRL
+) &
+
+205 
+CM_PER_L3S_CLKSTCTRL_CLKACTIVITY_L3S_GCLK
+));
+
+207 !(
+	`HWREG
+(
+SOC_CM_PER_REGS
+ + 
+CM_PER_L3_CLKSTCTRL
+) &
+
+208 
+CM_PER_L3_CLKSTCTRL_CLKACTIVITY_L3_GCLK
+));
+
+210 !(
+	`HWREG
+(
+SOC_CM_PER_REGS
+ + 
+CM_PER_OCPWP_L3_CLKSTCTRL
+) &
+
+211 (
+CM_PER_OCPWP_L3_CLKSTCTRL_CLKACTIVITY_OCPWP_L3_GCLK
+ |
+
+212 
+CM_PER_OCPWP_L3_CLKSTCTRL_CLKACTIVITY_OCPWP_L4_GCLK
+)));
+
+214 !(
+	`HWREG
+(
+SOC_CM_PER_REGS
+ + 
+CM_PER_L4LS_CLKSTCTRL
+) &
+
+215 (
+CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_L4LS_GCLK
+ |
+
+216 
+CM_PER_L4LS_CLKSTCTRL_CLKACTIVITY_TIMER7_GCLK
+)));
+
+218 
+	}
+}
+
+234 
+	$DMTimîCou¡îSë
+(
+ba£Add
+, 
+cou¡î
+) {
+
+236 
+	`DMTimîWaôF‹Wrôe
+(
+DMTIMER_WRITE_POST_TCRR
+, 
+ba£Add
+);
+
+239 
+	`HWREG
+(
+ba£Add
+ + 
+DMTIMER_TCRR
+Ë
+cou¡î
+;
+
+240 
+	}
+}
+
+255 
+	$DMTimîCou¡îGë
+(
+ba£Add
+){
+
+257 
+	`DMTimîWaôF‹Wrôe
+(
+DMTIMER_WRITE_POST_TCRR
+, 
+ba£Add
+);
+
+260  (
+	`HWREG
+(
+ba£Add
+ + 
+DMTIMER_TCRR
+));
+
+261 
+	}
+}
+
+274 
+	$DMTimîE«bÀ
+(
+ba£Add
+){
+
+277 
+	`DMTimîWaôF‹Wrôe
+(
+DMTIMER_WRITE_POST_TCLR
+, 
+ba£Add
+);
+
+280 
+	`HWREG
+(
+ba£Add
+ + 
+DMTIMER_TCLR
+Ë|
+DMTIMER_TCLR_ST
+;
+
+281 
+	}
+}
+
+292 
+	$DMTimîDißbÀ
+(
+ba£Add
+){
+
+295 
+	`DMTimîWaôF‹Wrôe
+(
+DMTIMER_WRITE_POST_TCLR
+, 
+ba£Add
+);
+
+298 
+	`HWREG
+(
+ba£Add
+ + 
+DMTIMER_TCLR
+Ë&~
+DMTIMER_TCLR_ST
+;
+
+299 
+	}
+}
+
+317 
+	$DMTimîI¡E«bÀ
+(
+ba£Add
+, 
+ötFœgs
+) {
+
+320 
+	`HWREG
+(
+ba£Add
+ + 
+DMTIMER_IRQENABLE_SET
+Ë(
+ötFœgs
+ &
+
+321 (
+DMTIMER_IRQENABLE_SET_TCAR_EN_FLAG
+ |
+
+322 
+DMTIMER_IRQENABLE_SET_OVF_EN_FLAG
+ |
+
+323 
+DMTIMER_IRQENABLE_SET_MAT_EN_FLAG
+));
+
+324 
+	}
+}
+
+337 
+	$DMTimîRe£t
+(
+ba£Add
+){
+
+339 
+	`HWREG
+(
+ba£Add
+ + 
+DMTIMER_TIOCP_CFG
+Ë|
+DMTIMER_TIOCP_CFG_SOFTRESET
+;
+
+341 
+DMTIMER_TIOCP_CFG_SOFTRESET
+ =(
+	`HWREG
+(
+ba£Add
+ + 
+DMTIMER_TIOCP_CFG
+)
+
+342 & 
+DMTIMER_TIOCP_CFG_SOFTRESET
+));
+
+343 
+	}
+}
+
+360 
+	$DMTimîI¡DißbÀ
+(
+ba£Add
+, 
+ötFœgs
+) {
+
+363 
+	`HWREG
+(
+ba£Add
+ + 
+DMTIMER_IRQENABLE_CLR
+Ë(
+ötFœgs
+ &
+
+364 (
+DMTIMER_IRQENABLE_CLR_TCAR_EN_FLAG
+ |
+
+365 
+DMTIMER_IRQENABLE_CLR_OVF_EN_FLAG
+ |
+
+366 
+DMTIMER_IRQENABLE_CLR_MAT_EN_FLAG
+));
+
+367 
+	}
+}
+
+377 
+	$DMTimîSëUp
+(){
+
+379 #ifde‡
+DELAY_USE_INTERRUPTS
+
+
+382 
+	`I¡Regi°î
+(
+SYS_INT_TINT7
+, 
+DMTimîI§
+);
+
+385 
+	`I¡Pri‹ôySë
+(
+SYS_INT_TINT7
+, 0, 
+AINTC_HOSTINT_ROUTE_IRQ
+);
+
+388 
+	`I¡Sy°emE«bÀ
+(
+SYS_INT_TINT7
+);
+
+390 
+	`DMTimîRe£t
+(
+SOC_DMTIMER_7_REGS
+);
+
+393 
+	`DMTimîCou¡îSë
+(
+SOC_DMTIMER_7_REGS
+, 
+TIMER_INITIAL_COUNT
+);
+
+396 
+	`DMTimîRñﬂdSë
+(
+SOC_DMTIMER_7_REGS
+, 
+TIMER_RLD_COUNT
+);
+
+399 
+	`DMTimîModeC⁄figuª
+(
+SOC_DMTIMER_7_REGS
+, 
+DMTIMER_AUTORLD_NOCMP_ENABLE
+);
+
+402 
+	`DMTimîRe£t
+(
+SOC_DMTIMER_7_REGS
+);
+
+405 
+	`DMTimîModeC⁄figuª
+(
+SOC_DMTIMER_7_REGS
+, 
+DMTIMER_AUTORLD_NOCMP_ENABLE
+);
+
+407 
+	}
+}
+
+414 
+	$Dñay
+(vﬁ©ûê
+mSec
+){
+
+416 #ifde‡
+DELAY_USE_INTERRUPTS
+
+
+417 
+cou¡VÆ
+ = 
+TIMER_OVERFLOW
+ - (
+mSec
+ * 
+TIMER_1MS_COUNT
+);
+
+419 
+	`DMTimîRñﬂdSë
+(
+SOC_DMTIMER_7_REGS
+, 
+cou¡VÆ
+);
+
+421 
+ÊagI§
+ = 
+FALSE
+;
+
+424 
+	`DMTimîI¡E«bÀ
+(
+SOC_DMTIMER_7_REGS
+, 
+DMTIMER_INT_OVF_EN_FLAG
+);
+
+427 
+	`DMTimîE«bÀ
+(
+SOC_DMTIMER_7_REGS
+);
+
+429 
+ÊagI§
+ =
+FALSE
+);
+
+432 
+	`DMTimîI¡DißbÀ
+(
+SOC_DMTIMER_7_REGS
+, 
+DMTIMER_INT_OVF_EN_FLAG
+);
+
+436 
+mSec
+ != 0){
+
+437 
+	`DMTimîCou¡îSë
+(
+SOC_DMTIMER_7_REGS
+, 0);
+
+438 
+	`DMTimîE«bÀ
+(
+SOC_DMTIMER_7_REGS
+);
+
+439 
+	`DMTimîCou¡îGë
+(
+SOC_DMTIMER_7_REGS
+Ë< 
+TIMER_1MS_COUNT
+);
+
+440 
+	`DMTimîDißbÀ
+(
+SOC_DMTIMER_7_REGS
+);
+
+441 
+mSec
+--;
+
+444 
+	}
+}
+
+455 
+	$DMTimîI§
+(){
+
+458 
+	`DMTimîI¡SètusCÀ¨
+(
+SOC_DMTIMER_7_REGS
+, 
+DMTIMER_INT_OVF_EN_FLAG
+);
+
+460 
+	`DMTimîDißbÀ
+(
+SOC_DMTIMER_7_REGS
+);
+
+462 
+ÊagI§
+ = 
+TRUE
+;
+
+464 
+	}
+}
+
+	@src/uart.c
+
+19 
+	~"u¨t.h
+"
+
+21 
+boﬁ
+ 
+	$checkVÆidU¨t
+(
+UART_t
+ 
+u¨t
+){
+
+22 if((
+u¨t
+ < 
+UART0
+Ë|| (u¨à> 
+UART5
+)){
+
+24 (
+Ál£
+);
+
+26 (
+åue
+);
+
+27 
+	}
+}
+
+28 
+	$u¨tInôModuÀ
+(
+UART_t
+ 
+u¨t
+, 
+baudøã
+, 
+STOP_BIT_t
+ 
+°›Bô
+, 
+PARITY_BIT_t
+ 
+∑rôy
+, 
+FLOW_t
+ 
+ÊowC⁄åﬁ
+){
+
+29 if(
+	`checkVÆidU¨t
+(
+u¨t
+)){
+
+30 
+u¨t_ba£
+ = 
+UART_ARRAY_BASE
+[
+u¨t
+];
+
+31 
+u¨t
+){
+
+32 (
+UART0
+):
+
+33 
+	`gpioInôModuÀ
+(
+GPIO1
+);
+
+34 
+	`cmSëCålModuÀ
+(
+CM_c⁄f_u¨t0_txd
+,0);
+
+35 
+	`cmSëCålModuÀ
+(
+CM_c⁄f_u¨t0_rxd
+,(1<<4)|(1<<5));
+
+36 
+	`∑dSëMode
+(
+CM_c⁄f_u¨t0_txd
+,
+MODE_0
+);
+
+37 
+	`∑dSëMode
+(
+CM_c⁄f_u¨t0_rxd
+,
+MODE_0
+);
+
+39 
+ãmp
+ = 
+	`ckmGëCLKModuÀRegi°î
+(
+CKM_WKUP
+, 
+CKM_WKUP_CLKSTCTRL
+);
+
+40 
+ãmp
+ &= ~(0b11);
+
+41 
+ãmp
+ |= 0b10;
+
+42 
+	`ckmSëCLKModuÀRegi°î
+(
+CKM_WKUP
+, 
+CKM_WKUP_CLKSTCTRL
+,
+ãmp
+);
+
+44 
+ãmp
+ = 
+	`ckmGëCLKModuÀRegi°î
+(
+CKM_PER
+, 
+CKM_PER_L4HS_CLKSTCTRL
+);
+
+45 
+ãmp
+ &= ~(0b11);
+
+46 
+ãmp
+ |= 0b10;
+
+47 
+	`ckmSëCLKModuÀRegi°î
+(
+CKM_PER
+, 
+CKM_PER_L4HS_CLKSTCTRL
+,
+ãmp
+);
+
+49 
+ãmp
+ = 
+	`ckmGëCLKModuÀRegi°î
+(
+CKM_WKUP
+, 
+CKM_WKUP_UART0_CLKCTRL
+);
+
+50 
+ãmp
+ &= ~(0b11);
+
+51 
+ãmp
+ |= 0b10;
+
+52 
+	`ckmSëCLKModuÀRegi°î
+(
+CKM_WKUP
+, 
+CKM_WKUP_UART0_CLKCTRL
+,
+ãmp
+);
+
+53 (
+	`ckmGëCLKModuÀRegi°î
+(
+CKM_WKUP
+, 
+CKM_WKUP_UART0_CLKCTRL
+) & (0b11<<16)) != 0);
+
+56 
+ãmp
+ = 
+	`ckmGëCLKModuÀRegi°î
+(
+CKM_PER
+, 
+CKM_PER_UART1_CLKCTRL
+);
+
+57 
+ãmp
+ &= ~(0b11);
+
+58 
+ãmp
+ |= 0b10;
+
+59 
+	`ckmSëCLKModuÀRegi°î
+(
+CKM_PER
+, 
+CKM_PER_UART1_CLKCTRL
+, 
+ãmp
+);
+
+61 
+ãmp
+ = 
+	`HWREG
+(
+u¨t_ba£
++0x54);
+
+62 
+ãmp
+ |= 0x2;
+
+63 
+	`HWREG
+(
+u¨t_ba£
++0x54Ë
+ãmp
+;
+
+65 (
+	`HWREG
+(
+u¨t_ba£
++0x58)&1)==0);
+
+67 
+	`gpioSëPöVÆue
+(
+GPIO1
+, 21, 
+LOW
+);
+
+68 
+ãmp
+ = 
+	`HWREG
+(
+u¨t_ba£
++0x54);
+
+69 
+ãmp
+ |= (0x1<<3);
+
+70 
+	`HWREG
+(
+u¨t_ba£
++0x54Ë=
+ãmp
+;
+
+72 ((
+	`HWREG
+(
+u¨t_ba£
++0x14)&0x40)!=0x40));
+
+75 
+div
+ = 48000000.0/(16.0*()
+baudøã
+);
+
+76 
+ötdiv
+ = (Ë
+div
+;
+
+77 
+	`HWREG
+(
+u¨t_ba£
++0x04) = 0;
+
+78 
+	`HWREG
+(
+u¨t_ba£
++0x20) = 0x7;
+
+79 
+	`HWREG
+(
+u¨t_ba£
++0x0C) = ~(0x7C);
+
+80 
+	`HWREG
+(
+u¨t_ba£
++0x00) = 0;
+
+81 
+	`HWREG
+(
+u¨t_ba£
++0x04) = 0;
+
+82 
+	`HWREG
+(
+u¨t_ba£
++0x0C) = 0x3;
+
+83 
+	`HWREG
+(
+u¨t_ba£
++0x10) = 0x3;
+
+84 
+	`HWREG
+(
+u¨t_ba£
++0x08) = 0x7;
+
+85 
+	`HWREG
+(
+u¨t_ba£
++0x0C) = ~(0x7C);
+
+86 
+	`HWREG
+(
+u¨t_ba£
++0x00Ë
+ötdiv
+&0xFF;
+
+87 
+	`HWREG
+(
+u¨t_ba£
++0x04Ë(
+ötdiv
+>>8)&0x3F;
+
+90 
+	`HWREG
+(
+u¨t_ba£
++0x0C) = 0x3;
+
+91 
+	`HWREG
+(
+u¨t_ba£
++0x20) = 0;
+
+98 
+	}
+}
+
+100 
+	$u¨tPutC
+(
+UART_t
+ 
+u¨t
+, 
+c
+){
+
+101 
+u¨t_ba£
+ = 
+UART_ARRAY_BASE
+[
+u¨t
+];
+
+102 (
+	`HWREG
+(
+u¨t_ba£
++0x14)&0x20)!=0x20);
+
+103 
+	`HWREG
+(
+u¨t_ba£
++0Ë
+c
+;
+
+104 
+	}
+}
+
+106 
+	$u¨tGëC
+(
+UART_t
+ 
+u¨t
+){
+
+107 
+u¨t_ba£
+ = 
+UART_ARRAY_BASE
+[
+u¨t
+];
+
+108 (
+	`HWREG
+(
+u¨t_ba£
++0x14)&0x1)==0);
+
+109 (
+	`HWREG
+(
+u¨t_ba£
++0x0));
+
+110 
+	}
+}
+
+112 
+	$u¨tPutSåög
+(
+UART_t
+ 
+u¨t
+, *
+°r
+, 
+Àngth
+){
+
+113 
+i
+ = 0; i < 
+Àngth
+; i++){
+
+114 
+	`u¨tPutC
+(
+u¨t
+,
+°r
+[
+i
+]);
+
+116 (
+Àngth
+);
+
+117 
+	}
+}
+
+119 
+	$u¨tgëSåög
+(
+UART_t
+ 
+u¨t
+, *
+buf
+, 
+Àngth
+){
+
+120 
+i
+ = 0; i < 
+Àngth
+; i ++){
+
+121 
+buf
+[
+i
+] = 
+	`u¨tGëC
+(
+u¨t
+);
+
+123 (
+Àngth
+);
+
+124 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+22
+313
+inc/clock_module.h
+inc/control_module.h
+inc/cpu.h
+inc/gpio.h
+inc/hw_cm_dpll.h
+inc/hw_cm_per.h
+inc/hw_dmtimer.h
+inc/hw_types.h
+inc/interrupt.h
+inc/pad.h
+inc/soc_AM335x.h
+inc/timer.h
+inc/uart.h
+src/clock_module.c
+src/control_module.c
+src/cpu.c
+src/gpio.c
+src/interrupt.c
+src/main.c
+src/pad.c
+src/timer.c
+src/uart.c

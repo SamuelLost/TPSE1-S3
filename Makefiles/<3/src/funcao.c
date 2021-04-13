@@ -1,7 +1,7 @@
 #include "heart.h"
 
 void teamo(){
-    int i, j, n=10;
+    int i, j, n=40;
 
     //printf("Enter value of n : ");
     //scanf("%d", &n);

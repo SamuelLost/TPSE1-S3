@@ -1,0 +1,5 @@
+Verificação de macros
+	-Dsymbol
+	gcc -DDEBUG -g -o prog prog.c
+	Macros predefinidas para diagnostico
+	Diagnosticos - ASSERT.h

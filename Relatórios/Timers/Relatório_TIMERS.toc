@@ -1,0 +1,12 @@
+\babel@toc {brazil}{}
+\contentsline {section}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{3}
+\contentsline {section}{\numberline {2}DMTimer}{3}
+\contentsline {subsection}{\numberline {2.1}Introdu\IeC {\c c}\IeC {\~a}o}{3}
+\contentsline {subsubsection}{\numberline {2.1.1}Vis\IeC {\~a}o Geral}{3}
+\contentsline {subsubsection}{\numberline {2.1.2}Recursos}{3}
+\contentsline {subsection}{\numberline {2.2}Descri\IeC {\c c}\IeC {\~a}o Funcional}{4}
+\contentsline {subsubsection}{\numberline {2.2.1}Funcionalidade do Modo Cron\IeC {\^o}metro}{4}
+\contentsline {subsubsection}{\numberline {2.2.2}Funcionalidade do Modo de Captura}{5}
+\contentsline {subsubsection}{\numberline {2.2.3}Funcionalidade do Modo de Compara\IeC {\c c}\IeC {\~a}o}{6}
+\contentsline {section}{\numberline {3}Principais Registradores}{6}
+\contentsline {section}{\numberline {4}Como configurar}{6}

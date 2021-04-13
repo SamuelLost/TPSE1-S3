@@ -1,0 +1,149 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc} %Caracteres especiais
+\usepackage{graphicx} %Para usar imagens
+\usepackage[brazil]{babel}
+\usepackage{indentfirst} %Indentação
+\usepackage{setspace} %Espaçamento entre linhas
+\pagenumbering{arabic} % NUMERAÇÃO DA PÁGINA, \thispagestyle{empty} % NÃO MOSTRA O NÚMERO EM DETERMINADA PÁGINA
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\begin{document}
+	\pagenumbering{arabic} % NUMERAÇÃO DA PÁGINA
+	\begin{center}
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[scale=0.4]{logoufcquix.png}
+			
+		\end{figure}
+		
+		\large{Universidade Federal do Ceará - Campus Quixadá}
+		\
+		
+		\
+		
+		\Large {\textbf{Relatório sobre TIMERS}} 
+		
+		\textbf{QXD0149 - Técnicas de Programação para Sistemas Embarcados I}
+		
+		\
+		
+		\large{\textbf{Prof. Dr.} Francisco Helder Candido}
+		
+		Outubro 2020
+		
+		\
+		
+		\textbf{Aluno:} Samuel Henrique - \textbf{Matrícula:} 473360 \\
+		
+		\
+		
+		\
+		
+		\
+	\end{center}
+	\begin{center}
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		Quixadá-CE \ \ \  
+	\end{center} \par
+	\thispagestyle{empty}
+	\newpage
+	\onehalfspacing
+	\tableofcontents
+	\thispagestyle{empty}
+	\newpage
+	
+\section{Introdução}
+	Relatório sobre o uso do módulo DMTimer, baseado no capítulo 20.1 do Manual do ARM335X, que apresenta várias funções e modos junto com ele. É bastante importante o seu uso, pois ele confere precisão à aplicação que está sendo desenvolvida, pois tudo é baseado no tempo. \
+	
+	Esse relatório contém a explicação de como funciona esse módulo e de como é feita a configuração dele.  
+\section{DMTimer}
+	\subsection{Introdução}
+		\subsubsection{Visão Geral}
+			O módulo de \textit{timer} contém um contador com capacidade de recarregamento automático, caso ocorra um \textit{overflow}. O contador pode ser lido e escrito em tempo-real (enquanto está contando). Um sinal de saída dedicado pode ser usado para propósito geral, basta programar o bit 14 do TCLR Register. Um sinal dedicado de entrada é usado para acionar a captura automática do contador do cronômetro e interromper o evento, no tipo de transição de sinal que for programado. Esse módulo é controlável através do barramento periférico OCP.
+		\subsubsection{Recursos}
+			O cronômetro possuí alguns recursos como:
+			\begin{itemize}
+				\item Modo de comparação e de captura
+				\item Recarregamento automático
+				\item Modo \textit{start-stop}
+				\item Divisor de \textit{clock} programável
+				\item Endereçamento de 16-32-bits
+				\item Registradores de leitura/escrita dinâmicos
+				\item Modo de despertar habilitado
+				\item Compatível com interface OCP
+			\end{itemize}
+	\subsection{Descrição Funcional}
+		Três modos são suportados:
+		\begin{itemize}
+			\item Modo Cronômetro
+			\item Modo Captura
+			\item Modo de Comparação
+		\end{itemize}
+		Por padrão, o modo de captura e o modo de comparação são desativados.
+		\subsubsection{Funcionalidade do Modo Cronômetro}
+			O cronômetro é um contador crescente, que pode ser iniciado e parado a qualquer momento através do \textbf{registrador TCLR} no bit ST (TCLR ST bit). O \textbf{registrador TCRR} pode ser carregado quando parado ou em tempo real. O cronômetro é interrompido e o valor do contador é zerado quando a reinicialização do módulo é confirmada. O cronômetro é mantido parado após o \textit{reset} ser liberado. Quando o cronômetro é interrompido, o \textbf{registrador TCRR} também é interrompido. O cronômetro pode ser reiniciado a partir do valor colegado, a não ser que TCRR tenha sido escrito com um novo valor. \
+			
+			O modo \textit{one shot}, o contador é parado quando ocorre um \textit{overflow}, esse modo é ativado pelo \textbf{registrador TCLR}, no bit AR = 0. \
+			
+			O modo \textit{auto-reload}, é quando o contador é recarregado com o valor presente no \textbf{Timer Load Register (TLDR)} após um \textit{overflow} ter ocorrido. Esse modo pode ser habilitado através do \textbf{registrador TCLR}, no bit AR = 1. \
+			
+			Uma interrupção pode ser emitida caso ocorra um \textit{overflow}, para isso basta habilitar o bit \textbf{OVF\_IT\_FLAG} dentro do \textbf{registrador IRQENABLE\_SET}. Um pino de saída dedicado (PORTIMERPWM) é programado através do \textbf{TCLR (bits TRG e PT)} para gerar um pulso positivo ou para inverter o valor atual quando o \textit{overflow} acontecer.
+		\subsubsection{Funcionalidade do Modo de Captura}
+			O modo de captura serve para captura o valor do cronômetro quando ocorrer alguma transição, seja transição de subida, descida ou ambas. Para isso, basta programar o campo \textbf{TCM[8-9]} no \textbf{registrador TCLR} para programar o tipo de transição que acione o modo de captura. Esse modo pode ser programado através do \textbf{registrador TCLR}, no bit \textbf{CAPT\_MODE}. \
+			
+			O módulo define o \textbf{registrador IRQSTATUS}, no bit \textbf{TCAR\_IT\_FLAG} quando uma transição é detectada, e ao mesmo tempo o valor contador em \textbf{TCRR} é salvo no \textbf{registrador TCAR1} ou  \textbf{registrador TCAR2}. \
+			
+			Existem 2 tipos de configurações no bit \textbf{CAPT\_MODE}, 0 ou 1. Se o bit for 0 então, no primeiro evento de captura o valor do contador será armazenado em \textbf{TCAR1} e todos os outros serão ignorados até que a lógica de detecção seja reiniciada ou seja escrito 1 no bit \textbf{TCAR\_EN\_FLAG} do registrador \textbf{IRQENABLE\_CLR}, apagando o valor guardado. Se o bit for 1, dois eventos serão capturados, o primeiro será salvo em \textbf{TCAR1} e o segundo em \textbf{TCAR2}. Todos os próximos eventos serão ignorados ao menos que a lógica seja reiniciada ou \textbf{IRQENABLE\_CLR} seja escrito. 
+		\subsubsection{Funcionalidade do Modo de Comparação}
+			Quando o bit \textbf{CE} do registrador \textbf{TCLR} é definido em 1, o modo de comparação é habilitado. Quando esse modo está habilitado, o valor do contador (\textbf{TCRR}) é comparado com o valor escrito em \textbf{TMAR}. Quando os valores de \textbf{TCRR} e \textbf{TMAR} combinam, uma interrupção pode ser gerada, mas para isso é preciso que o bit \textbf{MAT\_EN\_FLAG} no \textbf{registrador IRQENABLE\_SET} seja definido. \
+			
+			A implementação correta é definir primeiro o valor de comparação em \textbf{TMAR} antes de definir \textbf{TCLR (bit CE)}.
+	\section{Principais Registradores}
+		\begin{itemize}
+			\item IRQENABLE\_SET (offset=2Ch)
+			\item IRQENABLE\_CLR (offset=30h)
+			\item TCLR (Timer Control Register) Register (offset = 38h)
+			\item TCRR (Timer Counter Register) Register (offset = 3Ch)
+			\item TLDR (Timer Load Register) Register (offset = 40h)
+			\item TMAR (Timer Match Register) Register (offset = 4Ch)
+			\item TCAR1 (Timer Capture Register 1) Register (offset = 50h)
+			\item TCAR2 (Timer Capture Register 2) Register (offset = 58h)
+		\end{itemize}
+	\section{Como configurar}
+		Todos os dispositivos funcionam a base de um \textit{clock} central. Com isso, é necessário configurar esse \textit{clock}. \
+		
+		Portanto, a primeira coisa a se fazer é configurar o \textit{clock} do módulo DMTimer[0-7] que será utilizado. Próximo passo é configurar o módulo DMTimer escolhido, para isso é necessário "resetá-lo", depois basta dar uma \textit{auto-reload} nele e habilitá-lo. Agora fazer a função que fique contando o tempo, utilizando os registradores de DMTimer. Agora ele conta o tempo certo, mas ainda está ocupando a CPU, fazendo \textit{polling}. Com isso, o uso de interrupção se faz necessário. \
+		
+		Então, a interrupção será configura para DMTimer. Após configurar o \textit{clock} do módulo DMTimer, é preciso habilitar o IRQ e inicializar a interrupção. Posteriormente, configurar o módulo para interrupção, habilitar o ISR, seta prioridade e habilita o sistema de interrupção. Com isso, a CPU não fica mais em \textit{polling}.
+\end{document}

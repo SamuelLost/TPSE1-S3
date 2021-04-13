@@ -1,0 +1,150 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc} %Caracteres especiais
+\usepackage{graphicx} %Para usar imagens
+\usepackage[brazil]{babel}
+\usepackage{indentfirst} %Indentação
+\usepackage{setspace} %Espaçamento entre linhas
+\pagenumbering{arabic} % NUMERAÇÃO DA PÁGINA, \thispagestyle{empty} % NÃO MOSTRA O NÚMERO EM DETERMINADA PÁGINA
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\begin{document}
+	\pagenumbering{arabic} % NUMERAÇÃO DA PÁGINA
+	\begin{center}
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[scale=0.4]{logoufcquix.png}
+			
+		\end{figure}
+		
+		\large{Universidade Federal do Ceará - Campus Quixadá}
+		\
+		
+		\
+		
+		\Large {\textbf{Relatório sobre Interrupção GPIO}} 
+		
+		\textbf{QXD0149 - Técnicas de Programação para Sistemas Embarcados I}
+		
+		\
+		
+		\large{\textbf{Prof. Dr.} Francisco Helder Candido}
+		
+		Outubro 2020
+		
+		\
+		
+		\textbf{Aluno:} Samuel Henrique - \textbf{Matrícula:} 473360 \\
+		
+		\
+		
+		\
+		
+		\
+	\end{center}
+	\begin{center}
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		
+		\
+		Quixadá-CE \ \ \  
+	\end{center} \par
+	\thispagestyle{empty}
+	\newpage
+	\onehalfspacing
+	\tableofcontents
+	\thispagestyle{empty}
+	\newpage
+	
+\section{Introdução}
+	%Interrupção é usada para liberara a cpu para fazer outra coisa, ao invés de ficar presa na tentativa de leitura de alguma coisa
+	Interrupção é uma funcionalidade usada para liberar a CPU de certas tarefas, com isso, a interrupção chama o hardware para executar essas tarefas. Essa prática é baseada na utilização de interrupção. O objetivo da interrupção nessa prática é a utilização do botão de forma apropriada, ou seja, no momento em que ele for apertado, o LED será trocado. Anteriormente isso era feito sem interrupção, porém não tinha o funcionamento correto, pois era preciso apertar o botão no momento de verificação do sinal ou não teria o efeito esperado e a CPU deixaria de fazer outras tarefas por estar ocupada. 
+\section{Interrupções}
+	\subsection{Descrição Funcional}
+		Basicamente, o controlador de interrupção processa as interrupções de entrada mascarando e classificando por prioridade para produzir o
+		sinais de interrupção para o processador.
+		\subsubsection{Interromper o Processamento}
+			\begin{itemize}
+				\item Seleção de Entrada \
+				
+					O INTC suporta apenas interrupção de entrada sensível ao sinal. Um periférico confirmando uma interrupção o mantém até que o software manipule a interrupção e instrua o periférico a desabilitá-la. Uma interrupção de software é gerada se o bit correspondente no registrador INTC\_ISR\_SETn (módulo: n = [0, 1, 2, 3]) estiver setado, 128 linhas de interrupção são suportadas. A interrupção de software é limpa quando o bit correspondendo no registrador INTC\_ISR\_CLEARn é setado. 
+					\newpage
+				\item Máscara Individual \
+				
+					A detecção de interrupções em cada linha de entrada pode ser habilitada ou desabilitada independentemente pelo registrador de máscara de interrupção, INTC\_MIRn. Em resposta a uma interrupção não mascarada, o INTC pode gerar um dos dois tipos de interrupção para o processador:
+						\subitem IRQ: interrupção de baixa prioridade
+						\subitem FIQ: interrupção rápida \
+						
+					O tipo de interrupção é determinada pelo bit 0 no registrador INTC\_ILR\_0 to INTC\_ILR\_127. O status de interrupção antes do mascaramento pode ser lido pelo registrador INTC\_ITRn.
+				\item Mascaramento de Prioridade \
+				
+					Para permitir o processamento mais rápido de interrupções de alta prioridade, utiliza-se um mascaramento de prioridade, programável no registrador INTC\_THRESHOLD[7:0] no campo PriorityThreshold. Isto permite a preempção por interrupções de prioridade mais alta, as prioridade menor ou igual estão mascaradas; prioridade de nível 0 não será mascarada. O campo PriorityThreshold pode ser definido entre os níveis 0x0 (0) e 0x7F (127), alto e baixo respectivamente. Quando não é necessário, 0xFF é usado para desativar o campo.
+				\item Classificação de Prioridade \
+				
+					Um nível de prioridade é atribuído para cada linha de interrupção, sendo 0 o nível mais alto. O tipo de interrupção e seu nível de prioridade são definidos no mesmo registrador, o INTC\_ILR\_0 to INTC\_ILR\_127. 
+				
+			\end{itemize}
+			\subsubsection{Registrador de Proteção}
+				Se o bit 0 do registrador INTC\_PROTECTION estiver setado, então o acesso aos registradores INTC é restrito apenas ao modo privilegiado. Entretanto o INTC\_PROTECTION só pode ser acessado pelo modo privilegiado.
+			\subsubsection{Módulo de Economia de Energia}
+				O INTC fornece uma função de ociosidade automática, ou seja, quando não há atividade no barramento o clock da interface é desabilitado dentro do módulo, reduzindo o consumo de energia, uma enorme vantagem. Quando há uma atividade o clock da interface é reiniciado sem penalidade na latência. Este modo vem desabilitado por padrão, é necessário programá-lo, para isso basta acessar o registrador INTC\_SYSCONFIG e configurar o bit 0 como setado para habilitar a função de Autoidle.\
+				
+				Quando não há nenhum tipo de interrupção sendo processada ou pendente é ideal que o clock funcional seja desabilitado, para economizar energia também. Para isso, basta setar o bit 0 do registrador INTC\_IDLE, ativando a função FuncIdle. Quando uma nova interrupção de entrada não mascarada é detectada, o clock é reiniciado e o INTC processa a interrupção. Se esse modo for desabilitado a latência de interrupção é reduzida em um ciclo.
+			\subsubsection{Erros de Manipulação}
+				Causarão um erro:
+				  	\subitem Violação do privilégio, tentativa de acessar os registradores que estão em modo de proteção pelo modo usuário.
+				  	\subitem Comandos não suportados \
+				  
+				Não causarão nenhuma resposta de erro: 
+					\subitem Acesso um endereço não codificado 
+					\subitem Gravar em um registrador de apenas leitura \
+		\subsection{Modelo Básico de Programação}
+			\subsubsection{Sequência de Inicialização}
+				\begin{enumerate}
+					\item Se necessário, habilite o clock da interface definindo o bit AutoIdle através do registrador INTC\_SYSCONFIG.
+					\item Programe o registrador INTC\_IDLE, se precisar usar o módulo de economia de energia.
+					\item Programe o registrador INTC\_ILRm para definir o tipo de interrupção, FIQ ou IRQ.
+					\item Programe o registrador INTC\_IMRn para habilitar interrupções mascaradas, lembrando que existem os registradores INTC\_IMR\_SETn e INTC\_IMR\_CLEARn para facilitar esse processo, mesmo sendo possível programar diretamente o INTC\_IMRn.
+				\end{enumerate}
+		\subsection{Interrupções do ARM Cortex-A8}
+			De acordo com o manual, existem 127 tipos de interrupções diferentes. Entretanto, nessa prática apenas a de GPIO1 foi utilizada, interrupção de número 98.
+\section{Código Base}
+	Para configurar uma interrupção é necessário habilitar o IRQ através da função \textbf{IntMasterIRQEnable}. Após isso, é necessário iniciar o módulo de GPIO1 através da função \textbf{gpioInitModule}, depois é preciso definir os pinos como entrada ou saída, os pinos 21, 22, 23 e 24 foram todos configurados como saída, já o pino 28 foi configurado como entrada, através das funções \textbf{gpioPinMuxSetup} e \textbf{gpioSetDirection}. \
+	
+	O pino 28 é justamente o pino onde será gerada a interrupção, pois o botão estará conectado nele e ela deve ser gerada no momento em que ele for apertado. Para isso é necessário configurar o GPIO1, através da função \textbf{gpioAintcConfigure} que tem como parâmetro o número da interrupção, 98 nesse caso. Primeiramente a função \textbf{gpioAintcConfigure} limpa os registradores de interrupção, após isso vai ser atribuído a rotina de interrupção a um vetor de interrupções pela sub-rotina \textbf{IntRegister}. Em seguida a prioridade de interrupção é definida através de \textbf{IntPrioritySet}, salvando no registrador INTC\_ILR. O último passo é habilitar a interrupção do sistema, para isso é necessário gravar no registrador INTC\_MIR\_SET para habilitar uma interrupção mascarada, através da função \textbf{IntSystemEnable}. \
+	
+	Para habilitar o pino 28 como interrupção de GPIO é preciso utilizar a função \textbf{gpioPinIntConfig}. Essa função tem o objetivo de gravar no registrador GPIO\_IRQSTATUS\_SET no bit correspondente ao pino que a interrupção IRQ será gerada. \
+	
+	O próximo passo é definir o tipo de interrupção que vai ser utilizada, essa última parte varia muito, pois depende do projeto que será feito. É preciso analisar que tipo de sinal entra no pino, também chamado de tipo de evento, a partir deles é gerada a interrupção. Existem diferentes tipos de sinal: sinal alto, sinal baixo, ambos os sinais, borda de subida, borda de descida, ambas as bordas, sem bordas e sem sinal de baixo ou alto. Para configurar qual tipo de sinal presente no projeto, basta pegar o registrador GPIO correspondente ao tipo de sinal e setá-lo no bit correspondente ao número do pino. \
+	
+\section{Conclusão}
+	Com a prática foi perceptível a imensa importância do uso da interrupção, pois com ela foi possível ter uma precisão maior na troca de LEDs, já que independente de onde o código esteja executando, a interrupção ocorrerá ao apertar o botão, e consequentemente a troca dos LEDs. Além disso, a interrupção permite uma liberdade maior para CPU, pois quem executa a rotina de interrupção é o hardware, então a CPU fica livre para fazer outra ação, dando performance e velocidade para o programa embarcado. 
+				
+\end{document}
